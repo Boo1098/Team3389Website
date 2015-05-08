@@ -7,6 +7,7 @@
 	float: left;
 	left:-10px;
 	top:-10px;
+	z-index:10000000;
 }
 
 html {
@@ -47,7 +48,13 @@ body {
 	padding-top:0px;
 	min-width:1%;
 	text-decoration:none;
-	white-space: nowrap
+	white-space: nowrap;
+	transition: all .75s ease-in-out;
+	-moz-transition: all .75s ease-in-out;
+}
+
+#head-text:hover {
+	font-size:40px;
 }
 
 a:link {
@@ -70,7 +77,6 @@ a.header-links {
 	text-decoration:none;
 	width:30%;
 	font-size:25px;	
-	
 }
 
 .header-links {
@@ -85,8 +91,13 @@ a.header-links {
 a.body-link {
 	align-text:right;
 	text-decoration:none;
-	
-	
+	transition: all .75s ease-in-out;
+	-moz-transition: all .75s ease-in-out;
+}
+
+a.body-link:hover {
+	font-size:25px;
+	text-decoration:underline;
 }
 
 #links-menu{
@@ -109,6 +120,7 @@ table#header-table {
 	width:100%;
 	position:fixed;
 	border-bottom:2px #99620F solid;
+	z-index:100000000;
 }
 
 table#about-us-content {
@@ -154,5 +166,5 @@ p#footer-heading {
 }
 
 p.body-text {
-	font-size:2p;
+	font-size:20px;
 }	

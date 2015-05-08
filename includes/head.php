@@ -1,6 +1,6 @@
 <DOCTYPE! html>
 <meta charset="UTF-8">
-<div id=wrapper style="margin-bottom:2%;">
+<div id=wrapper style="margin-bottom:5%;height:100%;">
 	<head>
 	
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
@@ -13,7 +13,7 @@
 				<td id="header-spacer"></td>
 				<td class="header-links"><a  class="header-links hvr-sink" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-sink" href="sponsors">Sponsors</a></td>
-				<td class="header-links"><a  class="header-links hvr-sink" href="##">link</a></td>
+				<td class="header-links"><a  class="header-links hvr-sink" href="histories">Histories</a></td>
 				<td class="header-links"><a  class="header-links hvr-sink" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-sink" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-sink" href="##">link</a></td>
