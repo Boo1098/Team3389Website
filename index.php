@@ -1,21 +1,5 @@
-<DOCTYPE! html>
-<meta charset="UTF-8">
-<div id=wrapper style="margin-bottom:2%;">
-	<head>
-	
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/hover.css">
-	<header>
-		<table id="header-table">
-			<tr>
-				<td id="head-text"><a href="team3389.info"> &nbsp;Tec Tigers</a></td>
-				<td id="logo"><img src="logo.png" alt="logo" height="50px" width="75px" class="hvr-grow-rotate"></td>
-				<td id="header-spacer"></td>
-				<td class="header-links hvr-sink"><a  class="header-links" href="##">link</a></td>
-			</tr>
-		</table>
-	</header>
-	</head>
+<!DOCTYPE html>
+<?php include("includes/head.php"); ?>
 	
 	<body>
 	
