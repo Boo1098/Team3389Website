@@ -1,0 +1,38 @@
+.header {
+	width:110%;
+	height:50px;
+	background:#3A3A3A;
+	position: relative;
+	display: inline;
+	float: left;
+	left:-10px;
+	top:-10px;
+}
+
+#head-text {
+	color:orange;
+	font-size:35px;
+	padding-top:20px;
+}
+
+a:link {
+	color:white;
+}
+
+a:hover {
+	color:orange;
+}
+
+a:visited {
+	color:orange;
+}
+
+a.header-links {
+	align-text:right;
+	text-decoration:none;
+	
+}
+
+#links-menu{
+	right:0px:
+}
