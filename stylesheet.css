@@ -28,18 +28,22 @@ body {
 	font-size:35px;
 	padding-top:0px;
 	width:13%;
+	text-decoration:none;
 }
 
 a:link {
 	color:orange;
+	text-decoration:none;
 }
 
 a:visited {
 	color:orange;
+	text-decoration:none;
 }
 
 a:hover {
 	color:white;
+	text-decoration:none;
 }
 
 a.header-links {
