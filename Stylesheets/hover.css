@@ -2469,8 +2469,8 @@
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: .75s;
-  transition-duration: 0.75s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
