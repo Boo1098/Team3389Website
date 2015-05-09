@@ -22,7 +22,7 @@ head {
 
 body {
 	margin:0px;
-	background-color:orange;
+	background-color:#222222;
 	background-image:url("background/tigerstripes-small.png");
 }
 
@@ -36,10 +36,15 @@ body {
 	padding:10px;
 	transition: all .75s ease-in-out;
 	-moz-transition: all .75s ease-in-out;
+	border-top:2px #99620F solid;
 }
 
 #footer-div:hover {
 	height:20%;
+}
+
+tr#footer-div  {
+	height:19%;
 }
 
 #head-text {
@@ -47,6 +52,7 @@ body {
 	font-size:35px;
 	padding-top:0px;
 	min-width:1%;
+    max-width:171px;
 	text-decoration:none;
 	white-space: nowrap;
 	transition: all .75s ease-in-out;
@@ -68,6 +74,11 @@ a:visited {
 }
 
 a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+a:active {
 	color:white;
 	text-decoration:none;
 }
@@ -98,8 +109,8 @@ a.body-link {
 }
 
 a.body-link:hover {
-	font-size:25px;
-	text-decoration:underline;
+	font-size:21px;
+	text-decoration:none;
 }
 
 #links-menu{
@@ -108,7 +119,7 @@ a.body-link:hover {
 }
 
 #logo {
-	width:5%;
+	min-width:5%;
 }
 
 #header-spacer{
