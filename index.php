@@ -8,7 +8,7 @@
 			
 			<table id="about-us-content">
 				<tr>
-					<td><img src="logo.png" alt="us" height="200px" width="relative" class="hvr-grow">
+					<td><img src="logo.png" alt="us" height="200px" width="relative" class="hvr-pulse-grow">
 					</td>
 					<td>
 						<p class="body-text">We are FIRST (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers. We are located at Parkside High School - CTE, Wicomico County, Salisbury MD 21804.</p>

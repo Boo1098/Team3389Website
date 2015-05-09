@@ -73,6 +73,7 @@ a:hover {
 }
 
 a.header-links {
+	white-space: nowrap;
 	align-text:right;
 	text-decoration:none;
 	width:30%;
@@ -85,6 +86,7 @@ a.header-links {
 	position:inline;
 	color:orange;
 	font-size:25px;
+	white-space: nowrap;
 	min-width:50px;
 }
 
