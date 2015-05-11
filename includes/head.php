@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <div id=wrapper style="margin-bottom:5%;height:100%;">
 	<head>
-	
+	<title>Tec Tigers: Team 3389</title>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
 	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js">
