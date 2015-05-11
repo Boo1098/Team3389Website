@@ -3,9 +3,9 @@
 		<div id="footer-div">
 			<table width="97%"> 
 				<tr> 
-					<td width="75%"id="footer-heading"><span class="hvr-pop">More links!</span></td>
-					<td class="hvr-grow" align="right" valign="right"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button" data-show-count="false">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
-					<td class="hvr-grow" align="right" valign="right"><script src="https://apis.google.com/js/platform.js"></script>
+					<td style="max-width:75%"id="footer-heading"><span class="hvr-pop">More links!</span></td>
+					<td class="hvr-grow" align="right" valign="center"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button" data-show-count="false">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+					<td width="100px"class="hvr-grow" align="right" valign="center"><script src="https://apis.google.com/js/platform.js"></script>
 						<div class="g-ytsubscribe" data-channel="Robospectrum"></div>
 					</td>
 				</tr>
