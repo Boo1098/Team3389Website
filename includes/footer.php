@@ -30,10 +30,10 @@ if (isset($_GET["light"])) {
 					<td width="20.5%" align="right" class="hvr-grow">
 						<?php
 						if (isset($_SESSION["theme"])) {
-							if ($_SESSION == "light") {
+							if ($_SESSION["theme"] == "light") {
 								echo "<a href=\"?dark=1\">Dark theme\n";							
 							}
-							if ($_SESSION == "dark") {
+							if ($_SESSION["theme"] == "dark") {
 								echo "<a href=\"?light=1\">light theme\n";							
 							}
 						}
