@@ -174,7 +174,6 @@ div#about-us-content p {
 .body-header {
 	color:orange;
 	text-indent:10px;
-	text-decoration:underline;
 }
 
 h2.body-header>a:link, h2.body-header>a:visited{
