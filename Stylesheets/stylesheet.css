@@ -174,12 +174,14 @@ div#about-us-content p {
 .body-header {
 	color:orange;
 	text-indent:10px;
+	text-decoration:underline;
 }
 
 h2.body-header>a:link, h2.body-header>a:visited{
 	color:white;
 	transition: all .75s ease-in-out;
 	-moz-transition: all .75s ease-in-out;
+	text-decoration:underline;
 }
 h2.body-header>a:hover{
 	color:orange;
