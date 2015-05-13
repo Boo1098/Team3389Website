@@ -28,7 +28,7 @@
 				</tr>
 			</table>
 			
-			<div style="background-color:#3A3A3A;">
+			<div style="background-color:#3A3A3A;align:center;">
 					<p>
 						<a href="http://usfirst.org">
 							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
