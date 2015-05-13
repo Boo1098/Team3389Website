@@ -30,7 +30,7 @@
 					</td>
 					
 					<td align="right" style="width:10%" valign="right">
-						<a href="http://usfirst.org/frc">
+						<a href="http://www.usfirst.org/roboticsprograms/frc">
 							<img align="right"src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
 					</td>
