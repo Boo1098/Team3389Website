@@ -223,7 +223,7 @@ table#about-us-content tr td p{
 }
 
 div.content p {
-	line-height:150%;
+	line-height:150% !important;
 }
 
 img[alt="Tec Foundation"] { width: 200px; }
