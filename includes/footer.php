@@ -43,7 +43,7 @@
 						</a>
 					</p>
 				
-					<br><br>
+					<br><br><br><br>
 					<p align="right"><a href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
