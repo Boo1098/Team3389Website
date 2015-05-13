@@ -26,6 +26,10 @@ body {
 	background-image:url("background/tigerstripes-small.png");
 }
 
+.push {
+	height=20%;
+}
+
 #footer-div{
 	margin:0px;
 	width:100%;
