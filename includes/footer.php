@@ -34,9 +34,11 @@
 							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
 						</a>
 						
-						<a href="http://tecfound.org"><div align="center">
-							<img src="resources/tecfound.png" style="align:center" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
-						</div></a>
+						<a href="http://tecfound.org">
+
+							<img src="resources/tecfound.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
+
+						</a>
 						
 						<a href="http://www.usfirst.org/roboticsprograms/frc">
 							<img align="right" style="float:right !important" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
