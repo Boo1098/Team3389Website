@@ -16,9 +16,6 @@
 				</tr>
 			</table>
 		</div>
-		
-		
-	
 	</body>
 </div>
 <?php include("includes/footer.php"); ?>
