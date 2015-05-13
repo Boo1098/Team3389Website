@@ -8,7 +8,7 @@
 					<td style="min-width:106px" class="hvr-grow" align="center" valign="center"><script src="https://apis.google.com/js/platform.js"></script>
 						<div class="g-ytsubscribe" data-channel="Robospectrum"></div>
 					</td>
-					<td style="min-width:34px" align="center" class="hvr-grow"><a href="//plus.google.com/u/0/108991739010079990924?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a></td>				
+					<td style="min-width:34px" align="center" class="hvr-grow"><a href="//plus.google.com/103918810376285135334/posts?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a></td>				
 					<td style="min-width:127px" align="center" class="hvr-grow"><div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
 					
 					<td style="min-width:82px" align="right" class="hvr-grow">
