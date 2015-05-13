@@ -4,12 +4,12 @@
 session_start();
 
 if (isset($_GET["dark"])) {
-	if ($_GET["dark"] == "1") {
+	if ($_GET["dark"] == 1) {
 		$_SESSION["theme"] = "dark";		
 	}
 }
 if (isset($_GET["light"])) {
-	if ($_GET["light"] == "1") {
+	if ($_GET["light"] = 1) {
 		$_SESSION["theme"] = "light";		
 	}
 }
