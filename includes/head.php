@@ -1,6 +1,6 @@
 <DOCTYPE! html>
 <meta charset="UTF-8">
-<div id=wrapper style="margin-bottom:5%;height:100%;">
+<div id=wrapper style="margin-bottom:5px;height:100%;">
 	<head>
 	
 	<div id="fb-root"></div>

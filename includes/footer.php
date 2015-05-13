@@ -19,19 +19,19 @@
 				<tr style="height:10%">
 					<td  align="left" style="width:10%" valign="left">
 						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" alt="First"height="auto" width="100%"class="hvr-skew-backward">
+							<img align="left" src="resources/first.png" alt="First"height="100px" width="auto"class="hvr-skew-backward">
 						</a>
 					</td>
 					
 					<td align="center" style="width:10%" valign="center">
 						<a href="http://tecfound.org">
-							<img src="resources/tecfound.png" alt="Tec Foundation"height="auto" width="100%"class="hvr-bounce-in">
+							<img src="resources/tecfound.png" alt="Tec Foundation"height="100px" width="auto"class="hvr-bounce-in">
 						</a>
 					</td>
 					
 					<td align="right" style="width:10%" valign="right">
 						<a href="http://usfirst.org/frc">
-							<img align="right"src="resources/frc.gif" alt="FIRST Robotics Competition"height="auto" width="100%" class="hvr-skew-forward">
+							<img align="right"src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
 					</td>
 				</tr>
