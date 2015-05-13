@@ -3,8 +3,8 @@
 // Start the session
 session_start();
 
-if (isset($_GET['dark'])) {
-	if ($_GET['dark'] = 1) {
+if (isset($_GET["dark""])) {
+	if ($_GET["dark"] == "1") {
 		$_SESSION["theme"] = "dark";		
 	}
 }
