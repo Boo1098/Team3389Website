@@ -32,6 +32,8 @@ if (!isset($_SESSION["theme"])) {
 		if ($_SESSION["theme"] == "light") {
 			include('Stylesheets/light.css');
 		}
+	} else {
+		echo "what";
 	}
 	
 	?>
