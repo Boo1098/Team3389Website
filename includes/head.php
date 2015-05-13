@@ -24,7 +24,7 @@
 				<td id="header-spacer"></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a></td>
-				<td class="header-links"><a  class="header-links hvr-grow" href="histories.php">Histories</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="history.php">History</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
