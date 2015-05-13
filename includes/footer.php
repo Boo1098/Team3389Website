@@ -35,7 +35,7 @@
 						</a>
 
 						<a href="http://tecfound.org">
-							<img src="resources/tecfound.png" style="float:center !important" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
+							<img src="resources/tecfound.png" style="align:center" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 						</a>
 
 						<a href="http://www.usfirst.org/roboticsprograms/frc">
