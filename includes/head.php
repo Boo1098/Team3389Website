@@ -2,7 +2,15 @@
 <meta charset="UTF-8">
 <div id=wrapper style="margin-bottom:5px;min-height:80%;">
 	<head>
-	
+<?php
+session_start();
+
+if (!isset($_SESSION["theme"])) {
+	$_SESSION["theme"] = "light"
+}
+echo $_SESSION["theme"];
+
+?>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

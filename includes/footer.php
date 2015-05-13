@@ -1,6 +1,17 @@
 	<footer>
-		
+<?php
+// Start the session
+session_start();
+
+if (isset($_GET['dark'])) {
+	if ($_GET['dark'] = 1) {
+		$_SESSION["theme"] = "dark";		
+	}
+}
+
+?>
 		<div id="footer-div">
+		
 			<table width="97%"> 
 				<tr> 
 					<td width="50%"id="footer-heading"><span class="hvr-pop">More links!</span></td>
@@ -10,11 +21,10 @@
 					</td>
 					<td width="20.5%" align="center" class="hvr-grow"><a href="//plus.google.com/u/0/108991739010079990924?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a></td>				
 					<td width="20.5%" align="center" class="hvr-grow"><div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
-					
-					</tr>
-					
-					
+					<td width="20.5%" align="right" class="hvr-grow"><a href="?dark=1">Dark theme</a></td>
+				</tr>
 			</table>
+			
 			<table style="margin-top:20px;width:98%;table-layout:fixed">
 				<tr style="height:10%">
 					<td  align="left" style="width:10%" valign="left">
