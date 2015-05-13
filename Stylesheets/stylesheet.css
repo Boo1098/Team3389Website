@@ -33,7 +33,7 @@ body {
 	position:relative;
 	background-color:#3A3A3A;
 	bottom:0px;
-	padding:10px;
+	padding:0px;
 	transition: all .75s ease-in-out;
 	-moz-transition: all .75s ease-in-out;
 	border-top:2px #99620F solid;
