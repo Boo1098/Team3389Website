@@ -46,7 +46,7 @@
 						</a>
 					
 					</div>
-					<br><br><br><br><br>
+					
 					<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
