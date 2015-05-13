@@ -176,12 +176,12 @@ div#about-us-content p {
 	text-indent:10px;
 }
 
-p.body-header>a:link, p.body-header>a:visited{
+h2.body-header>a:link, h2.body-header>a:visited{
 	color:white;
 	transition: all .75s ease-in-out;
 	-moz-transition: all .75s ease-in-out;
 }
-p.body-header>a:hover{
+h2.body-header>a:hover{
 	color:orange;
 	font-size:110%;
 }
