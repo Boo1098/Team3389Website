@@ -6,10 +6,11 @@
 session_start();
 
 if (!isset($_SESSION["theme"])) {
-	$_SESSION["theme"] = "light"
+	$_SESSION["theme"] = "light";
 }
+if (isset($_SESSION['theme'])) {
 echo $_SESSION["theme"];
-
+}
 ?>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
