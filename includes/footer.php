@@ -35,7 +35,7 @@
 							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
 						</a>
 						
-						<a href="http://tecfound.org">
+						<a style="display:block; margin-left:auto; margin-right:auto"href="http://tecfound.org">
 
 							<img src="resources/tecfound.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 
