@@ -43,8 +43,8 @@
 						</a>
 					</p>
 				
-					<br><br><br><br>
-					<p style="margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
+					<br><br><br><br><br>
+					<p style="padding-top:10px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
 		</div>
