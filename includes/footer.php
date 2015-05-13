@@ -28,23 +28,23 @@
 				</tr>
 			</table>
 			
-
+			<div style="background-color:#3A3A3A;">
 						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" style="float:left" alt="First"height="100px" width="auto"class="hvr-skew-backward">
+							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
 						</a>
 
 						<a href="http://tecfound.org">
-							<img src="resources/tecfound.png" style="float:center" alt="Tec Foundation"height="100px" width="auto"class="hvr-bounce-in">
+							<img src="resources/tecfound.png" style="float:center !important" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 						</a>
 
 						<a href="http://www.usfirst.org/roboticsprograms/frc">
-							<img align="right" style="float:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
+							<img align="right" style="float:right !important" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
 
 				
 					<br>
 					<a href="admin.php" class="hvr-buzz">admins</a>
 				
-			
+			</div>
 		</div>
 	</footer>
