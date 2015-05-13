@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<?php include("includes/head.php");?>
+	
+	<body>
+	
+		<div class="main-body-text hvr-underline-from-center" id="top">
+			<h2 class="body-header hvr-bounce-in">Contact Us!</h2>
+				<div id="about-us-content" style="width:50%" align="center">
+						<?php 
+						
+						include ("markdown.php"); 
+						$Parsedown = new Parsedown();
+						
+						$f = fopen("Markdown/History.txt", "r");
+						
+						$markdown = fread($f, 9999999);
+						
+						//$tableHtml = strtok($markdown,'+++');			
+						$markdown = strtok($markdown,'+++');
+						
+						$html = $Parsedown->text($markdown);						
+						
+						echo $html;
+						?>
+				</div>
+		</div>
+	</body>
+</div>
+<?php include("includes/footer.php"); ?>
+</html>
