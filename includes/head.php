@@ -25,15 +25,13 @@ if (!isset($_SESSION["theme"])) {
 	<style>
 	<?php
 	session_start();
-	if (!isset($_SESSION["theme"])) {
+	if (isset($_SESSION["theme"])) {
 		if ($_SESSION["theme"] == "dark") {
 			include('Stylesheets/dark.css');	
 		}
 		if ($_SESSION["theme"] == "light") {
 			include('Stylesheets/light.css');
 		}
-	} else {
-		echo "what";
 	}
 	
 	?>
