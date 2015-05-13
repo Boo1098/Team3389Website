@@ -8,6 +8,16 @@ session_start();
 if (!isset($_SESSION["theme"])) {
 	$_SESSION["theme"] = "light";
 }
+if (isset($_GET["dark"])) {
+	if ($_GET["dark"] == 1) {
+		$_SESSION["theme"] = "dark";		
+	}
+}
+if (isset($_GET["light"])) {
+	if ($_GET["light"] = 1) {
+		$_SESSION["theme"] = "light";		
+	}
+}
 ?>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {

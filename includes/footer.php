@@ -1,20 +1,4 @@
 	<footer>
-<?php
-// Start the session
-session_start();
-
-if (isset($_GET["dark"])) {
-	if ($_GET["dark"] == 1) {
-		$_SESSION["theme"] = "dark";		
-	}
-}
-if (isset($_GET["light"])) {
-	if ($_GET["light"] = 1) {
-		$_SESSION["theme"] = "light";		
-	}
-}
-
-?>
 		<div id="footer-div">
 		
 			<table width="97%"> 
