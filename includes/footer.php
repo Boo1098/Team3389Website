@@ -44,7 +44,7 @@
 					</p>
 				
 					<br><br>
-					<p><a href="admin.php" class="hvr-buzz">admins</a></p>
+					<p align="right"><a href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
 		</div>
