@@ -8,6 +8,11 @@ if (isset($_GET["dark"])) {
 		$_SESSION["theme"] = "dark";		
 	}
 }
+if (isset($_GET["light"])) {
+	if ($_GET["light"] == "1") {
+		$_SESSION["theme"] = "light";		
+	}
+}
 
 ?>
 		<div id="footer-div">
@@ -21,7 +26,19 @@ if (isset($_GET["dark"])) {
 					</td>
 					<td width="20.5%" align="center" class="hvr-grow"><a href="//plus.google.com/u/0/108991739010079990924?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a></td>				
 					<td width="20.5%" align="center" class="hvr-grow"><div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
-					<td width="20.5%" align="right" class="hvr-grow"><a href="?dark=1">Dark theme</a></td>
+					
+					<td width="20.5%" align="right" class="hvr-grow">
+						<?php
+						if (isset($_SESSION["theme"])) {
+							if ($_SESSION == "light") {
+								echo "<a href=\"?dark=1\">Dark theme\n";							
+							}
+							if ($_SESSION == "dark") {
+								echo "<a href=\"?light=1\">light theme\n";							
+							}
+						}
+						?>
+					</a></td>
 				</tr>
 			</table>
 			
