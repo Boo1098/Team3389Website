@@ -40,7 +40,7 @@ body {
 }
 
 #footer-div:hover {
-	height:20%;
+	height:25%;
 }
 
 tr#footer-div  {
@@ -155,7 +155,12 @@ table#about-us-content {
 	padding:10px;
 	margin-bottom:50px;
 }
-
+div#about-us-content p {
+	font-size:110%;
+	line-height: 145%;
+	color:white;
+	text-indent:50px;
+}
 #top{
 	margin-top:60px;
 }
@@ -183,6 +188,14 @@ table#about-us-content {
 	color:white;
 	text-indent:50px;
 }	
+
+
+table#about-us-content tr td p{
+	font-size:110%;
+	line-height: 145%;
+	color:white;
+	text-indent:50px;
+}
 
 .login {
 	border-color:orange;
