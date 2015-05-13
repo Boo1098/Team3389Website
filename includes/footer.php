@@ -29,6 +29,7 @@
 			</table>
 			
 			<div style="background-color:#3A3A3A;">
+					<p>
 						<a href="http://usfirst.org">
 							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
 						</a>
@@ -40,10 +41,10 @@
 						<a href="http://www.usfirst.org/roboticsprograms/frc">
 							<img align="right" style="float:right !important" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
-
+					</p>
 				
-					<br>
-					<a href="admin.php" class="hvr-buzz">admins</a>
+					<br><br>
+					<p><a href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
 		</div>
