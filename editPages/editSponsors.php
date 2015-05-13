@@ -15,7 +15,7 @@ else {
    //die('');
 }?>
 <?php if($_SESSION['username']): ?>
-<form action="editContact.php" method="POST">
+<form action="editSponsors.php" method="POST">
     <textarea name="field1" rows="40" cols="150" style="resize:both"><?php endif;?><?php
 	if ($_SESSION['username']) {
 	include ("../markdown.php"); 
