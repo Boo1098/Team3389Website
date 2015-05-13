@@ -9,7 +9,9 @@
 	top:-10px;
 	z-index:10000000;
 }
-
+body, html {
+height: 100%;
+}
 html {
 	font-family:Tahoma, Geneva, sans-serif;
 	height:100%;
