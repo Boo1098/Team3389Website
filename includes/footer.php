@@ -29,6 +29,8 @@ if (isset($_GET["light"])) {
 					
 					<td width="20.5%" align="right" class="hvr-grow">
 						<?php
+						session_start();
+						
 						if (isset($_SESSION["theme"])) {
 							if ($_SESSION["theme"] == "light") {
 								echo "<a href=\"?dark=1\">Dark theme\n";							
