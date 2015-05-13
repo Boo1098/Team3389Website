@@ -225,8 +225,8 @@ table#about-us-content tr td p{
 div.content p {
 	line-height:150% !important;
 }
-img[alt="Parkside CTE"] { height: 150px; float:left;}
-img[alt="Tec Foundation"] { width: 200px; float:right;}
+img[alt="Parkside CTE"] { /*height: 150px;*/ float:left;}
+img[alt="Tec Foundation"] { /*width: 200px;*/ float:right;}
 img[alt="Nasa"] {float:left; }
-img[alt="Community Foundation"] { height: 170px; float:center; }
+img[alt="Community Foundation"] { /*height: 170px;*/ float:center; }
 img[alt="Ace"] { float:right; }
