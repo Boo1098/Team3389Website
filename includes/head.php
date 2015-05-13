@@ -23,7 +23,7 @@
 				<td id="logo"><img src="resources/logo-small.png" alt="logo" height="50px" width="75px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a></td>
-				<td class="header-links"><a  class="header-links hvr-grow" href="sponsors.php">Sponsors</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="histories.php">Histories</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
