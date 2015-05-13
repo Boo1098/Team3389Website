@@ -221,6 +221,11 @@ table#about-us-content tr td p{
 	text-decoration:bold;
 	font-size:150%;
 }
+
+div.content>p {
+	line-height:150%;
+}
+
 img[alt="Tec Foundation"] { width: 200px; }
 img[alt="Parkside CTE"] { height: 150px; }
 img[alt="Community Foundation"] { height: 170px; }
