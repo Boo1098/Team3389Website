@@ -22,6 +22,19 @@ if (!isset($_SESSION["theme"])) {
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
 	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js">
+	<?php
+	session_start();
+	
+	if (!isset($_SESSION["theme"])) {
+		if ($_SESSION["theme"] == "dark") {
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"Stylesheets/dark.css\">\n";	
+		}
+		if ($_SESSION["theme"] == "light")
+			echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"Stylesheets/light.css\">\n";
+	}
+	}
+	
+	?>
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>
