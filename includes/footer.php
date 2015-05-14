@@ -20,7 +20,7 @@
 								echo "<a href=\"?dark=1\">Dark theme\n";							
 							}
 							if ($_SESSION["theme"] == "dark") {
-								echo "<a href=\"?light=1\">light theme\n";							
+								echo "<a href=\"?light=1\">Light theme\n";							
 							}
 						}
 						?>
