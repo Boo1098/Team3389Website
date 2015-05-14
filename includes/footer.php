@@ -41,7 +41,7 @@
 					<td valign="center">
 						<a style="display:block; margin-left:auto; margin-right:auto"href="http://tecfound.org">
 
-							<img src="resources/tecfound.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
+							<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 
 						</a>
 					</td>
