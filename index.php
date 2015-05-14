@@ -5,9 +5,8 @@
 	
 		<div class="main-body-text hvr-underline-from-center" id="top">
 			<h2 class="body-header hvr-bounce-in">About us!</h2>
-			<table id="about-us-content">
-				<tr>
-					<td> <img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
+			
+					 <img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
 
 			
 						<?php 
@@ -42,9 +41,7 @@
 						//echo $htmltwo;
 						?>
 
-					</td>
-				</tr>
-			</table>
+
 		</div>
 	</body>
 </div>
