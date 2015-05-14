@@ -59,6 +59,11 @@ if (isset($_GET["light"])) {
 				<td class="header-links"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="history.php">History</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
+				<td class="header-links"><a  class="header-links hvr-grow" href="##">link</a></td>
 			</tr>
 		</table>
 	</header>
