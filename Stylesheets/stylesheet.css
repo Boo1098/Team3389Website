@@ -93,7 +93,6 @@ a.header-links {
 	white-space: nowrap;
 	align-text:right;
 	text-decoration:none;
-	width:30%;
 	font-size:25px;	
 }
 
@@ -105,6 +104,10 @@ a.header-links {
 	font-size:25px;
 	white-space: nowrap;
 	min-width:50px;
+}
+
+td.header-links {
+	max-width:75px;
 }
 
 td.body-text>p>a {
@@ -131,6 +134,7 @@ td.body-text>p>a:hover {
 #header-spacer{
 	text-align:right;
 	min-width:25%;
+	width:30%;
 }
 
 table#header-table {
