@@ -19,6 +19,7 @@ include("tests/encryption/login.php");
 						<p><a href="editPages/editContact.php">Edit Contact Us Page</a></p>
 						<p><a href="editPages/editSponsors.php">Edit Sponsors Page</a></p>
 						<p><a href="editPages/editHistory.php">Edit History Page</a></p>
+						
 						<p><a href="?logout=1">Logout</a></p>
 						
 
