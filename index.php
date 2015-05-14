@@ -6,9 +6,11 @@
 		<div class="main-body-text hvr-underline-from-center" id="top">
 			<h2 class="body-header hvr-bounce-in">About us!</h2>
 			
-					 <img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
+			
+					 
 					<br><br>
 					<div id="about-us-content">
+						<img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow">
 						<?php 
 						
 						include ("markdown.php"); 
