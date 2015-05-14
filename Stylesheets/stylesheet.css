@@ -228,6 +228,11 @@ table#about-us-content tr td p{
 div.content p {
 	line-height:150% !important;
 }
+
+.link-row a {
+	padding-right:10px;
+}
+
 img[alt="Parkside CTE"] { height: 150px; float:left;}
 img[alt="Tec Foundation"] { width: 200px; float:right;}
 img[alt="Nasa"] {float:left; }

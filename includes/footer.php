@@ -4,14 +4,14 @@
 			<table width="97%"> 
 				<tr style="white-space:no-wrap"> 
 					<td style="min-width:50%"id="footer-heading"><span class="hvr-pop">More links!</span></td>
-					<td style="min-width:151px" class="hvr-grow" align="center" valign="center"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
-					<td style="min-width:106px" class="hvr-grow" align="center" valign="center"><script src="https://apis.google.com/js/platform.js"></script>
+					<td  class="hvr-grow link-row" align="right" valign="center"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<script src="https://apis.google.com/js/platform.js"></script>
 						<div class="g-ytsubscribe" data-channel="Robospectrum"></div>
-					</td>
-					<td style="min-width:34px" align="center" class="hvr-grow"><a href="//plus.google.com/103918810376285135334/posts?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a></td>				
-					<td style="min-width:127px" align="center" class="hvr-grow"><div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
 					
-					<td style="min-width:82px" align="right" class="hvr-grow">
+					<a href="//plus.google.com/103918810376285135334/posts?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
+					<div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+					
+					
 						<?php
 						session_start();
 						
@@ -24,7 +24,7 @@
 							}
 						}
 						?>
-					</a></td>
+					</a>
 				</tr>
 			</table>
 			
