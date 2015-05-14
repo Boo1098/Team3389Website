@@ -7,7 +7,7 @@
 			<h2 class="body-header hvr-bounce-in">About us!</h2>
 			<table id="about-us-content">
 				<tr>
-					<td> <img src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
+					<td> <img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
 
 			
 						<?php 
@@ -22,10 +22,10 @@
 						//$tableHtml = strtok($markdown,'+++');			
 						$markdown = strtok($markdown,'+++');
 						//$tableTwo = strtok('+++');
-						$markdowntwo= strtok('+++');
+						//$markdowntwo= strtok('+++');
 						
 						//echo $tableHtml;
-						$htmltwo = $Parsedown->text($markdowntwo);
+						//$htmltwo = $Parsedown->text($markdowntwo);
 						$html = $Parsedown->text($markdown);
 						
 						
@@ -33,13 +33,13 @@
 						
 						echo $html;
 						
-						echo "<td><tr><tr><td colspan=\"2\" class=\"body-text\">\n";
+						//echo "<td><tr><tr><td colspan=\"2\" class=\"body-text\">\n";
 						
 						fclose($f);
 						
 						//echo $tableTwo;
 						//echo $markdowntwo;
-						echo $htmltwo;
+						//echo $htmltwo;
 						?>
 
 					</td>
