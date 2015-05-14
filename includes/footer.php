@@ -30,7 +30,7 @@
 			
 			<div style="background-color:#3A3A3A;align:center;">
 					<div style="width:100%;height:100px">
-					<table>
+					<table width="100%">
 					<tbody>
 					<tr>
 					<td>
