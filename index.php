@@ -8,7 +8,7 @@
 			
 					 <img style="float:left;" src="resources/logo-small.png" alt="us" height="200px" width="relative" class="hvr-grow"></td><td class="body-text">
 
-			
+					<div id="about-us-content">
 						<?php 
 						
 						include ("markdown.php"); 
@@ -40,7 +40,7 @@
 						//echo $markdowntwo;
 						//echo $htmltwo;
 						?>
-
+					</div>
 
 		</div>
 	</body>
