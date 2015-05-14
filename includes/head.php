@@ -47,11 +47,15 @@ if (isset($_GET["light"])) {
 	?>
 	</style>
 	<header>
-		<table style="width:100%" id="header-table">
+		<table style="width:100%;float:left" id="header-table">
 			<tr>
-				<td id="head-text"><a href="http://nathan.team3389.info"> &nbsp;Tec Tigers</a></td>
+				<td width="172px" id="head-text"><a href="http://nathan.team3389.info"> &nbsp;Tec Tigers</a></td>
 				<td id="logo"><img src="resources/logo-small.png" alt="logo" height="50px" width="75px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
+			</tr>
+		</table>
+		<table>
+			<tr>
 				<td class="header-links"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a></td>
 				<td class="header-links"><a  class="header-links hvr-grow" href="history.php">History</a></td>
