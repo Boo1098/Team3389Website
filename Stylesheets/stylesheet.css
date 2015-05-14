@@ -107,6 +107,10 @@ a.header-links {
 	min-width:50px;
 }
 
+td.header-links {
+	max-width:75px;
+}
+
 td.body-text>p>a {
 	align-text:right;
 	text-decoration:none;
