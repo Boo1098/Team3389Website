@@ -1,6 +1,6 @@
 <DOCTYPE! html>
 <meta charset="UTF-8">
-<div id=wrapper style="margin-bottom:5px;min-height:80%;">
+<div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<head>
 <?php
 session_start();
