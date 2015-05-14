@@ -30,21 +30,29 @@
 			
 			<div style="background-color:#3A3A3A;align:center;">
 					<div style="width:100%;height:100px">
-					
+					<table>
+					<tbody>
+					<tr>
+					<td>
 						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" style="float:left !important" alt="First"height="100px" width="auto" class="hvr-skew-backward">
+							<img align="left" src="resources/first.png" style="align:left" alt="First"height="100px" width="auto" class="hvr-skew-backward">
 						</a>
-						
+					</td>
+					<td valign="center">
 						<a style="display:block; margin-left:auto; margin-right:auto"href="http://tecfound.org">
 
 							<img src="resources/tecfound.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 
 						</a>
-						
+					</td>
+					<td>
 						<a href="http://www.usfirst.org/roboticsprograms/frc">
-							<img align="right" style="float:right !important" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
+							<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
-					
+					</td>
+					</tr>
+					</tbody>
+					</table>
 					</div>
 					
 					<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
