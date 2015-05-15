@@ -36,18 +36,18 @@
 					<tr>
 					<td>
 						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" style="align:left" alt="First"height="100px" width="auto" class="hvr-skew-backward">
+							<img align="left" src="resources/first.png" style="align:left" alt="First"height="100px" target="_blank" width="auto" class="hvr-skew-backward">
 						</a>
 					</td>
 					<td valign="center">
-						<a style="display:block; margin-left:auto; margin-right:auto"href="http://tecfound.org">
+						<a style="display:block; margin-left:auto; margin-right:auto" target="_blank" href="http://tecfound.org">
 
 							<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto" class="hvr-bounce-in">
 
 						</a>
 					</td>
 					<td>
-						<a href="http://www.usfirst.org/roboticsprograms/frc">
+						<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
 							<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto" class="hvr-skew-forward">
 						</a>
 					</td>
@@ -55,7 +55,7 @@
 					</tbody>
 					</table>
 					</div>
-					<p style="padding-top:10px;padding-left:5px;margin:0px;float:left;"align="left"><a style="margin:0px;" href="http://github.com/boo1098/nathan" class="hvr-buzz">Fork me on github!</a></p>
+					<p style="padding-top:10px;padding-left:5px;margin:0px;float:left;"align="left"><a style="margin:0px;" href="http://github.com/boo1098/nathan" target="_blank" "class="hvr-buzz">Fork me on github!</a></p>
 					<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
 				
 			</div>
