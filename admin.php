@@ -15,10 +15,10 @@ include("tests/encryption/login.php");
 						<?php if($_SESSION['username']): ?>
 						<p style="color:white;font-size:2em;">You are logged in as <b><?echo $_SESSION['username'];?></b></p>
 						
-						<p><a href="editPages/editAbout.php">Edit About Page</a></p>
-						<p><a href="editPages/editContact.php">Edit Contact Us Page</a></p>
-						<p><a href="editPages/editSponsors.php">Edit Sponsors Page</a></p>
-						<p><a href="editPages/editHistory.php">Edit History Page</a></p>
+						<p><a class="hvr-grow" href="editPages/editAbout.php">Edit About Page</a></p>
+						<p><a class="hvr-grow" href="editPages/editContact.php">Edit Contact Us Page</a></p>
+						<p><a class="hvr-grow" href="editPages/editSponsors.php">Edit Sponsors Page</a></p>
+						<p><a class="hvr-grow" href="editPages/editHistory.php">Edit History Page</a></p>
 						
 						<p><a href="?logout=1">Logout</a></p>
 						
