@@ -266,13 +266,15 @@ input.button:hover {
 ::-moz-selection { /* Code for Firefox */
     color: black;
     background: orange;
-	outline:solid black medium;
+	outline-style: solid;
+    outline-width: 5px;
 }
 
 ::selection {
     color: black;
     background: orange;
-	outline:solid black medium;
+	outline-style: solid;
+    outline-width: 5px;
 }
 
 img[alt="Parkside CTE"] { height: 150px; float:left;}
