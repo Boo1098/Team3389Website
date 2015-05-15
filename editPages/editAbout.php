@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="../Stylesheets/stylesheet.css">
 <?php include("../includes/head.php");?>
 	
 	<body>
