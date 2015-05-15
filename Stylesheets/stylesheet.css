@@ -236,6 +236,7 @@ div.content p {
 input.button {
 	background-color:orange;
 	color:white;
+	border:1px black solid;
 }
 
 img[alt="Parkside CTE"] { height: 150px; float:left;}
