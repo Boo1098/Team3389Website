@@ -25,6 +25,8 @@ include("tests/encryption/login.php");
 
 						
 						<?php endif; ?>	
+						
+						<?php if(!$_SESSION['username']): ?>
 						<form name="login" action="" method="post">
 						<p class="body-text"style="text-indent:0px;font-size:150%;">
 						
@@ -33,7 +35,7 @@ include("tests/encryption/login.php");
 						
 						<input class="button" type="submit" name="submit" method="_self" value="Enter"></p>
 						</form>
-
+						<?php endif; ?>	
 		</div>
 		
 		
