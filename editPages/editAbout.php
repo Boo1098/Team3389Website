@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<?php include("../includes/head.php");?>
 <link rel="stylesheet" type="text/css" href="../Stylesheets/stylesheet.css">
-
+<?php include("../includes/head.php");?>
 	
-	<body style="background-color:#3A3A3A">
+	<body>
 	
 		<div class="main-body-text hvr-underline-from-center" id="top">
 			<h2 class="body-header hvr-bounce-in">Edit About</h2>
@@ -45,5 +44,5 @@ else {
 		</div>
 	</body>
 </div>
-
+<?php include("../includes/footer.php"); ?>
 </html>
