@@ -2,8 +2,8 @@
 		<div id="footer-div">
 		
 			<table width="97%"> 
-				<tr style="white-space:no-wrap"> 
-					<td style="min-width:50%"id="footer-heading"><span class="hvr-pop">More links!</span></td>
+				<tr style="white-space:no-wrap;width:98%"> 
+					<td id="footer-heading"><span class="hvr-pop">More links!</span></td>
 					<td  class="hvr-grow link-row" align="right" valign="center"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 					<script src="https://apis.google.com/js/platform.js"></script>
 						<div class="g-ytsubscribe" data-channel="Robospectrum"></div>
