@@ -13,7 +13,7 @@ include("tests/encryption/login.php");
 			<h2 class="body-header hvr-bounce-in">Admin Login!</h2>
 			
 						<?php if($_SESSION['username']): ?>
-						<p style="color:white">You are logged in as <b><?echo $_SESSION['username'];?></b></p>
+						<p style="color:white"><h3>You are logged in as <b><?echo $_SESSION['username'];?></b></h3></p>
 						
 						<p><a href="editPages/editAbout.php">Edit About Page</a></p>
 						<p><a href="editPages/editContact.php">Edit Contact Us Page</a></p>
