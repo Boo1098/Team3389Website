@@ -237,6 +237,8 @@ input.button {
 	background-color:orange;
 	color:white;
 	border:1px black solid;
+	font-size:150%;
+	height:48px;
 }
 
 img[alt="Parkside CTE"] { height: 150px; float:left;}
