@@ -1,10 +1,4 @@
 <?php include("../includes/head.php");?>
-<style>
-#header-table {
-	top:0px;
-	
-}
-
 <link rel="stylesheet" type="text/css" href="../Stylesheets/stylesheet.css">
 
 	
