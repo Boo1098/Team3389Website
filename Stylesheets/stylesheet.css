@@ -263,6 +263,16 @@ input.button:hover {
 	color:orange;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: orange;
+}
+
+::selection {
+    color: black;
+    background: orange;
+}
+
 img[alt="Parkside CTE"] { height: 150px; float:left;}
 img[alt="Tec Foundation"] { width: 200px; float:right;}
 img[alt="Nasa"] {float:left; }
