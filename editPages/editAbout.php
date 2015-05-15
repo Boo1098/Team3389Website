@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include("../includes/head.php");?>
 <link rel="stylesheet" type="text/css" href="../Stylesheets/stylesheet.css">
 
