@@ -1,12 +1,4 @@
 <!DOCTYPE html>
-<?php include("includes/head.php");?>
-	
-	<body>
-	
-		<div class="main-body-text hvr-underline-from-center" id="top">
-			<h2 class="body-header hvr-bounce-in">Contact Us!</h2>
-				<div id="about-us-content" style="width:50%" align="center">
-
 <?php
 if(isset($_POST['field1'])) {
     $data = $_POST['field1'] . "\n";
@@ -37,11 +29,5 @@ else {
 	?><?php if($_SESSION['username']): ?></textarea>
     <input type="submit" name="submit" value="Save Data">
 </form><?php endif;?>
+<p><a href="?logout=1">Logout</a></p><p><a href="../admin.php"><--- back</a></p>
 
-				<p><a href="?logout=1">Logout</a></p><p><a href="../admin.php"><--- back</a></p>
-				</div>
-		</div>
-	</body>
-</div>
-<?php include("includes/footer.php"); ?>
-</html>
