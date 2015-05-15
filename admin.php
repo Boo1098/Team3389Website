@@ -31,7 +31,7 @@ include("tests/encryption/login.php");
 						<p class="body-text"style="text-indent:0px;font-size:150%;">
 						
 						Username: <input type="text" class="login" name="username"><br>
-						Password: &nbsp;<input class="login" type="password" name="password"><br>
+						Password: &nbsp;<input class="login" type="password" name="password">
 						
 						<input class="button" type="submit" name="submit" method="_self" value="Enter"></p>
 						</form>
