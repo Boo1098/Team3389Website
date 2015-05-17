@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--Index-->
 <?php include("includes/head.php");?>
 	
 	<body>
