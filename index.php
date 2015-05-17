@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Index-->
 <?php include("includes/head.php");?>
 	
 	<body>
@@ -19,7 +20,6 @@
 						$f = fopen("about-us.txt", "r");
 						
 						$markdown = fread($f, 9999999);
-						
 						//$tableHtml = strtok($markdown,'+++');			
 						$markdown = strtok($markdown,'+++');
 						//$tableTwo = strtok('+++');
