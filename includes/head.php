@@ -54,7 +54,7 @@ $url = "$_SERVER[REQUEST_URI]";
 				<td width="172px" id="head-text"><a href="http://nathan.team3389.info"> &nbsp;Tec Tigers</a></td>
 				<td width="77px" id="logo"><img src="resources/logo-small.png" alt="logo" height="50px" width="75px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
-				<td class="header-links" align="right" style="padding-right:10px"><a  class="header-links hvr-grow <?php if($_SERVER[REQUEST_URI]=="/contact.php") {echo="hvr-grow-grown";} ?>" href="contact.php">Contact Us</a> | <a  class="header-links hvr-grow <?php if($_SERVER[REQUEST_URI]=="/Sponsors.php") {echo="hvr-grow-grown";} ?>" href="Sponsors.php">Sponsors</a> | <a  class="header-links hvr-grow <?php if($_SERVER[REQUEST_URI]=="/history.php") {echo="hvr-grow-grown";} ?>" href="history.php">History</a></td></tr>
+				<td class="header-links" align="right" style="padding-right:10px"><a  class="header-links hvr-grow <?php if($url=="/contact.php") {echo="hvr-grow-grown";} ?>" href="contact.php">Contact Us</a> | <a  class="header-links hvr-grow <?php if($url=="/Sponsors.php") {echo="hvr-grow-grown";} ?>" href="Sponsors.php">Sponsors</a> | <a  class="header-links hvr-grow <?php if($url=="/history.php") {echo="hvr-grow-grown";} ?>" href="history.php">History</a></td></tr>
 		</table>
 	</header>
 	</head>
