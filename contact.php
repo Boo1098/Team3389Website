@@ -4,7 +4,7 @@
 	<body>
 	
 		<div class="main-body-text hvr-underline-from-center" id="top">
-			<h2 class="body-header hvr-bounce-in .font-effect-3d-float">Contact Us!</h2>
+			<h2 class="body-header hvr-bounce-in font-effect-3d-float">Contact Us!</h2>
 				<div id="about-us-content" align="center">
 						<?php 
 						
