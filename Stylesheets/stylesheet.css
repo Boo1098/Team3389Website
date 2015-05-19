@@ -14,12 +14,8 @@ body, html {
 height: 100%;
 }
 html {
-	font-family: 'Share Tech', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	height:100%;
-}
-
-* {
-	font-family: 'Share Tech', sans-serif;
 }
 
 head {
