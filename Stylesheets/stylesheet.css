@@ -154,7 +154,7 @@ table#about-us-content {
 }
 
 .main-body-text {
-	border:10px inset black;
+	border:10px inset #3A3A3A;
 	background:#3A3A3A;
 	margin-left:10%;
 	width:80%;
