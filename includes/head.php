@@ -18,8 +18,7 @@ if (isset($_GET["light"])) {
 		$_SESSION["theme"] = "light";		
 	}
 }
-$url = "$_SERVER[REQUEST_URI]";
-echo $url;
+
 ?>
 	<div id="fb-root"></div>
 <script>(function(d, s, id) {
