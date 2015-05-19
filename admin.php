@@ -10,7 +10,7 @@ include("tests/encryption/login.php");
 	<body>
 	
 		<div class="main-body-text hvr-underline-from-center" id="top">
-			<h2 class="body-header hvr-bounce-in">Admin Login!</h2>
+			<h2 class="body-header hvr-bounce-in .font-effect-3d-float">Admin Login!</h2>
 			
 						<?php if($_SESSION['username']): ?>
 						<p style="color:white;font-size:2em;">You are logged in as <b><?echo $_SESSION['username'];?></b></p>
