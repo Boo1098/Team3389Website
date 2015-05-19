@@ -3,5 +3,5 @@ body {
 }
 
 .main-body-text {
-	border:10px inset rgb(252, 124, 37) !important;
+	border:10px outset rgb(252, 124, 37) !important;
 }
