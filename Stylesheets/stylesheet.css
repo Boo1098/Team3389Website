@@ -167,6 +167,11 @@ div#about-us-content p {
 	color:white;
 	text-indent:50px;
 }
+
+div#dont-indent p {
+	text-indent:0px !important;
+}
+
 #top{
 	margin-top:60px;
 }
