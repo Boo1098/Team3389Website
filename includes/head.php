@@ -30,7 +30,7 @@ if (isset($_GET["light"])) {
 }(document, 'script', 'facebook-jssdk'));</script>
 	
 	<title>Tec Tigers: Team 3389</title>
-	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto|3d' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
 	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js">
