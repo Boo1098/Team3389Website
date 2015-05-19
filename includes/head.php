@@ -31,9 +31,11 @@ echo $url;
 }(document, 'script', 'facebook-jssdk'));</script>
 	
 	<title>Tec Tigers: Team 3389</title>
+	<link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
 	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js">
+
 	<style>
 	<?php
 	session_start();
