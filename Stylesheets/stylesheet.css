@@ -118,7 +118,7 @@ div#about-us-content>p>a {
 }
 
 div#about-us-content>p>a:hover {
-	font-size:21px;
+	font-size:19px;
 	text-decoration:none;
 }
 
@@ -169,7 +169,7 @@ div#about-us-content p {
 }
 
 div.dont-indent p {
-	font-size:110% !important;
+	font-size:18px !important;
 	line-height: 1.5 !important;
 	color:white !important;
 	text-indent:0px !important;
