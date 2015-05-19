@@ -169,9 +169,9 @@ div#about-us-content p {
 }
 
 div#dont-indent p {
-	font-size:110%;
-	line-height: 1.5;
-	color:white;
+	font-size:110% !important;
+	line-height: 1.5 !important;
+	color:white !important;
 	text-indent:0px !important;
 }
 
