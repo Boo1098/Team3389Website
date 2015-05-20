@@ -1,6 +1,6 @@
 <?php
 
-#
+# This file is used to translate markdown to html
 #
 # Parsedown
 # http://parsedown.org
