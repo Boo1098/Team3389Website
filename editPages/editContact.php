@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?include '../tests/encryption/login.php';?>
+<?include '../login.php';?>
 <?php
 if(isset($_POST['field1'])) {
     $data = $_POST['field1'] . "\n";

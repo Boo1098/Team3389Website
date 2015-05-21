@@ -13,7 +13,7 @@ if(isset($_POST['field1'])) {
 else {
    //die('');
 }?>
-<?include '../tests/encryption/login.php';?>
+<?include '../login.php';?>
 <?php if($_SESSION['username']): ?>
 <form action="editAbout.php" method="POST">
     <textarea name="field1" rows="40" cols="150" style="resize:both"><?php endif;?><?php
