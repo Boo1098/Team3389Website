@@ -53,7 +53,7 @@ if (isset($_GET["light"])) {
 		<table style="width:100%" id="header-table">
 			<tr>
 				<td width="172px" id="head-text"><a href="http://nathan.team3389.info" class="font-effect-3d-float"> &nbsp;TEC Tigers</a></td>
-				<td width="77px" id="logo"><img src="resources/logo2-small.png" alt="logo" height="50px" width="75px" class="hvr-grow-rotate"></td>
+				<td width="77px" id="logo"><img src="resources/logo2-small.png" alt="logo" height="50px" width="50px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
 				<td class="header-links" align="right" style="padding-right:10px"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a> | <a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> | <a  class="header-links hvr-grow" href="history.php">History</a></td></tr>
 		</table>
