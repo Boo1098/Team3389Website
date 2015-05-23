@@ -10,7 +10,7 @@
 					 
 					<br><br>
 					<div id="about-us-content">
-						<img style="float:left;" src="resources/logo2.png" alt="us" height="200px" width="relative" class="hvr-grow">
+						<img style="float:left;" src="resources/logo2-small.png" alt="us" height="200px" width="relative" class="hvr-grow">
 						<?php 
 						
 						include ("markdown.php"); 
