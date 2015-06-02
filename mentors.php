@@ -12,7 +12,7 @@
 						include ("markdown.php"); 
 						$Parsedown = new Parsedown();
 						
-						$f = fopen("Markdown/Contact.txt", "r");
+						$f = fopen("Markdown/mentors.txt", "r");
 						
 						$markdown = fread($f, 9999999);
 						
