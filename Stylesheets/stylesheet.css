@@ -166,6 +166,7 @@ div#about-us-content p {
 	line-height: 1.5;
 	color:white;
 	text-indent:50px;
+	text-align:left;
 }
 
 div.dont-indent p {
