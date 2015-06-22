@@ -7,6 +7,11 @@
 
 						<?php 
 						
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL ^ E_NOTICE);
+
+
 						include ("markdown.php"); 
 						$Parsedown = new Parsedown();
 						
@@ -15,7 +20,7 @@
 						$markdown = fread($f, 9999999);
 						
 						//$tableHtml = strtok($markdown,'+++');			
-						$markdown = strtok($markdown,'+++');
+						
 						
 						$html = $Parsedown->text($markdown);
 						
