@@ -19,7 +19,7 @@ include("login.php");
 						<p><a class="hvr-grow" style="font-size:1.2em" href="editPages/editContact.php">Edit Contact Us Page</a></p>
 						<p><a class="hvr-grow" style="font-size:1.2em" href="editPages/editSponsors.php">Edit Sponsors Page</a></p>
 						<p><a class="hvr-grow" style="font-size:1.2em" href="editPages/editHistory.php">Edit History Page</a></p>
-						
+						<p><a class="hvr-grow" style="font-size:1.2em" href="editPages/editMentors.php">Edit Mentor Page</a></p>
 						<p><a align="right" class="hvr-grow" href="?logout=1">Logout</a></p>
 						
 
