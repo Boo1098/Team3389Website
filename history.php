@@ -16,7 +16,5 @@
 						
 		echo $html;
 	?>
-	</body>
-</div>
 <?php include("includes/footer.php"); ?>
 </html>

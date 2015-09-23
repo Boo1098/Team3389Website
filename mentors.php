@@ -1,16 +1,8 @@
-
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	
-	<body>
-	
 
 						<?php 
-						
-
-ini_set('display_errors', 1);
-error_reporting(E_ALL ^ E_NOTICE);
-
 
 						include ("markdown.php"); 
 						$Parsedown = new Parsedown();
@@ -30,7 +22,6 @@ error_reporting(E_ALL ^ E_NOTICE);
 						echo $html;
 						?>
 
-	</body>
-</div>
+
 <?php include("includes/footer.php"); ?>
 </html>

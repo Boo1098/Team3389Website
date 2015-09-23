@@ -1,3 +1,4 @@
+	</div>
 	<footer>
 		<div id="footer-div">
 		
@@ -66,6 +67,6 @@
 			</div>
 		</div>
 	</footer>
-	</div>
+	
 	</body>
 </html>
