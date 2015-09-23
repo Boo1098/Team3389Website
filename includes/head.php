@@ -1,7 +1,8 @@
 <DOCTYPE! html>
-<meta charset="UTF-8">
+<html>
 <div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<head>
+		<meta charset="UTF-8">
 <?php
 session_start();
 
@@ -49,6 +50,8 @@ if (isset($_GET["light"])) {
 	
 	?>
 	</style>
+	</head>
+	<body>
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>
@@ -58,4 +61,4 @@ if (isset($_GET["light"])) {
 				<td class="header-links" align="right" style="padding-right:10px"><a  class="header-links hvr-grow" href="contact.php">Contact Us</a> | <a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> | <a  class="header-links hvr-grow" href="history.php">History</a> | <a  class="header-links hvr-grow" href="mentors.php">Mentors</a></td></tr>
 		</table>
 	</header>
-	</head>
+	

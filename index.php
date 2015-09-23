@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	
-	<body>
-	
 		<div class="main-body-text hvr-underline-from-center" id="top">
 			<h2 class="body-header hvr-bounce-in font-effect-3d-float">About us!</h2>
 			
 			
 					 
-					<br><br>
-					<div id="about-us-content">
-						<img style="float:left;" src="resources/logo2-small.png" alt="us" height="200px" width="relative" class="hvr-grow">
-						<?php 
+			<br><br>
+			<div id="about-us-content">
+				<img style="float:left;" src="resources/logo2-small.png" alt="us" height="200px" width="relative" class="hvr-grow">
+				<?php 
+					
+					include ("markdown.php"); 
+					$Parsedown = new Parsedown();
+					
+					$f = fopen("about-us.txt", "r");
+					
+					$markdown = fread($f, 9999999);
+					//$tableHtml = strtok($markdown,'+++');			
+					$markdown = strtok($markdown,'+++');
+					//$tableTwo = strtok('+++');
+					//$markdowntwo= strtok('+++');
+					
+					//echo $tableHtml;
+					//$htmltwo = $Parsedown->text($markdowntwo);
+					$html = $Parsedown->text($markdown);
+					
+					
+					
 						
-						include ("markdown.php"); 
-						$Parsedown = new Parsedown();
+					echo $html;
 						
-						$f = fopen("about-us.txt", "r");
+					//echo "<td><tr><tr><td colspan=\"2\" class=\"body-text\">\n";
 						
-						$markdown = fread($f, 9999999);
-						//$tableHtml = strtok($markdown,'+++');			
-						$markdown = strtok($markdown,'+++');
-						//$tableTwo = strtok('+++');
-						//$markdowntwo= strtok('+++');
-						
-						//echo $tableHtml;
-						//$htmltwo = $Parsedown->text($markdowntwo);
-						$html = $Parsedown->text($markdown);
-						
-						
-						
-						
-						echo $html;
-						
-						//echo "<td><tr><tr><td colspan=\"2\" class=\"body-text\">\n";
-						
-						fclose($f);
-						
-						//echo $tableTwo;
-						//echo $markdowntwo;
-						//echo $htmltwo;
-						?>
-					</div>
-
+					fclose($f);
+					
+					//echo $tableTwo;
+					//echo $markdowntwo;
+					//echo $htmltwo;
+				?>
+			</div>
 		</div>
-	</body>
 </div>
 <?php include("includes/footer.php"); ?>
 </html>
