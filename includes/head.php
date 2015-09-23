@@ -1,6 +1,5 @@
 <DOCTYPE! html>
 <html>
-<div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<head>
 		<meta charset="UTF-8">
 <?php
@@ -52,6 +51,7 @@ if (isset($_GET["light"])) {
 	</style>
 	</head>
 	<body>
+<div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>

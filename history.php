@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
-	
-	<body>
-
-						<?php 
+	<?php 
+		
+		include ("markdown.php"); 
+		$Parsedown = new Parsedown();
 						
-						include ("markdown.php"); 
-						$Parsedown = new Parsedown();
+		$f = fopen("Markdown/History.txt", "r");
 						
-						$f = fopen("Markdown/History.txt", "r");
+		$markdown = fread($f, 9999999);
+					
+		//$tableHtml = strtok($markdown,'+++');			
+		$markdown = strtok($markdown,'+++');
 						
-						$markdown = fread($f, 9999999);
+		$html = $Parsedown->text($markdown);						
 						
-						//$tableHtml = strtok($markdown,'+++');			
-						$markdown = strtok($markdown,'+++');
-						
-						$html = $Parsedown->text($markdown);						
-						
-						echo $html;
-						?>
-
+		echo $html;
+	?>
 	</body>
 </div>
 <?php include("includes/footer.php"); ?>
