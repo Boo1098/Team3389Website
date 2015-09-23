@@ -7,9 +7,9 @@
 				<!-- Twitter-->
 				<td id="footer-heading" style="min-width:100px"><span class="hvr-pop">More links!</span></td>
 				<style>
-				.twitter-follow-button {
-					padding-top:8px !important;
-				}
+					.twitter-follow-button {
+						padding-top:8px !important;
+					}
 				</style>
 				<td valign="middle" class="link-row" align="right" width="100%"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false" style="padding-top:8px !important;">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 					
