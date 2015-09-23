@@ -32,7 +32,7 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 	
-		<title><?php echo($title)?>Tec Tigers: Team 3389</title>
+		<title><?php echo($title . " | ");?>Tec Tigers: Team 3389</title>
 		
 		<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
