@@ -4,7 +4,7 @@
 	background:#3A3A3A;
 	position: fixed;
 	display: inline;
-	float: left;
+	float: left;	
 	left:-10px;
 	top:-10px;
 	z-index:10000000;
