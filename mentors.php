@@ -1,36 +1,11 @@
-
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
+	<div class="main-body-text hvr-underline-from-center" id="top">
+		<h2 class="body-header font-effect-3d-float">Mentors</h2>
 	
-	<body>
-	
-
-						<?php 
-						
-
-ini_set('display_errors', 1);
-error_reporting(E_ALL ^ E_NOTICE);
-
-
-						include ("markdown.php"); 
-						$Parsedown = new Parsedown();
-						
-						$f = fopen("Markdown/mentors.txt", "r");
-						
-						$markdown = fread($f, 9999999);
-						
-						//$tableHtml = strtok($markdown,'+++');			
-						
-						
-						$html = $Parsedown->text($markdown);
-						
-						
-						
-						
-						echo $html;
-						?>
-
-	</body>
-</div>
+		<div id="about-us-content" align="center">
+			<p>He cool</p>
+		</div>
+	</div>
 <?php include("includes/footer.php"); ?>
 </html>

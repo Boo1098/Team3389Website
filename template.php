@@ -4,7 +4,7 @@
 	<body>
 	
 		<div class="main-body-text hvr-underline-from-center" id="top">
-			<h2 class="body-header hvr-bounce-in">About us!</h2>
+			<h2 class="body-header">About us!</h2>
 			
 			<table id="about-us-content">
 				<tr>
