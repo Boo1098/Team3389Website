@@ -117,11 +117,6 @@ div#about-us-content>p>a {
 	-moz-transition: all .75s ease-in-out;
 }
 
-div#about-us-content>p>a:hover {
-	font-size:19px;
-	text-decoration:none;
-}
-
 #links-menu{
 	right:0px:
 	align:right;
