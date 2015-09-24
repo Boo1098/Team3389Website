@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2013-2014</h2>
+		<h2 class="body-header   font-effect-3d-float">2013-2014</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
@@ -17,6 +17,7 @@
 
 				<p align="left">Our team did good overall with many new students and some old.
 					Overall we did very well at the competition even though we placed lower than usual.</p>
+					Overall we did very well at the competition even though we placed lower than usual.</p>
 			</div>
 		</div>
 	</div>
@@ -24,7 +25,7 @@
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2013-2014</h2>
+		<h2 class="body-header font-effect-3d-float">2013-2014</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
@@ -48,7 +49,7 @@
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2012-2013</h2>
+		<h2 class="body-header   font-effect-3d-float">2012-2013</h2>
 
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
@@ -76,7 +77,7 @@
 <!--Next Box------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2011-2012</h2>
+		<h2 class="body-header   font-effect-3d-float">2011-2012</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
@@ -104,7 +105,7 @@
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2010-2011</h2>
+		<h2 class="body-header   font-effect-3d-float">2010-2011</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
@@ -127,7 +128,7 @@
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
 	<div class="main-body-text hvr-underline-from-center" id="top">
-		<h2 class="body-header hvr-bounce-in font-effect-3d-float">2009-2010</h2>
+		<h2 class="body-header   font-effect-3d-float">2009-2010</h2>
 
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
