@@ -319,7 +319,7 @@ input.button:hover {
 
 #main-header-links li ul li { 
   background: #555; 
-  display: block; 
+  /*display: block; */
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
