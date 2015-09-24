@@ -282,7 +282,7 @@ input.button:hover {
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  /*padding: 15px 20px;*/
+  padding-right: 10px;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
