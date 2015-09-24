@@ -279,6 +279,7 @@ input.button:hover {
 }
 
 #main-header-links>li{
+  background-color:#3A3A3A
   display: inline-block;
   margin-right: -4px;
   position: relative;
@@ -292,7 +293,7 @@ input.button:hover {
 }
 
 #main-header-links>li>ul{
-	  padding: 0;
+  padding: 0;
   position: absolute;
   top: 48px;
   left: 0;
