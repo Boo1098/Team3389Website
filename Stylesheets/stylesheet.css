@@ -317,7 +317,7 @@ input.button:hover {
   visibility: visible;
 }
 
-ul li ul li { 
+#main-header-links li ul li { 
   background: #555; 
   display: block; 
   color: #fff;
