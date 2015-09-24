@@ -316,10 +316,12 @@ input.button:hover {
   display: block;
   opacity: 1;
   visibility: visible;
+  z-index:1000000000000000000000000000;
 }
 
 #main-header-links li ul li { 
   background: #555; 
+  z-index:1000000000000000000000000000;
   display: block;
   margin: 0px;
   padding-top:25px;
