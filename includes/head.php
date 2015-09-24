@@ -1,7 +1,8 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<title>Tec Tigers: Team 3389</title>
 <?php
 session_start();
 
@@ -29,7 +30,7 @@ if (isset($_GET["light"])) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	
-	<title>Tec Tigers: Team 3389</title>
+	
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
@@ -67,7 +68,7 @@ if (isset($_GET["light"])) {
 						</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> |
 						</li><li><a  class="header-links hvr-grow" href="history.php">History</a> |
 						</li><li><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
-				</td></tr>
+				</ul></td></tr>
 		</table>
 	</header>
 	
