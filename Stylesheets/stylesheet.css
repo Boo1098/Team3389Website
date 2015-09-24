@@ -320,6 +320,8 @@ input.button:hover {
 #main-header-links li ul li { 
   background: #555; 
   display: block;
+  margin: 0px;
+  padding-top:25px;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
