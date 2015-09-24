@@ -309,6 +309,7 @@ input.button:hover {
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
+  z-index:1000000000000000000000000000;
 }
 
 #main-header-links li:hover ul {
