@@ -325,6 +325,7 @@ input.button:hover {
   padding-bottom:100px;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
+  text-align:left;
 }
 
 img[alt="Parkside CTE"] { height: 150px; float:left;}
