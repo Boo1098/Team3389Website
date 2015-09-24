@@ -317,6 +317,13 @@ input.button:hover {
   visibility: visible;
 }
 
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+
 img[alt="Parkside CTE"] { height: 150px; float:left;}
 img[alt="Tec Foundation"] { width: 200px; float:right;}
 img[alt="Nasa"] {float:left; }
