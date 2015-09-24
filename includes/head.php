@@ -59,7 +59,7 @@ if (isset($_GET["light"])) {
 				<td width="77px" id="logo"><img src="resources/logo2-small.png" alt="logo" height="50px" width="50px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
 				<td class="header-links" align="right" style="padding-right:10px">
-					<ul>
+					<ul id="main-header-links">
 						<li><a  class="header-links hvr-grow" href="contact.php">Contact Us</a> |
 						</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> |
 						</li><li><a  class="header-links hvr-grow" href="history.php">History</a> |
