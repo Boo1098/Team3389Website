@@ -274,8 +274,8 @@ input.button:hover {
     background: orange;
 }
 
-.main-header-links {
-	display: inline;
+#main-header-links {
+	display: inline;	
 }
 
 img[alt="Parkside CTE"] { height: 150px; float:left;}
