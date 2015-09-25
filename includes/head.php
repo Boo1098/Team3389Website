@@ -60,15 +60,20 @@ if (isset($_GET["light"])) {
 				<td width="77px" id="logo"><img src="resources/logo2-small.png" alt="logo" height="50px" width="50px" class="hvr-grow-rotate"></td>
 				<td id="header-spacer"></td>
 				<td class="header-links" align="right" style="padding-right:10px">
-					<ul id="main-header-links">
-						<li><a  class="header-links hvr-grow" href="contact.php">Contact Us</a> |
-							<ul>
-								<li>Test</li>
-							</ul>
-						</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> |
-						</li><li><a  class="header-links hvr-grow" href="history.php">History</a> |
-						</li><li><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
-				</ul></td></tr>
+					<nav id="nav" role="navigation">
+					    <a href="#nav" title="Show navigation">Show navigation</a>
+						<a href="#" title="Hide navigation">Hide navigation</a>
+						<ul id="main-header-links">
+							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="contact.php">Contact Us</a> |
+								<ul>
+									<li>Test</li>
+								</ul>
+							</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a> |
+							</li><li><a  class="header-links hvr-grow" href="history.php">History</a> |
+							</li><li><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
+						</ul>
+					</nav>
+				</td></tr>
 		</table>
 	</header>
 	
