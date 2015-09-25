@@ -62,7 +62,7 @@ if (isset($_GET["light"])) {
 				<td class="header-links" align="right" style="padding-right:10px">
 					<nav id="nav" role="navigation">
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-48 md-light">reorder</i></a>
-						<a href="#" title="Hide navigation"><i class="material-icons md-48 md-light md-inactive"</a>
+						<a href="#" title="Hide navigation"><i class="material-icons md-48 md-light md-inactive">reorder</i></a>
 						<ul id="main-header-links">
 							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us</a>
 								<ul>
