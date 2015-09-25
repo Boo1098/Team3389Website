@@ -30,7 +30,7 @@ if (isset($_GET["light"])) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	
-	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
@@ -61,7 +61,7 @@ if (isset($_GET["light"])) {
 				<td id="header-spacer"></td>
 				<td class="header-links" align="right" style="padding-right:10px">
 					<nav id="nav" role="navigation">
-					    <a href="#nav" title="Show navigation">Show navigation</a>
+					    <a href="#nav" title="Show navigation"><i class="material-icons">reorder</i></a>
 						<a href="#" title="Hide navigation">Hide navigation</a>
 						<ul id="main-header-links">
 							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us</a>
