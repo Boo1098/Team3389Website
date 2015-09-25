@@ -340,6 +340,7 @@ input.button:hover {
         #nav:target > a:last-of-type
         {
             display: block;
+			text-align:right;
         }
  
     /* first level */
