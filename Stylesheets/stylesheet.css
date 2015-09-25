@@ -137,7 +137,7 @@ table#header-table {
 	position:fixed;
 	border-bottom:2px #99620F solid;
 	z-index:100000000;
-	top:-5;
+	top:-5px;
 }
 
 table#about-us-content {
