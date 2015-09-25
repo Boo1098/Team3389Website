@@ -278,7 +278,7 @@ input.button:hover {
 
 #nav
 {
-    width:750px;
+    width:550px;
 }
     #nav > a
     {
@@ -303,6 +303,7 @@ input.button:hover {
             width: 25%;
             height: 50%;
             float: left;
+			text-align:left;
         }
  
     /* second level */
