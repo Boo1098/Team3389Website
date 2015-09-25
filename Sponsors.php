@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
-	<div class="main-body-texr" id="top">
+	<div class="main-body-text" id="top">
 		<h2 class="body-header font-effect-3d-float">2015 Sponsors</h2>
 		<div id="about-us-content" align="center">
 			<?php 
