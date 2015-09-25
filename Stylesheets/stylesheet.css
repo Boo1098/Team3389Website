@@ -293,7 +293,8 @@ input.button:hover {
  
     #nav > ul
     {
-        height: 3.75em;
+        height: 20px;
+		list-style-type: none;
     }
         #nav > ul > li
         {
