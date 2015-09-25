@@ -318,7 +318,9 @@ input.button:hover {
 		padding-top:10px;
 		padding-right:30px;
 		padding-bottom:10px;
+		padding-left:30px;
 		border:ridge;
+		border-color:orange;
     }
         #nav li:hover ul
         {
