@@ -279,7 +279,7 @@ input.button:hover {
 
 #nav
 {
-    width:550px;
+    width:455px;
 }
     #nav > a
     {
@@ -294,10 +294,10 @@ input.button:hover {
  
     #nav > ul
     {
-        height: 20px;
+        height: 35px;
 		list-style-type: none;
 		margin:0px;
-		padding-bottom:20px;
+		padding-bottom:0px;
     }
         #nav > ul > li
         {
@@ -305,6 +305,7 @@ input.button:hover {
             height: 100%;
             float: left;
 			text-align:center;
+			padding-bottom:5px;
         }
  
     /* second level */
