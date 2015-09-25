@@ -300,8 +300,8 @@ input.button:hover {
     }
         #nav > ul > li
         {
-            width: 25%;
-            height: 50%;
+            width: 50%;
+            height: 100%;
             float: left;
 			text-align:center;
         }
