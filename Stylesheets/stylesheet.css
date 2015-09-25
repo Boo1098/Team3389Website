@@ -345,6 +345,7 @@ input.button:hover {
 			text-align:right;
 			position:fixed;
 			top:-3px;
+			right:5px;
         }
  
     /* first level */
