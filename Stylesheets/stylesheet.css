@@ -364,6 +364,7 @@ input.button:hover {
         #nav > ul > li
         {
             width: 100%;
+			padding-left:0px;
             float: none;
         }
  
