@@ -312,7 +312,7 @@ input.button:hover {
     {
         display: none;
         position: absolute;
-        top: 25px;
+        top: 50px;
 		list-style-type:none;
 		background-color:#3A3A3A;
 		padding-top:10px;
