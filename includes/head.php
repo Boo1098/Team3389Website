@@ -70,13 +70,13 @@ if (isset($_GET["light"])) {
 									<li><a href="#">FTC</a></li>
 									<li><a href="contact.php">Contact Us</a><li>
 								</ul>
-							</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a>
 							</li><li><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History</a>
 								<ul>
 									<li><a href="hitory.php">FRC</a></li>
 									<li><a href="#">FTC</a></li>
 									<li><a href="#">Vex</a></li>
 								</ul>
+							</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a>
 							</li><li><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
 						</ul>
 					</nav>
