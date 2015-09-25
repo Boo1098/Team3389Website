@@ -359,8 +359,8 @@ input.button:hover {
 			background-color:#3A3A3A;
 			border:ridge;
 			border-color:orange;
-			width: 100px;
-			padding-left:0px;
+			width: 150px;
+			padding-left:15px;
         }
         #nav > ul > li
         {
