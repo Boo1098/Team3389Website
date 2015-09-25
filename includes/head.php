@@ -64,7 +64,7 @@ if (isset($_GET["light"])) {
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-48 md-light">reorder</i></a>
 						<a href="#" title="Hide navigation"><i class="material-icons md-48 md-light md-inactive">reorder</i></a>
 						<ul id="main-header-links">
-							<li style="width:120px"><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us &#9660;</a>
+							<li style="width:135px"><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us &#9660;</a>
 								<ul>
 									<li><a href="#">FRC</a></li>
 									<li><a href="#">FTC</a></li>
