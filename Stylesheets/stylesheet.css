@@ -358,6 +358,7 @@ input.button:hover {
 			background-color:#3A3A3A;
 			border:ridge;
 			border-color:orange;
+			width: 100px;
         }
         #nav > ul > li
         {
