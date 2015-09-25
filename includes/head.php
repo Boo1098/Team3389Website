@@ -64,13 +64,13 @@ if (isset($_GET["light"])) {
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-48 md-light">reorder</i></a>
 						<a href="#" title="Hide navigation"><i class="material-icons md-48 md-light md-inactive">reorder</i></a>
 						<ul id="main-header-links">
-							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us <i class="material-icons md-orange">keyboard_arrow_down</i></a>
+							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us <i class="material-icons md-orange md-36">keyboard_arrow_down</i></a>
 								<ul>
 									<li><a href="#">FRC</a></li>
 									<li><a href="#">FTC</a></li>
 									<li><a href="contact.php">Contact Us</a><li>
 								</ul>
-							</li><li><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History <i class="material-icons md-orange">keyboard_arrow_down</i></a>
+							</li><li><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History <i class="material-icons md-orange md-36">keyboard_arrow_down</i></a>
 								<ul>
 									<li><a href="hitory.php">FRC</a></li>
 									<li><a href="#">FTC</a></li>
