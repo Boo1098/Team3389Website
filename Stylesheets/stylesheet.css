@@ -336,6 +336,7 @@ input.button:hover {
     }
         #nav > a
         {
+		z-index:9999999999;
         }
         #nav:not( :target ) > a:first-of-type,
         #nav:target > a:last-of-type
