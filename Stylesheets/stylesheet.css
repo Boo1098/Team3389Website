@@ -360,6 +360,7 @@ input.button:hover {
 			border:ridge;
 			border-color:orange;
 			width: 100px;
+			padding-left:0px;
         }
         #nav > ul > li
         {
