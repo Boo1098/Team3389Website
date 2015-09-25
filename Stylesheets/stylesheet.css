@@ -297,7 +297,9 @@ input.button:hover {
         height: 35px;
 		list-style-type: none;
 		margin:0px;
-		padding-bottom:0px;
+		padding-top:10px;
+		padding-left:0px;
+		padding-bottom:5px;
     }
         #nav > ul > li
         {
@@ -314,7 +316,7 @@ input.button:hover {
     {
         display: none;
         position: absolute;
-        top: 30px;
+        top: 40px;
 		list-style-type:none;
 		background-color:#3A3A3A;
 		padding-top:10px;
