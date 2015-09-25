@@ -315,9 +315,10 @@ input.button:hover {
         top: 25px;
 		list-style-type:none;
 		background-color:#3A3A3A;
-		padding-top:15px;
+		padding-top:10px;
 		padding-right:30px;
-		padding-bottom:15px;
+		padding-bottom:10px;
+		border:ridge;
     }
         #nav li:hover ul
         {
