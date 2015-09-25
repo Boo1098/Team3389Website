@@ -344,6 +344,7 @@ input.button:hover {
             display: block;
 			text-align:right;
 			position:fixed;
+			top:-3px;
         }
  
     /* first level */
@@ -364,6 +365,7 @@ input.button:hover {
 			border-color:orange;
 			width: 150px;
 			padding-left:5px;
+			top:20px;
         }
         #nav > ul > li
         {
