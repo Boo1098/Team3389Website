@@ -295,6 +295,7 @@ input.button:hover {
     {
         height: 20px;
 		list-style-type: none;
+		margin:0px;
     }
         #nav > ul > li
         {
