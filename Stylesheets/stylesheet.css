@@ -354,9 +354,9 @@ input.button:hover {
     {
         height: auto;
         display: none;
-        position: absolute;
-        left: 0;
+        position: fixed;
         right: 0;
+		margin-top:28px;
     }
         #nav:target > ul
         {
