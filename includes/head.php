@@ -66,7 +66,7 @@ if (isset($_GET["light"])) {
 						<ul id="main-header-links">
 							<li><a  class="header-links hvr-grow" aria-haspopup="true" href="contact.php">Contact Us</a>
 								<ul>
-									<li>Test</li>
+									<li><a href="#">Test</a></li>
 								</ul>
 							</li><li><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a>
 							</li><li><a  class="header-links hvr-grow" href="history.php">History</a>

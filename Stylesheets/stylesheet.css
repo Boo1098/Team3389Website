@@ -321,8 +321,6 @@ input.button:hover {
 		padding-left:25px;
 		border:ridge;
 		border-color:orange;
-		-webkit-transition-duration: 0.3s;
-		transition-duration: 0.3s;
     }
         #nav li:hover ul
         {
