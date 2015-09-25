@@ -343,6 +343,7 @@ input.button:hover {
         {
             display: block;
 			text-align:right;
+			position:fixed;
         }
  
     /* first level */
