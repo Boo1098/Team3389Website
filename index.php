@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	
-		<div class="main-body-text hvr-underline-from-center" id="top">
+		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">About us!</h2>
 			
 			

@@ -3,7 +3,7 @@
 	
 	<body>
 	
-		<div class="main-body-text hvr-underline-from-center" id="top">
+		<div class="main-body-text" id="top">
 			<h2 class="body-header">About us!</h2>
 			
 			<table id="about-us-content">

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2013-2014</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
@@ -24,7 +24,7 @@
 
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header font-effect-3d-float">2013-2014</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
@@ -48,7 +48,7 @@
 
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2012-2013</h2>
 
 		<div id="about-us-content" style="width:100%" align="center">
@@ -76,7 +76,7 @@
 
 <!--Next Box------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2011-2012</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
@@ -104,7 +104,7 @@
 
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2010-2011</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
@@ -127,7 +127,7 @@
 
 <!--Next Box-------------------------------------------------------------------------------------------------------------------------------------->
 
-	<div class="main-body-text hvr-underline-from-center" id="top">
+	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2009-2010</h2>
 
 		<div id="about-us-content" style="width:100%" align="center">
