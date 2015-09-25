@@ -303,7 +303,6 @@ input.button:hover {
     }
         #nav > ul > li
         {
-            width: 25%;
             height: 100%;
             float: left;
 			text-align:center;
