@@ -77,8 +77,9 @@ if (isset($_GET["light"])) {
 						<ul id="main-header-links">
 							<li style="width:142px"><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us &#9660;</a>
 								<ul id="about-dropdown">
-									<li><a class="hvr-grow" href="#">FRC</a></li>
+									<li><a class="hvr-grow" href="about-frc.php">FRC</a></li>
 									<li><a class="hvr-grow" href="#">FTC</a></li>
+									<li><a class="hvr-grow" href="#">Vex</a></li>
 									<li><a class="hvr-grow" href="contact.php">Contact Us</a><li>
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
