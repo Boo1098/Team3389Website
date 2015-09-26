@@ -52,8 +52,8 @@ if (isset($_GET["light"])) {
 	</style>
 	</head>
 	<body>
-	<script src="includes/jquery.min.js"></script>
-	<script src="includes/doubletaptogo.js"></script>
+	<script src="includes/jquery-2.1.4.min.js"></script>
+	<script src="includes/doubletaptogo.min.js"></script>
 	<script>
 	$( function()
 	{
