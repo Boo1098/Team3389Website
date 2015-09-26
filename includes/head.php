@@ -47,6 +47,7 @@ if (isset($_GET["light"])) {
 			document.body.appendChild(sheet);
 			alert(location.hostname);			
 		}
+		alert("Hello\nHow are you?");
 	};)
 	</script>
 	<style>
