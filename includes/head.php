@@ -42,7 +42,9 @@ if (isset($_GET["light"])) {
 		if (check) {
 			
 		} else {
-			document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"Stylesheets/stylesheet-mobile.css\">");
+			var sheet = document.createElement('style')
+			sheet.innerHTML = "#nav{position:relative;z-index:999999999999}#nav > a{z-index:9999999999}#nav:not( :target ) > a:first-of-type,#nav:target > a:last-of-type{display:block;text-align:right;position:fixed;top:-3px;right:5px}#nav > ul{height:auto;display:none;position:fixed;right:0;margin-top:28px}#nav:target > ul{display:block;background-color:#3A3A3A;border:ridge;border-color:orange;width:200px;padding-left:5px;top:20px}#nav > ul > li{width:200px!important;padding-left:0;float:none;border-left:none;border-right:none}#nav li ul{position:static}";
+			document.body.appendChild(sheet);
 		}
 	};)
 	</script>
