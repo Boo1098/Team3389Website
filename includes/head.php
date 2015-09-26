@@ -52,6 +52,14 @@ if (isset($_GET["light"])) {
 	</style>
 	</head>
 	<body>
+	<script src="includes/jquery.min.js"></script>
+	<script src="includes/doubletaptogo.js"></script>
+	<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
 <div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<header>
 		<table style="width:100%" id="header-table">
