@@ -72,7 +72,7 @@ if (isset($_GET["light"])) {
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
 								<ul>
-									<li><a href="hitory.php">FRC</a></li>
+									<li><a href="history.php">FRC</a></li>
 									<li><a href="#">FTC</a></li>
 									<li><a href="#">Vex</a></li>
 								</ul>
