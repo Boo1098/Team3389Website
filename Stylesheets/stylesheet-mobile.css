@@ -55,5 +55,9 @@
     }
 	
 #header-table {
-	height:50px !important;
+	height:100px !important;
+}
+
+#head-text {
+	font-size:120%;
 }
