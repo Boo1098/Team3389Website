@@ -49,11 +49,18 @@
  
     /* second level */
  
-    #nav li ul
+    #about-dropdown
     {
-        position: static;
+        position: absolute;
+		left:-190px;
+		top:0px;
     }
-	
+	#history-dropdown
+    {
+        position: absolute;
+		left:-112px;
+		top:0px;
+    }
 #header-table {
 	height:100px !important;
 }
