@@ -39,7 +39,7 @@
 
 				<p>We placed 19th out of all the teams attending</p>
 
-				<p align="left">We have a great team with many veterans and new students all excited to build the robot for this year`s game Aerial Assist.</p>
+				<p align="left">We have a great team with many veterans and new students all excited to build the robot for this year`s game Aerial Assist. The finished result was "Sketchy", The lovable frisbee shooting robot.</p>
 
 			</div>
 		</div>
