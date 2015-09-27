@@ -42,7 +42,7 @@
 					<tr>
 					<td>
 						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
+							<img align="left" src="resources/first-logo-reversed.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
 						</a>
 					</td>
 					<td valign="center">
