@@ -17,7 +17,6 @@
 
 				<p align="left">Our team did good overall with many new students and some old.
 					Overall we did very well at the competition even though we placed lower than usual.</p>
-					Overall we did very well at the competition even though we placed lower than usual.</p>
 			</div>
 		</div>
 	</div>
