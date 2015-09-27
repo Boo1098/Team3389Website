@@ -6,7 +6,7 @@
 			
 			
 					 
-			<br><br>
+			<br />
 			<div id="about-us-content">
 				<img style="float:left;" src="resources/logo2-small.png" alt="us" height="200px" width="relative" >
 				<p>We are FIRST (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers.
