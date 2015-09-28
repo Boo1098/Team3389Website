@@ -73,9 +73,11 @@
 	height:100px !important;
 }
 
-#head-text a {
-	font-size:120%;
+#head-text {
+	font-size:300% !important;
 }
+
+
 
 .main-body-text {
 	margin-top:100px !important;
