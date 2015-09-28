@@ -3,24 +3,11 @@
 	<div class="main-body-text" id="top">
 		<h2 class="body-header font-effect-3d-float">2015 Sponsors</h2>
 		<div id="about-us-content" align="center">
-			<?php 
-					include ("markdown.php"); 
-					$Parsedown = new Parsedown();
-						
-					$f = fopen("Markdown/Sponsors.txt", "r");
-						
-					$markdown = fread($f, 9999999);
-						
-					//$tableHtml = strtok($markdown,'+++');			
-					$markdown = strtok($markdown,'+++');
-						
-					$html = $Parsedown->text($markdown);
-						
-						
-						
-						
-					echo $html;
-			?>
+			<img src="resources/sponsors/nasa.png" alt="nasa" height="200px">
+			<img src="resources/sponsors/ace.png" alt="ace" height="200px">
+			<img src="resources/sponsors/community-foundation.png" alt="Community Foundation" height="200px">
+			<img src="resources/sponsors/Parkside-CTE.png" alt="Parkside CTE" height="200px">
+			<img src="resources/sponsors/techub.png" alt="TEC hub" height="200px">
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>
