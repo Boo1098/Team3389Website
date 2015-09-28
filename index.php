@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-var $title = Home;
+$title = Home;
 include("includes/head.php");?>
 	
 		<div class="main-body-text" id="top">
