@@ -49,6 +49,10 @@
  
     /* second level */
 	
+	#nav li ul {
+		display:static !important;
+	}
+	
 	/*test
 	
    #about-dropdown
