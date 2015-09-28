@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	<div class="main-body-text " id="top">
-		<h2 class="body-header   font-effect-3d-float">2013-2014</h2>
+		<h2 class="body-header   font-effect-3d-float">2014-2015</h2>
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
