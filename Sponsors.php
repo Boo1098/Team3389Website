@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php include("includes/head.php");?>
+<?php 
+$title = "Sponsors";
+include("includes/head.php");
+?>
 	<div class="main-body-text" height="400px" id="top">
 		<h2 class="body-header font-effect-3d-float">2015 Sponsors</h2>
 		<div id="about-us-content" height="200px "align="center">

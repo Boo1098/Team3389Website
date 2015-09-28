@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php 
-$title = Home;
-include("includes/head.php");?>
+$title = "Home";
+include("includes/head.php");
+?>
 	
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">About us!</h2>

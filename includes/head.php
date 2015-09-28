@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title><?php echo $title;?>Tec Tigers: Team 3389</title>
+		<title><?php echo $title;?> | Tec Tigers: Team 3389</title>
 <?php
 session_start();
 
