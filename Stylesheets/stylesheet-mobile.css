@@ -50,7 +50,8 @@
     /* second level */
 	
 	#nav li ul {
-		position :static !important;
+		position:static !important;
+		display: block !important;
 	}
 	
 	/*test
