@@ -48,8 +48,10 @@
         }
  
     /* second level */
- 
-    #about-dropdown
+	
+	/*test
+	
+   #about-dropdown
     {
         position: absolute;
 		left:-190px;
@@ -61,6 +63,7 @@
 		left:-112px;
 		top:0px;
     }
+	*/
 #header-table {
 	height:100px !important;
 }
