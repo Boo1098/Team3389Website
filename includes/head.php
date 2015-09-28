@@ -79,14 +79,23 @@ if (isset($_GET["light"])) {
 								<ul id="about-dropdown">
 									<li><a class="hvr-grow" href="about-frc.php">FRC</a></li>
 									<li><a class="hvr-grow" href="about-ftc.php">FTC</a></li>
+									<!-- I don't actually know anything about this... :(
+									
 									<li><a class="hvr-grow" href="#">Vex</a></li>
-									<li><a class="hvr-grow" href="contact.php">Contact Us</a><li>
+									
+									-->
+									
+									<li><a class="hvr-grow" href="contact.php">Contact Us</a><li> 
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
 								<ul id="history-dropdown">
 									<li><a class="hvr-grow" href="history.php">FRC</a></li>
-									<!-- No History yet :P <li><a class="hvr-grow" href="#">FTC</a></li>
-									<li><a class="hvr-grow" href="#">Vex</a></li>-->
+									<!-- No History yet :P 
+									
+									<li><a class="hvr-grow" href="#">FTC</a></li>
+									<li><a class="hvr-grow" href="#">Vex</a></li>
+									
+									-->
 								</ul>
 							</li><li style="width:115px"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a>
 							</li><li style="width:100px"><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
