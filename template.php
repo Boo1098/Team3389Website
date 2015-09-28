@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<?php include("includes/head.php"); ?>
+<?php include("includes/head.php");?>
 	
-	<body>
-	
-		<div class="main-body-text hvr-underline-from-center" id="top">
-			<h2 class="body-header">About us!</h2>
+		<div class="main-body-text" id="top">
+			<h2 class="body-header font-effect-3d-float">About us!</h2>
 			
-			<table id="about-us-content">
-				<tr>
-					<td><img src="resources/logo.png" alt="us" height="200px" width="relative" class="hvr-grow">
-					</td>
-					<td>
-						<p class="body-text">We are <a class="body-link" href="#">TEST</a> (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers. We are located at Parkside High School - CTE, Wicomico County, Salisbury MD 21804.</p>
-					</td>
-				</tr>
-			</table>
+			<br />
+			<div id="about-us-content">
+				<img style="float:left;" src="resources/FRC-logo-reversed.png" alt="frc" height="200px" width="relative">
+				<p class="body-text">FRC is the FIRST robotics competition. Each year, teams from across the country build a robot to complete a specific task and then take to competitions. Our team has been doing FRC for the past 7??? years. Last years challenge was called <a class="body-link" href="https://www.youtube.com/watch?v=W6UYFKNGHJ8">Recycle Rush</a>. The challenge was to make a robot that can pick up crates and move them into a storing area. Other parts include putting recycling bins on top of the stacks of crates as a multiplier and putting "litter" into the recycling bins for points. Our robot last year, name "This side UP", was made pneumatics lifted up the crates and stacked them simultaneously.</p>
 		</div>
 	</body>
 </div>

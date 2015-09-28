@@ -23,10 +23,10 @@
 						
 						if (isset($_SESSION["theme"])) {
 							if ($_SESSION["theme"] == "light") {
-								echo "<a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n";							
+								echo "<!---<a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n-->";							
 							}
 							if ($_SESSION["theme"] == "dark") {
-								echo "<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n";							
+								echo "<!---<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
 							}
 						}
 						?>
@@ -36,33 +36,33 @@
 			</table>
 			
 			<div style="background-color:#3A3A3A;align:center;">
-					<div style="width:100%;height:100px">
+				<div style="width:100%;height:100px">
 					<table width="98%">
-					<tbody>
-					<tr>
-					<td>
-						<a href="http://usfirst.org">
-							<img align="left" src="resources/first.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
-						</a>
-					</td>
-					<td valign="center">
-						<a style="display:block; margin-left:auto; margin-right:auto" target="_blank" href="http://tecfound.org">
+						<tbody>
+							<tr>
+								<td class="footer-images">
+									<a target="_blank" href="http://usfirst.org">
+										<img align="left" src="resources/first-logo-horizontal-reversed.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
+									</a>
+								</td>
 
-							<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
+								<td class="footer-images" valign="center">
+									<a target="_blank" href="http://tecfound.org">
+										<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
+									</a>
+								</td>
 
-						</a>
-					</td>
-					<td>
-						<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
-							<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
-						</a>
-					</td>
-					</tr>
-					</tbody>
+								<td class="footer-images">
+									<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
+										<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
+									</a>
+								</td>
+							</tr>
+						</tbody>
 					</table>
-					</div>
-					<p style="padding-top:10px;padding-left:5px;margin:0px;float:left;"align="left"><a style="margin:0px;" href="http://github.com/boo1098/nathan" target="_blank" class="hvr-buzz">Fork me on github!</a></p>
-					<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>
+				</div>
+				<p style="padding-top:10px;padding-left:5px;margin:0px;"align="left"><a style="margin:0px;" href="http://github.com/boo1098/nathan" target="_blank" class="hvr-buzz">Fork me on github!</a></p>
+				<!---<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>--->
 				
 			</div>
 		</div>

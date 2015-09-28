@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <?php include("includes/head.php");?>
 	
-		<div class="main-body-text hvr-underline-from-center" id="top">
+		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">About us!</h2>
 			
 			
 					 
-			<br><br>
+			<br />
 			<div id="about-us-content">
 				<img style="float:left;" src="resources/logo2-small.png" alt="us" height="200px" width="relative" >
-				<p>We are FIRST (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers.
+				<p>We are <em>FIRST</em> (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers.
 					We are located at Parkside High School - CTE, Wicomico County, Salisbury MD 21804.</p>
 
 				<p>Our team is comprised of high school students from schools including Parkside, Wicomico (Wi-Hi), James M Bennett and Mardela high schools.

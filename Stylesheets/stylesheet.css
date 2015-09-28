@@ -137,6 +137,7 @@ table#header-table {
 	position:fixed;
 	border-bottom:2px #99620F solid;
 	z-index:100000000;
+	top:-5px;
 }
 
 table#about-us-content {
@@ -149,12 +150,16 @@ table#about-us-content {
 }
 
 .main-body-text {
+	position:relative;
 	background:#3A3A3A;
-	margin-left:10%;
-	width:80%;
+	left:10%;
 	margin-top:20px;
 	padding:10px;
 	margin-bottom:15px;
+	width: -moz-calc(80% - 40px);
+    width: -webkit-calc(80% - 40px);
+    width: -o-calc(80% - 40px);
+    width: calc(80% - 40px);
 }
 div#about-us-content p {
 	font-size:18px;
@@ -200,6 +205,10 @@ h2.body-header>a:hover{
 	padding:0px;
 	margin:0px;
 	font-size:20px;
+}
+
+.footer-images {
+	width:33%;
 }
 
 .body-text {
@@ -274,8 +283,77 @@ input.button:hover {
     background: orange;
 }
 
-img[alt="Parkside CTE"] { height: 150px; float:left;}
-img[alt="Tec Foundation"] { width: 200px; float:right;}
-img[alt="Nasa"] {float:left; }
-img[alt="Community Foundation"] { height: 170px; float:right; }
-img[alt="Ace"] { float:left; }
+.sponsor-images  {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+/*Style for header*/
+
+#nav
+{
+    width:501px;
+}
+    #nav > a
+    {
+        display: none;
+    }
+    #nav li
+    {
+        position: relative;
+    }
+ 
+    /* first level */
+ 
+    #nav > ul
+    {
+        height: 35px;
+		list-style-type: none;
+		margin:0px;
+		padding-top:10px;
+		padding-left:0px;
+		padding-bottom:5px; 
+    }
+        #nav > ul > li
+        {
+            height: 100%;
+            float: left;
+			text-align:center;
+			padding-bottom:5px;
+			border-left:ridge;
+			border-right:ridge;
+			border-color:orange;
+        }
+ 
+    /* second level */
+ 
+    #nav li ul
+    {
+        display: none;
+        position: absolute;
+        top: 40px;
+		list-style-type:none;
+		background-color:#3A3A3A;
+		padding-top:10px;
+		padding-right:30px;
+		padding-bottom:10px;
+		padding-left:25px;
+		border:ridge;
+		border-color:orange;
+    }
+        #nav li:hover ul
+        {
+            display: block;
+        }
+
+
+/*style for header*/
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-big { font-size:100px; }
+.material-icons.md-orange{ color: #FFA500; }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
