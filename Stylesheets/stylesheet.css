@@ -207,6 +207,10 @@ h2.body-header>a:hover{
 	font-size:20px;
 }
 
+.footer-images {
+	width:33%;
+}
+
 .body-text {
 	font-size:110%;
 	line-height: 145%;
@@ -283,6 +287,7 @@ input.button:hover {
 	padding-left:20px;
 	padding-right:20px;
 }
+
 
 /*Style for header*/
 

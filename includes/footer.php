@@ -40,19 +40,19 @@
 					<table width="98%">
 						<tbody>
 							<tr>
-								<td>
-									<a href="http://usfirst.org">
+								<td class="footer-links">
+									<a target="_blank" href="http://usfirst.org">
 										<img align="left" src="resources/first-logo-reversed.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
 									</a>
 								</td>
 
-								<td valign="center">
-									<a style="display:block; margin-left:auto; margin-right:auto" target="_blank" href="http://tecfound.org">
+								<td class="footer-links" valign="center">
+									<a target="_blank" href="http://tecfound.org">
 										<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
 									</a>
 								</td>
 
-								<td>
+								<td class="footer-links">
 									<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
 										<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
 									</a>
