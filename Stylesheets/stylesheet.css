@@ -347,9 +347,3 @@ input.button:hover {
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
-
-img[alt="Parkside CTE"] { height: 150px; float:left;}
-img[alt="Tec Foundation"] { width: 200px; float:right;}
-img[alt="Nasa"] {float:left; }
-img[alt="Community Foundation"] { height: 170px; float:right; }
-img[alt="Ace"] { float:left; }
