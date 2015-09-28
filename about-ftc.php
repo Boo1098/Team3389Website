@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php include("includes/head.php");?>
+<?php
+$title = "FTC History";
+include("includes/head.php");
+?>
 	
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">About FTC</h2>
