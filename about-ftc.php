@@ -2,7 +2,7 @@
 <?php include("includes/head.php");?>
 	
 		<div class="main-body-text" id="top">
-			<h2 class="body-header font-effect-3d-float">About us!</h2>
+			<h2 class="body-header font-effect-3d-float">About FTC</h2>
 			
 			<br />
 			<div id="about-us-content">
