@@ -98,7 +98,11 @@ if (isset($_GET["light"])) {
 									-->
 								</ul>
 							</li><li style="width:115px"><a  class="header-links hvr-grow" href="Sponsors.php">Sponsors</a>
+							<!-- I don't feel like writing this right now :p1
+							
 							</li><li style="width:100px"><a  class="header-links hvr-grow" href="mentors.php">Mentors</a></li>
+							
+							-->
 						</ul>
 					</nav>
 				</td></tr>
