@@ -12,9 +12,9 @@
         {
             display: block;
 			text-align:right;
-			position:fixed;
 			top:-3px;
-			right:10%;
+			position: static;
+			padding-right:10%;
         }
  
     /* first level */
@@ -77,8 +77,6 @@
 	font-size:300% !important;
 }
 
-
-
-.main-body-text {
-	margin-top:100px !important;
+table#header-table {
+	position: static !important;
 }
