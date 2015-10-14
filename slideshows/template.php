@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php include("includes/head.php");?>
+<?php 
+$title = "Pictures";
+include("includes/head.php");
+?>
 	
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">Pictures</h2>
