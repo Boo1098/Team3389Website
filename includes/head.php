@@ -32,8 +32,8 @@ if (isset($_GET["light"])) {
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css">
+	<link rel="stylesheet" type="text/css" href="http://nathan.team3389.info/Stylesheets/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="http://nathan.team3389.info/Stylesheets/hover.css">
 	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js">
 	<style>
 	<?php
