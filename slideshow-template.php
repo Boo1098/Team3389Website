@@ -16,7 +16,7 @@ include("../includes/head.php");
 				</style>
 
 				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-				<script src="jquery.slides.min.js"></script>
+				<script src="/slideshows/jquery.slides.min.js"></script>
 
 				<script>
 					$(function(){
