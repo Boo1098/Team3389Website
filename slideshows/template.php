@@ -11,11 +11,11 @@ include("../includes/head.php");
 			<div id="about-us-content">
 				
 				<div id="jslide">
-					<img src="http://placehold.it/350&text=01">
-					<img src="http://placehold.it/350&text=02">
-					<img src="http://placehold.it/350&text=03">
-					<img src="http://placehold.it/350&text=04">
-					<img src="http://placehold.it/350&text=05">
+					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0099ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=ff99ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0f99ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=00ffff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=009fff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
 				</div>
 
 				<!-- SCRIPTS -->
