@@ -161,7 +161,7 @@ table#about-us-content {
     width: -o-calc(80% - 40px);
     width: calc(80% - 40px);
 }
-div#about-us-content p {
+div#about-us-content p, div#about-us-content ol {
 	font-size:18px;
 	line-height: 1.5;
 	color:white;
