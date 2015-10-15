@@ -40,10 +40,10 @@ if (isset($_GET["light"])) {
 	session_start();
 	if (isset($_SESSION["theme"])) {
 		if ($_SESSION["theme"] == "dark") {
-			include('Stylesheets/dark.css');	
+			include('http://nathan.team3389.info/Stylesheets/dark.css');	
 		}
 		if ($_SESSION["theme"] == "light") {
-			include('Stylesheets/light.css');
+			include('http://nathan.team3389.info/Stylesheets/light.css');
 		}
 	}
 	
