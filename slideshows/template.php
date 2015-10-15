@@ -8,6 +8,7 @@ include("../includes/head.php");
 				display:none;
 			}
 		</style>
+		<script src="jquery.slides.min.js"></script>
 		
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">Pictures</h2>
