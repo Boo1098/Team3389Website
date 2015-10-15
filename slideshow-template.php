@@ -3,34 +3,36 @@
 $title = "Pictures";
 include("../includes/head.php");
 ?>
-		<style>
-			#slides {
-				display:none;
-			}
-		</style>
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="jquery.slides.min.js"></script>
-		
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">Pictures</h2>
 			
 			<br />
 			<div id="about-us-content">
+				<style>
+					/* Prevents slides from flashing */
+					#slides {
+						display:none;
+					}
+				</style>
+
+				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+				<script src="jquery.slides.min.js"></script>
+
 				<script>
-					$(function() {
+					$(function(){
 						$("#slides").slidesjs({
-							width:500,
-							height:500
-						})
-					})
+							width: 940,
+							height: 528
+						});
+					});
 				</script>
-				
+			
 				<div id="slides">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0099ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=ff99ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=0f99ff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=00ffff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
-					<img src="https://placeholdit.imgix.net/~text?txtsize=28&bg=009fff&txtclr=ffffff&txt=300%C3%97300&w=300&h=300&fm=png">
+					<img src="http://placehold.it/940x528">
+					<img src="http://placehold.it/940x528">
+					<img src="http://placehold.it/940x528">
+					<img src="http://placehold.it/940x528">
+					<img src="http://placehold.it/940x528">
 				</div>
 			</div>
 		</div>
