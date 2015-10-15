@@ -3,7 +3,10 @@
 $title = "Pictures";
 include("../includes/head.php");
 ?>
-	
+		<style>
+			#jslide { width: 350px; height: 350px; overflow: hidden; }
+		</style>
+		
 		<div class="main-body-text" id="top">
 			<h2 class="body-header font-effect-3d-float">Pictures</h2>
 			
