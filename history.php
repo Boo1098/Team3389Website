@@ -132,8 +132,16 @@ include("includes/head.php");
 				<p>Regional Attending: Chesapeake Regional</p>
 
 				<p>Placed 36th out of 60 teams present</p>
-
-				<p align="left">The team was able to build a robot that performed the game tasks quite well, and our mini-bot performed above expectations. During the event we learned about Murphy`s Law when our mini-bot that previously had had no issues started burning out motors and releasing "the magic smoke". The robot performed consistently well regardless of who was driving it. Unfortunately we did not have autonomous code so we missed out on those possible points. Even with these hurdles the team was able to place 36th overall. </p>
+				
+				<!--- Thanks for writing this! --->
+				<p align="left">During the second year the students tried their best to persevere even with only one year experience from the "elites" of the group. With a tough set of rules and constraints the team built a functional robot with little to no initial problems, however after arriving at the competition problems began to arise in the form of that magic smoke you see only three times in life:
+					<ol>
+						<li>When you get Mr. Miles angry</li>
+						<li>When you burn out a motor</li>
+						<li>When Mrs. Miles sees a you drinking in the lab</li>
+					</ol>
+				Even with these issues  we managed to come in 36<sup>th</sup> out of 60 teams competing.
+				</p>
 
 			</div>
 		</div>
