@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php 
 $title = "Pictures";
-include("includes/head.php");
+include("../includes/head.php");
 ?>
 	
 		<div class="main-body-text" id="top">
