@@ -8,7 +8,7 @@ include("../includes/head.php");
 				display:none;
 			}
 		</style>
-		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="jquery.slides.min.js"></script>
 		
 		<div class="main-body-text" id="top">
