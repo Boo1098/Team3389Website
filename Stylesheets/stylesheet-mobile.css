@@ -23,7 +23,7 @@
     {
         height: auto;
         display: none;
-        position: fixed;
+        position: absolute;
         right: 0;
 		margin-top:28px;
     }
