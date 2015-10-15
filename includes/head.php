@@ -38,14 +38,14 @@ if (isset($_GET["light"])) {
 	<style>
 	<?php
 	session_start();
-	if (isset($_SESSION["theme"])) {
+	/*if (isset($_SESSION["theme"])) {
 		if ($_SESSION["theme"] == "dark") {
 			include('http://nathan.team3389.info/Stylesheets/dark.css');	
 		}
-		if ($_SESSION["theme"] == "light") {
+		if ($_SESSION["theme"] == "light") {*/
 			include('http://nathan.team3389.info/Stylesheets/light.css');
-		}
-	}
+		/*}
+	}*/
 	
 	?>
 	</style>
