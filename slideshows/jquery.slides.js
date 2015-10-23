@@ -115,16 +115,16 @@
       });
       if (this.options.navigation.active) {
         prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation",
+          "class": "slidesjs-previous slidesjs-navigation material-icons",
           href: "#",
           title: "Previous",
-          text: "<i class=\"material-icons\">arrow_back</i> Previous"
+          text: "arrow_back Previous"
         }).appendTo($element);
         nextButton = $("<a>", {
-          "class": "slidesjs-next slidesjs-navigation",
+          "class": "slidesjs-next slidesjs-navigation material-icons",
           href: "#",
           title: "Next",
-          text: "Next <i class=\"material-icons\">arrow_forward</i>"
+          text: "Next arrow_forward"
         }).appendTo($element);
       }
       $(".slidesjs-next", $element).click(function(e) {
