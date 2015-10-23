@@ -13,7 +13,7 @@
         effect: "slide"
       },
       pagination: {
-        active: false,
+        active: true,
         effect: "slide"
       },
       play: {
