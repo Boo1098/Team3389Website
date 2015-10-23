@@ -9,7 +9,7 @@
       height: 528,
       start: 1,
       navigation: {
-        active: true,
+        active: false,
         effect: "slide"
       },
       pagination: {
@@ -17,7 +17,7 @@
         effect: "slide"
       },
       play: {
-        active: false,
+        active: true,
         effect: "slide",
         interval: 5000,
         auto: false,
