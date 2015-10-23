@@ -118,13 +118,13 @@
           "class": "slidesjs-previous slidesjs-navigation",
           href: "#",
           title: "Previous",
-          text: "Previous"
+          text: "<i class=\"material-icons\">arrow_back</i> Previous"
         }).appendTo($element);
         nextButton = $("<a>", {
           "class": "slidesjs-next slidesjs-navigation",
           href: "#",
           title: "Next",
-          text: "Next"
+          text: "Next <i class=\"material-icons\">arrow_forward</i>"
         }).appendTo($element);
       }
       $(".slidesjs-next", $element).click(function(e) {
