@@ -30,7 +30,7 @@ include("includes/head.php");
 				<div id="slides">
 					<?php
 						$dirname = "http://nathan.team3389.info/resources/pictures/12-13/";
-						$images = glob($dirname.*);
+						$images = glob($dirname."*.jpg");
 						foreach($images as $image) {
 						echo '<img src="'.$image.'" />';
 						}
