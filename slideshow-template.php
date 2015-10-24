@@ -30,7 +30,7 @@ include("includes/head.php");
 				<div id="slides">
 					<?php
 
-						   $files = glob("http://nathan.team3389.info/resources/pictures/12-13/*.*");
+						   $files = glob("/resources/pictures/12-13/*.*");
 							echo $files[0];
 						  for ($i=1; $i<count($files); $i++)
 
