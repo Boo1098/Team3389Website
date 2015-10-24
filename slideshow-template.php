@@ -29,11 +29,31 @@ include("includes/head.php");
 			
 				<div id="slides">
 					<?php
-						$dirname = "http://nathan.team3389.info/resources/pictures/12-13/";
-						$images = glob($dirname."*.jpg");
-						foreach($images as $image) {
-						echo '<img src="'.$image.'" />';
+
+						   $files = glob("http://nathan.team3389.info/resources/12-13/*.*");
+
+						  for ($i=1; $i<count($files); $i++)
+
+						{
+
+						$image = $files[$i];
+						$supported_file = array(
+							'gif',
+							'jpg',
+							'jpeg',
+							'png'
+						);
+
+						$ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
+						if (in_array($ext, $supported_file)) {
+							print $image ."<br />";
+							echo '<img src="'.$image .'" alt="Random image" />';
+						} else {
+							continue;
+						 }
+
 						}
+
 					?>
 				</div>
 			</div>
