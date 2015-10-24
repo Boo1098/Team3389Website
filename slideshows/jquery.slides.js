@@ -9,7 +9,7 @@
       height: 528,
       start: 1,
       navigation: {
-        active: false,
+        active: true,
         effect: "slide"
       },
       pagination: {
@@ -115,16 +115,16 @@
       });
       if (this.options.navigation.active) {
         prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation material-icons",
+          "class": "slidesjs-previous slidesjs-navigation",
           href: "#",
           title: "Previous",
-          text: "arrow_back Previous"
+          text: "&#9664; Previous"
         }).appendTo($element);
         nextButton = $("<a>", {
-          "class": "slidesjs-next slidesjs-navigation material-icons",
+          "class": "slidesjs-next slidesjs-navigation",
           href: "#",
           title: "Next",
-          text: "Next arrow_forward"
+          text: "Next &#9654;"
         }).appendTo($element);
       }
       $(".slidesjs-next", $element).click(function(e) {

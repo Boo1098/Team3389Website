@@ -34,8 +34,6 @@ include("../includes/head.php");
 					<img src="http://placehold.it/940x528">
 					<img src="http://placehold.it/940x528">
 				</div>
-				<a class="slidesjs-previous slidejs-navigation" href="#" title="Previous"><i class="material-icons">arrow_back</i> Previous</a>
-				<a class="slidesjs-previous slidejs-navigation" href="#" title="Previous">Next <i class="material-icons">arrow_forward</i></a>
 			</div>
 		</div>
 	</body>
