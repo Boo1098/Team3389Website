@@ -31,7 +31,7 @@ include("includes/head.php");
 					<?php
 						$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 						foreach ($files as $file)
-							print "<img src=\"plates/$file\" />";
+							print "<img src=\"http://nathan.team3389.info/resources/pictures/12-13/".substr(40, $file)."\" />";
 					?>
 				</div>
 			</div>
