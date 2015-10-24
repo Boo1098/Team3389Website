@@ -349,12 +349,12 @@ input.button:hover {
 
 /*slideshow*/
 
-.slidejs-previous a {
+.slidejs-previous {
 	font-size:2em;
 	left:0px;	
 }
 
-.slidejs-next a {
+.slidejs-next {
 	font-size:2em;
 	right:0px;
 	position:absolute;
