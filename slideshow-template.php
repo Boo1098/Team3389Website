@@ -31,7 +31,7 @@ include("includes/head.php");
 					<?php
 
 						   $files = glob("http://nathan.team3389.info/resources/12-13/*.*");
-							echo $files;
+							echo $files[0];
 						  for ($i=1; $i<count($files); $i++)
 
 						{
