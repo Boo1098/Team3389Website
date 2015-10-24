@@ -347,6 +347,18 @@ input.button:hover {
             display: block;
         }
 
+/*slideshow*/
+
+.slidejs-previous a {
+	font-size:2em;
+	left:0px;	
+}
+
+.slidejs-next a {
+	font-size:2em;
+	right:0px;
+	position:absolute;
+}
 
 /*style for header*/
 
