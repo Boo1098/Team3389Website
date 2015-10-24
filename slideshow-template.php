@@ -28,11 +28,13 @@ include("includes/head.php");
 				</script>
 			
 				<div id="slides">
-					<img src="http://placehold.it/940x528">
-					<img src="http://placehold.it/940x528"> 
-					<img src="http://placehold.it/940x528">
-					<img src="http://placehold.it/940x528">
-					<img src="http://placehold.it/940x528">
+					<?php
+						$dirname = "http://nathan.team3389.info/resources/pictures/12-13/";
+						$images = glob($dirname."*.jpg");
+						foreach($images as $image) {
+						echo '<img src="'.$image.'" />';
+						}
+					?>
 				</div>
 			</div>
 		</div>
