@@ -29,34 +29,9 @@ include("includes/head.php");
 			
 				<div id="slides">
 					<?php
-
-						$files = glob("/resources/pictures/13-14/photos/*.*");
-						
-						echo $files[1];
-						
-						for ($i=1; $i<count($files); $i++)
-
-							{
-
-							$image = $files[$i];
-							$supported_file = array(
-								'gif',
-								'jpg',
-								'jpeg',
-								'png'
-							);
-							echo "ran";
-
-						$ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
-						if (in_array($ext, $supported_file)) {
-							print $image ."<br />";
-							echo '<img src="'.$image .'" alt="Random image" />';
-						} else {
-							continue;
-						}
-
-						}
-
+						$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
+						foreach ($files as $file)
+							print "<img src=\"plates/$file\" />";
 					?>
 				</div>
 			</div>
