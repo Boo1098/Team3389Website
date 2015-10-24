@@ -30,19 +30,18 @@ include("includes/head.php");
 				<div id="slides">
 					<?php
 
-						   $files = glob("/resources/pictures/12-13/*.*");
-							echo $files[0];
-						  for ($i=1; $i<count($files); $i++)
+						$files = glob("/resources/pictures/13-14/photos/*.*");							
+						for ($i=1; $i<count($files); $i++)
 
-						{
+							{
 
-						$image = $files[$i];
-						$supported_file = array(
-							'gif',
-							'jpg',
-							'jpeg',
-							'png'
-						);
+							$image = $files[$i];
+							$supported_file = array(
+								'gif',
+								'jpg',
+								'jpeg',
+								'png'
+							);
 
 						$ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
 						if (in_array($ext, $supported_file)) {
@@ -50,7 +49,7 @@ include("includes/head.php");
 							echo '<img src="'.$image .'" alt="Random image" />';
 						} else {
 							continue;
-						 }
+						}
 
 						}
 
