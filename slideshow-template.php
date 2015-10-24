@@ -30,7 +30,10 @@ include("includes/head.php");
 				<div id="slides">
 					<?php
 
-						$files = glob("/resources/pictures/13-14/photos/*.*");							
+						$files = glob("/resources/pictures/13-14/photos/*.*");
+						
+						echo $files[1];
+						
 						for ($i=1; $i<count($files); $i++)
 
 							{
@@ -42,6 +45,7 @@ include("includes/head.php");
 								'jpeg',
 								'png'
 							);
+							echo "ran";
 
 						$ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
 						if (in_array($ext, $supported_file)) {
