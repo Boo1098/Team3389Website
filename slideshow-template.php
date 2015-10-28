@@ -35,7 +35,7 @@ include("includes/head.php");
 						/*background:url(pop-back.jpg) no-repeat;*/
 						/*width:400px;*/
 						/*height:400px;*/
-						border:5px solid #000;
+						/*border:5px solid #000;*/
 						z-index: 9002;
 					}
 
