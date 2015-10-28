@@ -57,7 +57,7 @@ include("includes/head.php");
 				<?php
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
-					foreach ($files as $file) {
+					foreach (/*$files as $file*/$times <= 2) {
 						print " <div id=\"blanket\" style=\"display:none;\"></div>
 								<div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
