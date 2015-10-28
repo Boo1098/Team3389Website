@@ -38,7 +38,7 @@ include("includes/head.php");
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" >Click to Close CSS Pop Up3</a>
 								</div>	
 								<a href=\"#\" onclick=\"popup('popUpDiv3')\"><img src=\"pop-back.jpg\" /></a>";
-						$times+=1;
+						$times=$times+1;
 				?>
 			</div>
 		</div>
