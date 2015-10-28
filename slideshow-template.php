@@ -60,7 +60,7 @@ include("includes/head.php");
 					foreach ($files as $file) {
 						if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
-									<div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
+									<div id=\"popUpDiv".$times."\" class=\"popUpDiv\" style=\"display:none;\">
 										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
 									</div>	
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>";
