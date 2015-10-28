@@ -57,12 +57,14 @@ include("includes/head.php");
 				<?php
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
-					while (/*$files as $file*/$times <= 2) {
-						print " <div id=\"blanket\" style=\"display:none;\"></div>
-								<div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
-									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
-								</div>	
-								<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>";
+					foreach ($files as $file) {
+						if($times <= 2) {
+							print " <div id=\"blanket\" style=\"display:none;\"></div>
+									<div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
+										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
+									</div>	
+									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>";
+						}
 						$times=$times+1;
 					}
 				?>
