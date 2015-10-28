@@ -17,6 +17,7 @@ include("includes/head.php");
 				<script type="text/javascript" src="slideshows/css-pop.js"></script>
 				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 				<script src="slideshows/jquery.slides.js"></script>
+				<script src="slideshows/lazyload.js"></script>
 				<style>
 				
 					#blanket {
@@ -49,6 +50,10 @@ include("includes/head.php");
 							height: 528
 						});
 					});
+					
+					$(function() {
+						$("img.lazy").lazyload();
+					});
 				</script>
 				
 				<div id="slides">
@@ -61,9 +66,9 @@ include("includes/head.php");
 						//if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
 									<div id=\"popUpDiv".$times."\" class=\"popUpDiv\" style=\"display:none;\">
-										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"max-width:90%; max-height:700px\" /></a>
+										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img class=\"lazy\" src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"max-width:90%; max-height:700px\" /></a>
 									</div>	
-									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"height:250px\"/></a>";
+									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img class=\"lazy\" src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"height:250px\"/></a>";
 						//}
 						$times=$times+1;
 					}
