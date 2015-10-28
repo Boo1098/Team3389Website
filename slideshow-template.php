@@ -61,7 +61,7 @@ include("includes/head.php");
 						//if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
 									<div id=\"popUpDiv".$times."\" class=\"popUpDiv\" style=\"display:none;\">
-										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
+										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"max-width:90%; max-height:700px\" /></a>
 									</div>	
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"height:250px\"/></a>";
 						//}
