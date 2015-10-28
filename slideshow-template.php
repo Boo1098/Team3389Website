@@ -28,16 +28,16 @@ include("includes/head.php");
 				</script>
 				
 				<div id="slides">
-					src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\"
+					
 				</div>
 				<?php
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
 						print " <div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
-									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" >Click to Close CSS Pop Up3</a>
+									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
 								</div>	
-								<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"pop-back.jpg\" /></a>";
+								<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>";
 						$times=$times+1;
 					}
 				?>
