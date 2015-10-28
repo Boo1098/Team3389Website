@@ -17,7 +17,31 @@ include("includes/head.php");
 				<script type="text/javascript" src="css-pop.js"></script>
 				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 				<script src="slideshows/jquery.slides.js"></script>
+				<style>
+				
+					#blanket {
+					   background-color:#111;
+					   opacity: 0.65;
+					   *background:none;
+					   position:absolute;
+					   z-index: 9001;
+					   top:0px;
+					   left:0px;
+					   width:100%;
+					}
 
+					.popUpDiv {
+						position:absolute;
+						/*background:url(pop-back.jpg) no-repeat;*/
+						/*width:400px;*/
+						/*height:400px;*/
+						border:5px solid #000;
+						z-index: 9002;
+					}
+
+					.popUpDiv a {position:relative; top:20px; left:20px}
+				</style>
+				
 				<script>
 					$(function(){
 						$("#slides").slidesjs({
@@ -34,7 +58,8 @@ include("includes/head.php");
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
-						print " <div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
+						print " <div id=\"blanket\" style=\"display:none;\"></div>
+								<div id=\"popUpDiv3\" class=\"popUpDiv".$times."\" style=\"display:none;\">
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>
 								</div>	
 								<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" /></a>";
