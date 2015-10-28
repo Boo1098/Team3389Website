@@ -14,7 +14,7 @@ include("includes/head.php");
 						display:none;
 					}
 				</style>
-				<script type="text/javascript" src="css-pop.js"></script>
+				<script type="text/javascript" src="slideshows/css-pop.js"></script>
 				<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 				<script src="slideshows/jquery.slides.js"></script>
 				<style>
