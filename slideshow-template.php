@@ -33,7 +33,7 @@ include("includes/head.php");
 				<?php
 					times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
-					foreach ($files as $file)
+					//foreach ($files as $file)
 						print " <div id=\"popUpDiv3\" class=\"popUpDiv\" style=\"display:none;\">
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" >Click to Close CSS Pop Up3</a>
 								</div>	
