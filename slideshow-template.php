@@ -63,21 +63,21 @@ include("includes/head.php");
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
-						
+						if($times<=2){
 						$imagick = new \Imagick(realpath("http://nathan.team3389.info/resources/pictures/".substr($file, 40)));
 						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
-						$imagick->thumbnailImage(100, 100, true, true);
+						$imagick->thumbnailImage(100, 100, false, true);
 						header("Content-Type: image/jpg");
 						echo $imagick->getImageBlob();
-						
+						}
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
 									<div id=\"popUpDiv".$times."\" class=\"popUpDiv\" style=\"display:none;\">
 										<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\" ><img class=\"lazy\" src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"max-width:90%; max-height:700px\" /></a>
 									</div>	
 									<a href=\"#\" onclick=\"popup('popUpDiv".$times."')\"><img class=\"lazy\" src=\"http://nathan.team3389.info/resources/pictures/".substr($file, 40)."\" style=\"height:250px\"/></a>";
-						//}
-						$times=$times+1;*/
+						//}*/
+						$times=$times+1;
 					}
 				?>
 			</div>
