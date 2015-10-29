@@ -64,7 +64,7 @@ include("includes/head.php");
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
 						
-						$imagick = new \Imagick(realpath("http://nathan.team3389.info/resources/pictures/".substr($file, 40)));
+						$imagick = new \Imagick(realpath($file));
 						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
 						$imagick->thumbnailImage(100, 100, false, true);
 						header("Content-Type: image/jpg");
