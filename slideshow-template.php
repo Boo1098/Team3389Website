@@ -61,14 +61,29 @@ include("includes/head.php");
 				</div>
 				<?php
 					$times=1;
-					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
+					function make_thumb($src, $dest, $desired_height) {
+						/* read the source image */
+						$source_image = imagecreatefromjpeg($src);
+						$width = imagesx($source_image);
+						$height = imagesy($source_image);
+	
+						/* find the “desired height” of this thumbnail, relative to the desired width  */
+						$desired_height = floor($width * ($desired_height / $height));
+	
+						/* create a new, “virtual” image */
+						$virtual_image = imagecreatetruecolor($desired_width, $desired_height);
+	
+						/* copy source image at a resized size */
+						imagecopyresampled($virtual_image, $source_image, 0, 0, 0, 0, $desired_width, $desired_height, $width, $height);
+	
+						/* create the physical thumbnail image to its destination */
+						imagejpeg($virtual_image, $dest);
+					}
+					
+					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
 						
-						$imagick = new \Imagick(realpath($file));
-						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
-						$imagick->thumbnailImage(100, 100, false, true);
-						header("Content-Type: image/jpg");
-						echo $imagick->getImageBlob();
+						make_thumb($file, "/var/www/html/nathan/resources/temp", 250)
 						
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
