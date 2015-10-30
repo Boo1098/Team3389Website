@@ -61,14 +61,19 @@ include("includes/head.php");
 				</div>
 				<?php
 					$times=1;
-					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{jpg,jpeg}", GLOB_BRACE);
+					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
+						echo "ran1";
 						$imagick = new \Imagick(realpath($imagePath));
+						echo "ran2";
 						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
+						echo "ran3";
 						$imagick->thumbnailImage(100, 100, true, true);
+						echo "ran4";
 						header("Content-Type: image/jpg");
+						echo "ran5";
 						echo $imagick->getImageBlob();
-						echo "ran";
+						echo "ran6";
 						
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
