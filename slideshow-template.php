@@ -98,7 +98,7 @@ include("includes/head.php");
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
 						
-						createThumbnail(substr($file, 40))
+						//createThumbnail(substr($file, 40))
 						
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
