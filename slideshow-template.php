@@ -83,7 +83,7 @@ include("includes/head.php");
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
 						
-						make_thumb($file, "/var/www/html/nathan/resources/temp", 250);
+						make_thumb($file, "/var/www/html/nathan/nathan/resources/temp", 250);
 						
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
