@@ -63,7 +63,7 @@ include("includes/head.php");
 					$times=1;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
-						echo "ran1";
+						echo "ran1".$file;
 						$imagick = new \Imagick(realpath($imagePath));
 						echo "ran2";
 						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
