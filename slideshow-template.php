@@ -60,20 +60,45 @@ include("includes/head.php");
 					
 				</div>
 				<?php
+					function createThumbnail($filename) {
+						$path_to_image_directory = '/var/www/html/nathan/resources/pictures/12-13/';
+						$path_to_thumbs_directory = '/var/www/html/nathan/resources/pictures/thumbs/';
+						
+						if(preg_match('/[.](jpg)$/', $filename)) {
+							$im = imagecreatefromjpeg($path_to_image_directory . $filename);
+						} else if (preg_match('/[.](gif)$/', $filename)) {
+							$im = imagecreatefromgif($path_to_image_directory . $filename);
+						} else if (preg_match('/[.](png)$/', $filename)) {
+							$im = imagecreatefrompng($path_to_image_directory . $filename);
+						}
+						 
+						$ox = imagesx($im);
+						$oy = imagesy($im);
+						 
+						$nx = floor($ox * (250 / $oy));
+						$ny = 250;
+						 
+						$nm = imagecreatetruecolor($nx, $ny);
+						 
+						imagecopyresized($nm, $im, 0,0,0,0,$nx,$ny,$ox,$oy);
+						 
+						if(!file_exists($path_to_thumbs_directory)) {
+						  if(!mkdir($path_to_thumbs_directory)) {
+							   die("There was a problem. Please try again!");
+						  } 
+						   }
+					 
+						imagejpeg($nm, $path_to_thumbs_directory . $filename);
+						$tn = '<img src="' . $path_to_thumbs_directory . $filename . '" alt="image" />';
+						$tn .= '<br />Congratulations. Your file has been successfully uploaded, and a      thumbnail has been created.';
+						echo $tn;
+					}
 					$times=1;
+					//$final_height_of_image = 250;
 					$files = glob("/var/www/html/nathan/resources/pictures/12-13/*.{png,jpg,jpeg}", GLOB_BRACE);
 					foreach ($files as $file) {
-						echo "ran1".$file;
-						$imagick = new \Imagick(realpath("http://nathan.team3389.info/resources/pictures/".substr($file, 40)));
-						echo "ran2";
-						$imagick->setbackgroundcolor('rgb(64, 64, 64)');
-						echo "ran3";
-						$imagick->thumbnailImage(100, 100, true, true);
-						echo "ran4";
-						header("Content-Type: image/jpg");
-						echo "ran5";
-						echo $imagick->getImageBlob();
-						echo "ran6";
+						
+						createThumbnail(substr($file, 40))
 						
 						/*if($times <= 2) {
 							print " <div id=\"blanket\" style=\"display:none;\"></div>
