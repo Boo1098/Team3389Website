@@ -62,7 +62,7 @@
 					</table>
 				</div>
 				<p style="padding-top:10px;padding-left:5px;margin:0px;"align="left"><a style="margin:0px;" href="http://github.com/boo1098/nathan" target="_blank" class="hvr-buzz">Fork me on github!</a></p>
-				<!---<p style="padding-top:10px;padding-right:5px;margin:0px;"align="right"><a style="margin:0px;" href="admin.php" class="hvr-buzz">admins</a></p>--->
+				<p style="position: absolute;right: 0px;bottom: -15px;"><a style="margin:0px;" href="#">&copy;2015 TEC Tigers, Team3389</a></p>
 				
 			</div>
 		</div>
