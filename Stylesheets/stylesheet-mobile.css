@@ -99,4 +99,5 @@ table#header-table {
 
 #full_width_mobile {
 	width:100% !important;
+	height:auto !important;
 }
