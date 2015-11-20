@@ -40,7 +40,7 @@ include("includes/head.php");
 					<a href="mailto:info@team3389.info">info@team3389.info</a> or call us at 410-742-9485.</p>
 			</div>
 		</div>
-<?php $mail=mail( "nathansd1098@gmail.com" , "hallo", "oh hia",'From: webmaster@example.com' );
+<?php $mail=mail( "nathansd1098@gmail.com" , "hallo", "oh hia",'From: webmaster@example.com', "-f nathan@team3389.info" );
 		echo $mail;
 ?>
 <?php include("includes/footer.php"); ?>
