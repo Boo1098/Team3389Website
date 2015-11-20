@@ -97,6 +97,6 @@ table#header-table {
 	padding:0px !important;
 }
 
-#logo_about {
-	width:100%;
+#full_width_mobile {
+	width:100% !important;
 }
