@@ -5,13 +5,11 @@ include("includes/head.php");
 ?>
 	
 		<div class="main-body-text" id="top">
-			<h2 class="body-header font-effect-3d-float">About us!</h2>
-			
-			
-					 
-			<br />
 			<div id="about-us-content">
-				<img style="float:left;" src="resources/tec_logo.svg" id="full_width_mobile" alt="us" height="200px" width="relative" >
+				<div id="image_center" width="750px">
+					<img style="float:left;" src="resources/tec_logo.svg" id="full_width_mobile" alt="us" width="750px" width="relative" >
+				</div>
+				
 				<p>We are <a href="http://www.firstinspire.org/"><em>FIRST</em></a> (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers.
 					We are located at Parkside High School - CTE, Wicomico County, Salisbury MD 21804.</p>
 
