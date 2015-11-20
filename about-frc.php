@@ -9,7 +9,7 @@ include("includes/head.php");
 			
 			<br />
 			<div id="about-us-content">
-				<img style="float:left;" src="resources/FRC-logo-reversed.png" alt="frc" height="200px" width="relative">
+				<img style="float:left;" src="resources/FRC-logo-reversed.png" class="full_mobile" alt="frc" height="200px" width="relative">
 				
 				<!--- THANKS for writing this ALEX --->
 				

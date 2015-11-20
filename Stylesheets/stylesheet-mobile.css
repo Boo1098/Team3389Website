@@ -97,7 +97,7 @@ table#header-table {
 	padding:0px !important;
 }
 
-#full_width_mobile {
+#full_width_mobile, .sponsor-images, .full_mobile {
 	width:100% !important;
 	height:auto !important;
 }
