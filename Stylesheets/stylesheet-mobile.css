@@ -96,3 +96,7 @@ table#header-table {
 #logo {
 	padding:0px !important;
 }
+
+#logo_about {
+	width:100%;
+}
