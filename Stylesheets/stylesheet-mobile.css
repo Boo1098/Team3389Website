@@ -84,6 +84,7 @@ table#header-table {
 .main-body-text {
 	left:0% !important;
 	width: auto !important;
-	border-bottom: 10px solid #696969 !important;
-	border-bottom: 10px solid #696969 !important;	
+	border-style: solid !important;
+	border-color: #696969 !important;
+	border-width: 10px 0px 10px 0px !important;
 }
