@@ -80,3 +80,15 @@
 table#header-table {
 	position: static !important;
 }
+
+.main-body-text {
+	left:0% !important;
+	width: auto !important;
+	border-style: solid !important;
+	border-color: #696969 !important;
+	border-width: 10px 0px 10px 0px !important;
+}
+
+#logo a img {
+	height: 100px !important;
+}

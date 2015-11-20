@@ -38,7 +38,7 @@ include("includes/head.php");
 		
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
-				<img style="width:506px;float: left;padding-right:20px" src="resources/TeamPic2014-small.jpg" alt="team"></img>
+				<img style="width:506px;float: left;padding-right:20px" src="resources/TeamPic2014.jpg" alt="team"></img>
 
 				<h2 class="body-header hvr-grow">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to">Ariel Assist</a></h2>
 
@@ -68,7 +68,7 @@ include("includes/head.php");
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
 				
-				<img style="width:506px;float: right;padding-left:20px" src="http://team3389.info/img/2013-regional-team-picture.jpg" alt="team"></img>
+				<img style="width:506px;float: right;padding-left:20px" src="resources/TeamPic2013.jpg" alt="team"></img>
 
 				<h2 class="body-header hvr-grow">2013 Game Animation - <a href="http://www.youtube.com/watch?v=wa5MGEZNrf0">Ultimate Ascent</a></h2>
 
@@ -96,7 +96,7 @@ include("includes/head.php");
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
 					
-				<img style="width:506px;float: left;padding-right:20px" src="http://team3389.info/img/teampic-2012-sm.jpg" alt="team"></img>
+				<img style="width:506px;float: left;padding-right:20px" src="resources/TeamPic2012.jpg" alt="team"></img>
 
 				<h2 class="body-header hvr-grow">2012 Game Animation - <a href="http://www.youtube.com/watch?v=nOXsdhZZSdM">Rebound Rumble</a></h2>
 
@@ -124,7 +124,7 @@ include("includes/head.php");
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
 		
-				<img style="width:506px;float:right;padding-left:20px" src="http://team3389.info/img/teampic-2011-sm.jpg" alt="team"></img>
+				<img style="width:506px;float:right;padding-left:20px" src="resources/TeamPic2011.jpg" alt="team"></img>
 
 				<h2 class="body-header hvr-grow">2011 Game Animation - <a href="http://www.youtube.com/watch?v=bk0QuuYLxqo">LogoMotion</a></h2>
 
@@ -156,7 +156,7 @@ include("includes/head.php");
 		<div id="about-us-content" style="width:100%" align="center">
 			<div align="center" style="width:100%" class="content">
 				
-				<img style="width:506px;float:left;padding-right:20px" src="http://team3389.info/img/teampic-2011-sm.jpg" alt="team"></img>
+				<img style="width:506px;float:left;padding-right:20px" src="resources/TeamPic2010.jpg" alt="team"></img>
 
 				<h2 class="body-header hvr-grow">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw">BreakAway</a></h2>
 
