@@ -40,8 +40,6 @@ include("includes/head.php");
 					<a href="mailto:info@team3389.info">info@team3389.info</a> or call us at 410-742-9485.</p>
 			</div>
 		</div>
-<?php echo mail( "nathansd1098@gmail.com" , "hallo", "oh hia" ); 
-		phpinfo();
-		php_ini_loaded_file();?>
+<?php echo mail( "nathansd1098@gmail.com" , "hallo", "oh hia",'From: webmaster@example.com' );?>
 <?php include("includes/footer.php"); ?>
 </html>
