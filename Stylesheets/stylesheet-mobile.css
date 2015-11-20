@@ -88,3 +88,7 @@ table#header-table {
 	border-color: #696969 !important;
 	border-width: 10px 0px 10px 0px !important;
 }
+
+#logo a img {
+	height: 100px !important;
+}
