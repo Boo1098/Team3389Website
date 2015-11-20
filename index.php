@@ -6,7 +6,7 @@ include("includes/head.php");
 	
 		<div class="main-body-text" id="top">
 			<div id="about-us-content">
-				<div id="image_center" width="750px" style="margin:auto">
+				<div id="image_center" width="750px" style="margin:auto;width:750px">
 					<img src="resources/tec_logo.svg" id="full_width_mobile" alt="us" width="750px" />
 				</div>
 				
