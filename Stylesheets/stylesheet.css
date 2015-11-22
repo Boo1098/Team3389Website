@@ -383,7 +383,7 @@ input.button:hover {
 	display:inline-block;
 }
 	#vex_select, #ftc_select, #frc_select {
-		width:33%;
+		width:33.3333%;
 		height:250px;
 		display:inline-block;
 	}
