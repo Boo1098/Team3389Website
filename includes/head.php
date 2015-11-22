@@ -61,8 +61,7 @@ if (isset($_GET["light"])) {
 		<table style="width:100%" id="header-table">
 			<tr>
 				<td width="77px" id="logo"><a href="http://www.team3389.info" class="font-effect-3d-float"><img src="resources/tec_logo_straight.svg" alt="logo" height="50px"></a></td>
-				<td id="header-spacer"></td>
-				<td class="header-links" align="right" style="padding-right:10px">
+				<td class="header-links" align="right">
 					<nav id="nav" role="navigation">
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-big md-light">reorder</i></a>
 						<a href="#" title="Hide navigation"><i class="material-icons md-big md-light md-inactive">reorder</i></a>

@@ -297,7 +297,11 @@ input.button:hover {
 
 #nav
 {
-    width:501px;
+	display:inline-block;
+	padding-right:-moz-calc(10% + 30px);
+    padding-right: -webkit-calc(10% + 30px);
+    padding-right: -o-calc(10% + 30px);
+    padding-right: calc(10% + 30px);
 }
     #nav > a
     {
