@@ -154,7 +154,7 @@ table#about-us-content {
 	background:#3A3A3A;
 	left:10%;
 	margin-top:20px;
-	padding:10px;
+	/*padding:10px;*/
 	margin-bottom:15px;
 	width: -moz-calc(80% - 40px);
     width: -webkit-calc(80% - 40px);
