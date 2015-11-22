@@ -182,7 +182,8 @@ div.dont-indent p {
 
 .body-header {
 	color:orange;
-	text-indent:10px;
+	text-indent:10px;	
+	font-size: 2em;
 }
 
 h2.body-header>a:link, h2.body-header>a:visited{
@@ -288,6 +289,9 @@ input.button:hover {
 	padding-right:20px;
 }
 
+.text {
+	padding:10px;
+}
 
 /*Style for header*/
 
