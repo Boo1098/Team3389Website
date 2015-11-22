@@ -325,9 +325,7 @@ input.button:hover {
             float: left;
 			text-align:center;
 			padding-bottom:5px;
-			border-left:ridge;
-			border-right:ridge;
-			border-color:orange;
+			padding: 0px 10px 0px 10px;
         }
  
     /* second level */
