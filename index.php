@@ -17,11 +17,13 @@ include("includes/head.php");
 					</div><!--
 					
 				---><div id="ftc_select">
-						<p>ftc!</p>
+						<p>FTC</p>
+						<p>Filler</p>
 					</div><!--
 					
 				---><div id="frc_select">
-						<p>FRC!</p>
+						<p>FRC</p>
+						<p>Filler</p>
 					</div>
 				</div>
 				<div class="text">
