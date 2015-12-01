@@ -12,7 +12,8 @@ include("includes/head.php");
 				
 				<div id="program_select">
 					<div id="vex_select">
-						<p>vex!</p>
+						<h2><a href="about_vex.php">Vex</a></h2>
+						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
 					</div><!--
 					
 				---><div id="ftc_select">
