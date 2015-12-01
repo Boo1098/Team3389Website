@@ -91,7 +91,6 @@ a:active {
 
 a.header-links {
 	white-space: nowrap;
-	align-text:right;
 	text-decoration:none;
 	font-size:25px;	
 }
@@ -99,10 +98,8 @@ a.header-links {
 .header-links {
 	white-space:no-wrap;
 	padding-top:3px;
-	position:inline;
 	color:orange;
 	font-size:25px;
-	white-space: nowrap;
 	min-width:50px;
 }
 
@@ -111,15 +108,13 @@ td.header-links {
 }
 
 div#about-us-content>p>a {
-	align-text:right;
 	text-decoration:none;
 	transition: all .75s ease-in-out;
 	-moz-transition: all .75s ease-in-out;
 }
 
 #links-menu{
-	right:0px:
-	align:right;
+	right:0px;
 }
 
 #logo {
@@ -227,14 +222,14 @@ table#about-us-content tr td p{
 	text-indent:50px;
 }
 
-.login {
+/*.login {
 	border-color:orange;
 	border-style:2px solid orange;
 	background-color:orange;
 	color:white;
 	text-decoration:bold;
 	font-size:150%;
-}
+}*/
 
 div.content p {
 	line-height:150% !important;
