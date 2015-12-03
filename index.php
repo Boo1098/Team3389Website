@@ -12,17 +12,17 @@ include("includes/head.php");
 				
 				<div id="program_select">
 					<div id="vex_select">
-						<h2><a href="about_vex.php">Vex</a></h2>
+						<h2>Vex</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
 					</div><!--
 					
 				---><div id="ftc_select">
-						<h2><a href="#">FTC</a></h2>
+						<h2>FTC</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
 					</div><!--
 					
 				---><div id="frc_select">
-						<h2><a href="#">FRC</a></h2>
+						<h2>FRC</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
 					</div>
 				</div>
