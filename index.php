@@ -14,16 +14,19 @@ include("includes/head.php");
 					<div id="vex_select">
 						<h2>Vex</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
 				---><div id="ftc_select">
 						<h2>FTC</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
 				---><div id="frc_select">
 						<h2>FRC</h2>
 						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div>
 				</div>
 				<div class="text">
