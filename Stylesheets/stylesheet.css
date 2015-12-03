@@ -386,6 +386,8 @@ input.button:hover {
 		#program_select div h2, #program_select div p {
 			color:white;
 			padding-left: 50px;
+			text-indent: 0px;
+			text-align:center;
 		}
 	
 	#vex_select {
