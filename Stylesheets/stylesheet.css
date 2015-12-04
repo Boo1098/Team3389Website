@@ -398,6 +398,10 @@ input.button:hover {
 			.more_info_button a:hover {
 				color:#AAAAAA
 			}
+			
+			.more_info_button a{
+				color:white;
+			}
 	
 	#vex_select {
 		background-color:green;
