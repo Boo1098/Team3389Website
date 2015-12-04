@@ -389,6 +389,15 @@ input.button:hover {
 			text-indent: 0px;
 			text-align:center;
 		}
+		
+		.more_info_button {
+			padding:20px;
+			border: 5px white solid;
+			color:white;
+		}
+			.more_info_button a:hover {
+				color:#AAAAAA
+			}
 	
 	#vex_select {
 		background-color:green;
