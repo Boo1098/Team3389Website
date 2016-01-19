@@ -19,7 +19,7 @@ include("includes/head.php");
 					
 				---><div id="ftc_select">
 						<h2>FTC</h2>
-						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<p>The newest addition to team3389, FTC focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
