@@ -25,7 +25,7 @@ include("includes/head.php");
 					
 				---><div id="frc_select">
 						<h2>FRC</h2>
-						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<p>Big robot that needs lots of teamwork and dedication witht only a 6 week period to work on it.</p>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div>
 				</div>
