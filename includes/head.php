@@ -24,7 +24,7 @@ if (isset($_GET["light"])) {
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css" />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css" />
-	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js" />
+	<script src="https://apis.google.com/js/platform.js"></script>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/light.css" />
 	<?php
 	session_start();
