@@ -124,7 +124,8 @@
 			</div>
 		</div>
 		
-		<p style="position:absolute;bottom:5px;left:5px;"><a href="https://github.com/Boo1098/Team3389Website">Fork Me on Github!</a></p>
+		<p style="pading-left:10px;"><a href="https://github.com/Boo1098/Team3389Website">Fork Me on Github!</a></p>
+		<p style="pading-left:10px;"><a href="#">&copy;2016 Team3389 TEC Tigers</a></p>
 	</footer>
 	
 	</body>
