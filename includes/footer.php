@@ -18,7 +18,7 @@
 					<a href="//plus.google.com/103918810376285135334/posts?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none; padding-top:10px; padding-left:20px;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
 					<div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="padding-top:5px;"></div>
 					
-					
+						-->
 						<?php
 						session_start();
 						
