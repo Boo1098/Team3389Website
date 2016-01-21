@@ -1,4 +1,5 @@
 	</div>
+	<!--
 	<footer>
 		<div id="footer-div">
 		
@@ -65,6 +66,12 @@
 				<p style="position: absolute;right: 0px;bottom: -15px;"><a style="margin:0px;" href="#">&copy;2015 TEC Tigers, Team3389</a></p>
 				
 			</div>
+		</div>
+	</footer>-->
+	
+	<footer>
+		<div id="social-media">
+			<div style="float:left"><p>More Links!</p></div>
 		</div>
 	</footer>
 	
