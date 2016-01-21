@@ -434,3 +434,16 @@ input.button:hover {
 			border-left: 39px solid orange;
 			z-index: 99;
 		}
+		
+/* Footer Styles */
+
+footer {
+	background-color: #5D5D5D;
+}
+
+#social-media>div:first-of-type p {
+	color:orange;
+	padding:0px;
+	margin:0px;
+	font-size:20px;
+}
