@@ -24,10 +24,10 @@
 						
 						if (isset($_SESSION["theme"])) {
 							if ($_SESSION["theme"] == "light") {
-								echo "<!--<a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n-->";							
+								echo "<!-- <a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n-->";							
 							}
 							if ($_SESSION["theme"] == "dark") {
-								echo "<!--<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
+								echo "<!-- <a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
 							}
 						}
 						?><!--
