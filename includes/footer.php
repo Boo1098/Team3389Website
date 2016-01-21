@@ -73,7 +73,7 @@
 		<div id="social-media">
 			<div style="float:left"><p>More Links!</p></div>
 			<div style="position:absolute;right:10px;">
-				<div id="twitter" height="20px">
+				<div id="twitter" style="height:20px;">
 					<style>
 					.twitter-follow-button {
 						padding-top:8px !important;
@@ -82,16 +82,16 @@
 					<td valign="middle" class="link-row" align="right" width="100%"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false" style="padding-top:8px !important;">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</div>
 				
-				<div height="9px">
+				<div style="height:9px">
 					<script src="https://apis.google.com/js/platform.js"></script>
 					<div class="g-ytsubscribe" data-channel="Robospectrum"></div>
 				</div>
 				
-				<div height="18px" width="70px">
+				<div style="height:18px;width:70px">
 					<a href="//plus.google.com/103918810376285135334/posts?prsrc=3" rel="publisher"  target="_blank" style="text-decoration:none; padding-top:10px; padding-left:20px;"><img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/></a>
 				</div>
 				
-				<div height="12px">
+				<div style="height:12px">
 					<div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="padding-top:5px;"></div>
 				</div>
 			</div>
