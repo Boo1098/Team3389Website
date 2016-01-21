@@ -19,7 +19,7 @@ include("includes/head.php");
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
-				---><div id="ftc_select">
+				--><div id="ftc_select">
 						<h2>FTC</h2>
 						<div class="program-text">
 							<p>The newest addition to team3389, FTC focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
@@ -27,7 +27,7 @@ include("includes/head.php");
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
-				---><div id="frc_select">
+				--><div id="frc_select">
 						<h2>FRC</h2>
 						<div class="program-text">
 							<p>Big robot that needs lots of teamwork and dedication witht only a 6 week period to work on it.</p>

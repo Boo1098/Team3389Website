@@ -24,10 +24,10 @@
 						
 						if (isset($_SESSION["theme"])) {
 							if ($_SESSION["theme"] == "light") {
-								echo "<!---<a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n-->";							
+								echo "<!--<a style=\"padding-top:5px\" href=\"?dark=1\">Dark theme\n-->";							
 							}
 							if ($_SESSION["theme"] == "dark") {
-								echo "<!---<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
+								echo "<!--<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
 							}
 						}
 						?><!--
@@ -74,12 +74,12 @@
 			<div style="float:left"><p>More Links!</p></div>
 			<div style="position:absolute;right:10px;">
 				<div id="twitter" style="height:20px;">
-					<style>
+					<style scoped>
 					.twitter-follow-button {
 						padding-top:8px !important;
 					}
 					</style>
-					<td valign="middle" class="link-row" align="right" width="100%"><a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false" style="padding-top:8px !important;">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<a href="https://twitter.com/FRCTeam3389" class="twitter-follow-button"  target="_blank" data-show-count="false" style="padding-top:8px !important;">Follow @FRCTeam3389</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</div>
 				
 				<div style="height:9px">
@@ -107,19 +107,19 @@
 			
 			<div>
 				<a target="_blank" href="http://usfirst.org">
-					<img align="left" src="resources/first-logo-horizontal-reversed.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
+					<img align="left" src="resources/first-logo-horizontal-reversed.png" alt="First">
 				</a>
 			</div>
 			
 			<div>
 				<a target="_blank" href="http://tecfound.org">
-					<img id="tec" src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
+					<img id="tec" src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation">
 				</a>
 			</div>
 			
 			<div>
 				<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
-					<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
+					<img align="right" src="resources/frc.gif" alt="FIRST Robotics Competition">
 				</a>
 			</div>
 		</div>
