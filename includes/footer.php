@@ -122,6 +122,12 @@
 					<img src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTRobotics_IconVert_RGB_reverse.png" alt="FIRST Robotics Competition">
 				</a>
 			</div>
+			
+			<div>
+				<a href="http://www.usfirst.org/roboticsprograms/ftc" target="_blank" >
+					<img src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTTech_IconVert_RGB_reverse.png" alt="FIRST Robotics Competition">
+				</a>
+			</div>
 		</div>
 		
 		<p style="padding-left:10px;float:left;"><a href="https://github.com/Boo1098/Team3389Website">Fork Me on Github!</a></p>
