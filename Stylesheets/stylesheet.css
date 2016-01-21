@@ -450,3 +450,7 @@ footer {
 	margin-left:10px;
 	font-size:20px;
 }
+
+#social-media>div>div {
+	padding-right:10px;
+}
