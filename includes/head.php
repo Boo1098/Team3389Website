@@ -58,9 +58,9 @@ if (isset($_GET["light"])) {
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>
-				<td width="77px" id="logo"><a href="http://www.team3389.info" class="font-effect-3d-float"><img src="resources/tec_logo_straight.svg" alt="logo" height="50px"></a></td>
-				<td class="header-links" align="right">
-					<nav id="nav" role="navigation">
+				<td id="logo"><a href="http://www.team3389.info" class="font-effect-3d-float"><img src="resources/tec_logo_straight.svg" alt="logo"></a></td>
+				<td class="header-links">
+					<nav id="nav">
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-big md-light">reorder</i></a>
 						<a href="#" title="Hide navigation"><i class="material-icons md-big md-light md-inactive">reorder</i></a>
 						<ul id="main-header-links">
