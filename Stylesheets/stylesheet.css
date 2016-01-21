@@ -483,4 +483,19 @@ footer {
 
 #more-info {
 	padding:20px;
+	display:flex;
+	align-items: center;
+}
+
+#more-info>div {
+	width:25%;
+}
+
+#more-info img {
+	width:100%;
+	height:auto;
+}
+
+#tec {
+	width:30%;
 }
