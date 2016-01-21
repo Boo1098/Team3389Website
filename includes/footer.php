@@ -123,6 +123,8 @@
 				</a>
 			</div>
 		</div>
+		
+		<p style="position:absolute;bottom:5px;left:5px;"><a href="https://github.com/Boo1098/Team3389Website">Fork Me on Github!</a></p>
 	</footer>
 	
 	</body>
