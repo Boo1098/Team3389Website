@@ -96,6 +96,26 @@
 				</div>
 			</div>
 		</div>
+		
+		<div id="more-info">
+			<div id="mission-statement">
+				<h4>Mission Statement</h4>
+				<p>Team 3389’s exists to increase awareness towards science, technology, engineering, math, and business by boosting high school students of Wicomico County enthusiasm towards, and knowledge of, robotics using hands-on and multidisciplinary collaborative experiences in business, designing, building, and programming robots or other science, technology, engineering, and mathematics (STEM) related mechanisms.​
+			</p>
+			</div>
+			<a target="_blank" href="http://usfirst.org">
+				<img align="left" src="resources/first-logo-horizontal-reversed.png" style="align:left" alt="First"height="100px" target="_blank" width="auto">
+			</a>
+			
+			<a target="_blank" href="http://tecfound.org">
+				<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
+			</a>
+			
+			<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
+				<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
+			</a>
+		</td>
+		</div>
 	</footer>
 	
 	</body>
