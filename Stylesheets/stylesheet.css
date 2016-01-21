@@ -490,7 +490,8 @@ footer {
 }
 
 #more-info>div {
-	width:25%;
+	width:17.5%;
+	padding:.5%;
 }
 
 #more-info img {
@@ -498,6 +499,10 @@ footer {
 	height:auto;
 }
 
+#mission-statement {
+	width:25%
+}
+
 #tec {
-	width:30% !important;
+	width:55% !important;
 }
