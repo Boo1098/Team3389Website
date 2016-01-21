@@ -13,19 +13,25 @@ include("includes/head.php");
 				<div id="program_select">
 					<div id="vex_select">
 						<h2>Vex</h2>
-						<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						<div class="program-text">
+							<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						</div>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
 				---><div id="ftc_select">
 						<h2>FTC</h2>
-						<p>The newest addition to team3389, FTC focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
+						<div class="program-text">
+							<p>The newest addition to team3389, FTC focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
+						</div>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
 					
 				---><div id="frc_select">
 						<h2>FRC</h2>
-						<p>Big robot that needs lots of teamwork and dedication witht only a 6 week period to work on it.</p>
+						<div class="program-text">
+							<p>Big robot that needs lots of teamwork and dedication witht only a 6 week period to work on it.</p>
+						</div>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div>
 				</div>
