@@ -30,7 +30,7 @@
 								echo "<!---<a style=\"padding-top:5px\" href=\"?light=1\">Light theme\n-->";							
 							}
 						}
-						?>
+						?><!--
 					</a>
 					</td>
 				</tr>
