@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-$title = "FRC History";
+$title = "About FRC";
 include("includes/head.php");
 ?>
 	
