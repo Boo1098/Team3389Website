@@ -72,7 +72,7 @@
 	<footer>
 		<div id="social-media">
 			<div style="float:left"><p>More Links!</p></div>
-			<div style="float:right">
+			<div style="position:absolute;right:10px;">
 				<div id="twitter">
 					<style>
 					.twitter-follow-button {
