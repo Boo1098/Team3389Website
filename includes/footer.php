@@ -112,8 +112,8 @@
 			</div>
 			
 			<div>
-				<a id="tec" target="_blank" href="http://tecfound.org">
-					<img src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
+				<a target="_blank" href="http://tecfound.org">
+					<img id="tec" src="resources/tecfound-big.png" style="display:block; margin-left:auto; margin-right:auto" alt="Tec Foundation"height="100px" width="auto">
 				</a>
 			</div>
 			
