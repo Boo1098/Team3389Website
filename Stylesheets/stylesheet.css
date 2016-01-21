@@ -440,6 +440,7 @@ input.button:hover {
 footer {
 	background-color: #3A3A3A;
 	display:inline-block;
+	width:100%;
 }
 
 #social-media>div:first-of-type p {
