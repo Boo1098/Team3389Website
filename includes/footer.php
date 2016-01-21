@@ -122,7 +122,6 @@
 					<img align="right" style="align:right" src="resources/frc.gif" alt="FIRST Robotics Competition"height="100px" width="auto">
 				</a>
 			</div>
-		</td>
 		</div>
 	</footer>
 	

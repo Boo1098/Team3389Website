@@ -29,7 +29,7 @@ if (isset($_GET["light"])) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css" />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css" />
