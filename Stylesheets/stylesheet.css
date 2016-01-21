@@ -453,7 +453,8 @@ footer {
 #social-media {
 	display:inline-block;
 	width:100%;
-	padding-bottom:20px;
+	height:60px;
+	border-bottom: orange solid 4px;
 }
 
 #social-media>div:first-of-type p {
@@ -470,7 +471,12 @@ footer {
 	display:inline-block;
 }
 
+#social-media>div:first-of-type {
+	padding-top:50px;
+}
+
 #social-media>div:nth-of-type(2) {
 	display:flex;
 	height:50px;
+	align-items:center;
 }
