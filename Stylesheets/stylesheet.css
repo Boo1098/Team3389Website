@@ -457,7 +457,7 @@ footer {
 	border-bottom: orange solid 4px;
 }
 
-#social-media>div:first-of-type p {
+#social-media>div:first-of-type p, #more-info h4 {
 	color:orange;
 	padding:0px;
 	padding-top:10px;
