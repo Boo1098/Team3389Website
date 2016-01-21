@@ -388,6 +388,9 @@ input.button:hover {
 			text-indent: 0px;
 			text-align:center;
 		}
+			#program_select h2 {
+				font-size:2em
+			}
 			.program-text {
 				padding-left: 50px;
 			}
