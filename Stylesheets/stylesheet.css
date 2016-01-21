@@ -437,7 +437,7 @@ input.button:hover {
 			position: absolute;
 			border-top: 70px solid transparent;
 			border-bottom: 73px solid transparent;
-			border-left: 39px solid orange;
+			border-left: 39px solid #f57e25;
 			z-index: 99;
 		}
 	
