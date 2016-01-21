@@ -107,7 +107,7 @@
 			
 			<div>
 				<a target="_blank" href="http://usfirst.org">
-					<img align="left" src="resources/first-logo-horizontal-reversed.png" alt="First">
+					<img src="resources/first-logo-horizontal-reversed.png" alt="First">
 				</a>
 			</div>
 			
@@ -119,7 +119,7 @@
 			
 			<div>
 				<a href="http://www.usfirst.org/roboticsprograms/frc" target="_blank" >
-					<img align="right" src="resources/frc.gif" alt="FIRST Robotics Competition">
+					<img src="resources/frc.gif" alt="FIRST Robotics Competition">
 				</a>
 			</div>
 		</div>
