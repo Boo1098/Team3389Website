@@ -380,7 +380,7 @@ input.button:hover {
 }
 	#vex_select, #ftc_select, #frc_select {
 		width:33.3333%;
-		height:250px;
+		height:400px;
 		display:inline-block;
 	}
 		#program_select div h2, #program_select div p {
@@ -434,7 +434,12 @@ input.button:hover {
 			border-left: 39px solid orange;
 			z-index: 99;
 		}
-		
+	
+	.program-text {
+		height:200px;
+		padding-top:5%;
+	}
+	
 /* Footer Styles */
 
 footer {
