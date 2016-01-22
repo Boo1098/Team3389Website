@@ -123,10 +123,6 @@ table#header-table {
 }
 
 #more-info>div {
-	width: 50% !important;
+	width: 99% !important;
 	padding-bottom:30px;
-}
-
-#mission-statement {
-	width:100% !important;
 }
