@@ -137,3 +137,16 @@ a.header-links {
 	width: 99% !important;
 	padding-bottom:30px;
 }
+
+.program-text {
+	height: 500px !important;
+	padding-right:5px;
+}
+
+#vex_select, #ftc_select, #frc_select {
+	height: 800px;
+}
+
+div#about-us-content p, div#about-us-content ol, #more-info p {
+	font-size:30px !important;
+}
