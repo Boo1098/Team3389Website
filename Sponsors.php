@@ -22,7 +22,7 @@ include("includes/head.php");
 			<img src="http://team3389.info/resources/sponsors/new/d3corp.jpg" class="sponsor-images" alt="D3 Corp" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/futuristic-logo-onDark-100high.png" class="sponsor-images" alt="Futuristic" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/joyLogoLiquid.jpg" class="sponsor-images" alt="Joy" height="200" />
-			<img src="http://team3389.info/resources/sponsors/new/mader.gif" class="sponsor-images" alt="Mader Systems Consulting" height="100"  />
+			<img src="http://team3389.info/resources/sponsors/new/mader.gif" class="sponsor-images" alt="Mader Systems Consulting" height="100" style="background:white" />
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>
