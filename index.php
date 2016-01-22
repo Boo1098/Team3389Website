@@ -28,7 +28,7 @@ include("includes/head.php");
 					</div><!--
 					
 				--><div id="frc_select">
-						<h2>FRC</h2>
+						<h2><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTRobotics_Type_White.png" alt="FIRST Robotics Competition" /></h2>
 						<div class="program-text">
 							<p>Big robot that needs lots of teamwork and dedication witht only a 6 week period to work on it.</p>
 						</div>
