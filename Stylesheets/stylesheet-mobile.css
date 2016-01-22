@@ -150,3 +150,7 @@ a.header-links {
 div#about-us-content p, div#about-us-content ol, #more-info p {
 	font-size:30px !important;
 }
+
+footer {
+	margin-top:50px;
+}
