@@ -9,7 +9,7 @@ include("includes/head.php");
 			
 			<br />
 			<div id="about-us-content">
-				<img style="float:left;" src="resources/FTC-logo-withshapes-reversed.png" class="full_mobile" alt="frc" height="200px" width="relative">
+				<img style="float:left;" src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTTech_IconVert_RGB_reverse.png" class="full_mobile" alt="frc" height="200px" width="relative">
 				
 				<!--- Thank you alex for your "great" writing ;) --->
 				
