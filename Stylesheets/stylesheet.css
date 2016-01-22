@@ -394,6 +394,10 @@ input.button:hover {
 			.program-text {
 				padding-left: 50px;
 			}
+			
+			#program_select img {
+				height:108px;
+			}
 		.more_info_button {
 			padding:20px;
 			border: 5px white solid;
