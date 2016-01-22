@@ -9,7 +9,7 @@ include("includes/head.php");
 			<div class="text">
 				<p>Phone: 410-251-7262
 				<br>
-				Email: <a href="jmiles@wcboe.org">jmiles@wcboe.com</a></p>
+				Email: <a href="#">jmil<span class="dummy">elfa</span>es@wcbo<span class="dummy">cake</span>e.com</a></p>
 
 				<p>Social Media</p>
 

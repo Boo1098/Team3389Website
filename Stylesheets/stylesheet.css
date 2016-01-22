@@ -288,6 +288,10 @@ input.button:hover {
 	padding:10px;
 }
 
+.dummy {
+	display:none;
+}
+
 /*Style for header*/
 
 #nav
