@@ -105,3 +105,28 @@ table#header-table {
 #image_center {
 	width:100% !important;
 }
+
+#social-media {
+	height:100px;
+}
+
+#more-info {
+	display: inline-block;
+}
+
+#more-info p {
+	font-size:40px !important;
+}
+
+#social-media>div:first-of-type p, #more-info h4 {
+	font-size:50px !important;
+}
+
+#mission-statement {
+	width:100% !important;
+}
+
+#more-info>div {
+	width: 99% !important;
+	pading-bottom:30px;
+}

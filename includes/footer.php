@@ -98,7 +98,7 @@
 		</div>
 		
 		<div id="more-info">
-			<div id="mission-statement">
+			<div id="mission-statement" style="width:25%;">
 				<h4>Mission Statement</h4>
 				
 				<p>Team 3389’s exists to increase awareness towards science, technology, engineering, math, and business by boosting high school students of Wicomico County enthusiasm towards, and knowledge of, robotics using hands-on and multidisciplinary collaborative experiences in business, designing, building, and programming robots or other science, technology, engineering, and mathematics (STEM) related mechanisms.​
