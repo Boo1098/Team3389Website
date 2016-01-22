@@ -11,7 +11,7 @@ include("includes/head.php");
 			
 				<img style="width:506px; float: right;padding-left:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2015.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2015 Game Animation - <a href="https://www.youtube.com/watch?v=W6UYFKNGHJ8">Recycle Rush</a></h2>
+				<h2 class="body-header hvr-grow">2015 Game Animation - <a href="https://www.youtube.com/watch?v=W6UYFKNGHJ8" target="_blank">Recycle Rush</a></h2>
 
 				<div class="text">
 					<p># Students: 25</p>
@@ -41,7 +41,7 @@ include("includes/head.php");
 			<div align="center" style="width:100%" class="content">
 				<img style="width:506px;float: left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2014.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to">Ariel Assist</a></h2>
+				<h2 class="body-header hvr-grow">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to" target="_blank">Ariel Assist</a></h2>
 
 				<div class="text">
 					<p># Students: 30</p>
@@ -72,7 +72,7 @@ include("includes/head.php");
 				
 				<img style="width:506px;float: right;padding-left:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2013.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2013 Game Animation - <a href="http://www.youtube.com/watch?v=wa5MGEZNrf0">Ultimate Ascent</a></h2>
+				<h2 class="body-header hvr-grow">2013 Game Animation - <a href="http://www.youtube.com/watch?v=wa5MGEZNrf0" target="_blank">Ultimate Ascent</a></h2>
 
 				<div class="text">
 					<p># Students: 24</p>
@@ -102,7 +102,7 @@ include("includes/head.php");
 					
 				<img style="width:506px;float: left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2012.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2012 Game Animation - <a href="http://www.youtube.com/watch?v=nOXsdhZZSdM">Rebound Rumble</a></h2>
+				<h2 class="body-header hvr-grow">2012 Game Animation - <a href="http://www.youtube.com/watch?v=nOXsdhZZSdM" target="_blank">Rebound Rumble</a></h2>
 				
 				<div class="text">
 					<p># Students: 20</p>
@@ -131,7 +131,7 @@ include("includes/head.php");
 		
 				<img style="width:506px;float:right;padding-left:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2011.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2011 Game Animation - <a href="http://www.youtube.com/watch?v=bk0QuuYLxqo">LogoMotion</a></h2>
+				<h2 class="body-header hvr-grow">2011 Game Animation - <a href="http://www.youtube.com/watch?v=bk0QuuYLxqo" target="_blank">LogoMotion</a></h2>
 				
 				<div class="text">
 					<p># Students: 20</p>
@@ -164,7 +164,7 @@ include("includes/head.php");
 				
 				<img style="width:506px;float:left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2010.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw">BreakAway</a></h2>
+				<h2 class="body-header hvr-grow">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw" target="_blank">BreakAway</a></h2>
 				
 				<div class="text">
 					<p># Students: 16</p>
