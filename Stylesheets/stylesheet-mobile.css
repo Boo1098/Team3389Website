@@ -122,11 +122,11 @@ table#header-table {
 	font-size:50px !important;
 }
 
-#mission-statement {
-	width:100% !important;
-}
-
 #more-info>div {
 	width: 50% !important;
-	pading-bottom:30px;
+	padding-bottom:30px;
+}
+
+#mission-statement {
+	width:100% !important;
 }
