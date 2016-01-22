@@ -98,7 +98,9 @@ table#header-table {
 }
 
 #full_width_mobile, .sponsor-images, .full_mobile {
-	width:100% !important;
+	width: -webkit-calc(100% - 40px) !important;
+	width: -moz-calc(100% - 40px) !important;
+	width: calc(100% - 40px) !important;
 	height:auto !important;
 }
 
