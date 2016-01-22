@@ -22,7 +22,7 @@ include("includes/head.php");
 				--><div id="ftc_select">
 						<h2><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTTech_Type_White.png" alt="FIRST Tech challenge" /></h2>
 						<div class="program-text">
-							<p>The newest addition to team3389, FTC focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
+							<p>The newest addition to team3389, FIRST<sup>&reg;</sup> Tech challenge focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
 						</div>
 						<p class="more_info_button"><a href="#">Learn More</a></p>
 					</div><!--
