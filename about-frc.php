@@ -5,7 +5,7 @@ include("includes/head.php");
 ?>
 	
 		<div class="main-body-text" id="top">
-			<h2 class="body-header font-effect-3d-float">About FRC</h2>
+			<h2 class="body-header font-effect-3d-float">About FIRST<sup>&reg;</sup> Robotics competition</h2>
 			
 			<br />
 			<div id="about-us-content">

@@ -5,7 +5,7 @@ include("includes/head.php");
 ?>
 	
 		<div class="main-body-text" id="top">
-			<h2 class="body-header font-effect-3d-float">About Vex</h2>
+			<h2 class="body-header font-effect-3d-float">About VEX</h2>
 			
 			<br />
 			<div id="about-us-content">
