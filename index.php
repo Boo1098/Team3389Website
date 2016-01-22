@@ -12,7 +12,7 @@ include("includes/head.php");
 				
 				<div id="program_select">
 					<div id="vex_select">
-						<h2>Vex</h2>
+						<h2><img src="http://www.team3389.info/resources/VEX-icon-white.png" alt="VEX" /></h2>
 						<div class="program-text">
 							<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
 						</div>
