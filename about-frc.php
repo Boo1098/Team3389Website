@@ -9,7 +9,7 @@ include("includes/head.php");
 			
 			<br />
 			<div id="about-us-content">
-				<img style="float:left;" src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTRobotics_IconVert_RGB_reverse.png" class="full_mobile" alt="frc" height="200px" width="relative">
+				<img style="float:left;padding:20px;" src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTRobotics_IconVert_RGB_reverse.png" class="full_mobile" alt="frc" height="200px" width="relative">
 				
 				<!--- THANKS for writing this ALEX --->
 				
