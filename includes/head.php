@@ -89,7 +89,7 @@ if (isset($_GET["light"])) {
 								<ul id="history-dropdown">
 									<li style="text-align:left;width:125px;">
 										<a class="hvr-grow" href="#FRC" style="text-align:left">FRC</a>
-										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="#FRC">
+										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="FRC">
 											<li><a href="#">2014-15</a></li>
 											<li><a href="#">2013-14</a></li>
 											<li><a href="#">2012-13</a></li>
