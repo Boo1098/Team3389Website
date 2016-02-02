@@ -96,7 +96,6 @@ if (isset($_GET["light"])) {
 											<li><a href="history11.php">2011-12</a></li>
 											<li><a href="history10.php">2010-11</a></li>
 											<li><a href="history9.php">2009-10</a></li>
-											<li><a href="#">close</a></li>
 										</ul>
 									</li>
 									<!-- No History yet :P 
