@@ -15,10 +15,10 @@ include("includes/head.php");
 				<h2 class="body-header hvr-grow">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw" target="_blank">BreakAway</a></h2>
 				
 				<div class="text">
-					<p># Students: 16</p>
-					<p>Regional Attending: Chesapeake Regional</p>
+					<p class="center"># Students: 16</p>
+					<p class="center">Regional Attending: Chesapeake Regional</p>
 
-					<p>Placed 28th out of 60 teams present</p>
+					<p class="center">Placed 28th out of 60 teams present</p>
 
 					<p align="left">The year 2009 marked the birth of team 3389. The team started with a late December phone call between Chris Thompson of Eastern Shore Robotics (Now called Tec Hub) and David Miles, the Parkside Electronics Teacher. He immediately recruited Mr. Steve Jenkins (Manufacturing Teacher), and Mrs. Jennifer Miles (Teaching Assistant). Mr. Rick Jones (Computer Repair Teacher), was recruited after the build season. The students were assembled very rapidly -just one week prior to kickoff. The team consisted of twelve Electronics students, two manufacturing students, and one student who moved here from Texas with his mother (Michelle Kosin) who also became a mentor towards the end of build season.</p>
 					

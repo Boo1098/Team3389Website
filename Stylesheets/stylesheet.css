@@ -293,6 +293,10 @@ input.button:hover {
 	display:none;
 }
 
+.center {
+	text-align:center !important;
+}
+
 /*Style for header*/
 
 #nav
