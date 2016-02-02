@@ -21,12 +21,6 @@ include("includes/head.php");
 
 					<p align="left">Our team did good overall with many new students and some old.
 						Overall we did very well at the competition even though we placed lower than usual.</p>
-					
-					<br />
-					<br />
-					<br />
-					<br />
-					<br />
 				</div>
 			</div>
 		</div>
