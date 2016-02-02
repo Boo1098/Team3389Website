@@ -90,12 +90,12 @@ if (isset($_GET["light"])) {
 									<li style="text-align:left;width:125px;">
 										<a class="hvr-grow" href="#FRC" style="text-align:left">FRC</a>
 										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="FRC">
-											<li><a href="#">2014-15</a></li>
-											<li><a href="#">2013-14</a></li>
-											<li><a href="#">2012-13</a></li>
-											<li><a href="#">2011-12</a></li>
-											<li><a href="#">2010-11</a></li>
-											<li><a href="#">2009-10</a></li>
+											<li><a href="history14.php">2014-15</a></li>
+											<li><a href="history13.php">2013-14</a></li>
+											<li><a href="history12.php">2012-13</a></li>
+											<li><a href="history11.php">2011-12</a></li>
+											<li><a href="history10.php">2010-11</a></li>
+											<li><a href="history9.php">2009-10</a></li>
 											<li><a href="#">close</a></li>
 										</ul>
 									</li>
