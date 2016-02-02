@@ -12,7 +12,7 @@ include("includes/head.php");
 				
 				<img style="width:506px;float:left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2010.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw" target="_blank">BreakAway</a></h2>
+				<h2 class="body-header">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw" target="_blank">BreakAway</a></h2>
 				
 				<div class="text">
 					<p class="center"># Students: 16</p>
