@@ -26,6 +26,8 @@ include("includes/head.php");
 
 						With all of the issues we faced the team continued to be optimistic and in the end had our highest ranking yet. 
 					</p>
+					
+					<a style="float:left" href="history10.php">&lt;-Previous Year</a><a style="float:right" href="history12.php">Next Year-&gt;</a><p>&nbsp;</p>
 				</div>
 			</div>
 		</div>
