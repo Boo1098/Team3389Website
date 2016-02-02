@@ -11,7 +11,7 @@ include("includes/head.php");
 			<div align="center" style="width:100%" class="content">
 				<img style="width:506px;float: left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2014.jpg" alt="team"></img>
 
-				<h2 class="body-header hvr-grow">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to" target="_blank">Ariel Assist</a></h2>
+				<h2 class="body-header">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to" target="_blank">Ariel Assist</a></h2>
 
 				<div class="text">
 					<p># Students: 30</p>
