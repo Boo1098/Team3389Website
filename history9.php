@@ -26,7 +26,7 @@ include("includes/head.php");
 					
 					<p>While in Atlanta, we competed against 344 robots from many different regionals and countries. Most of the robots were regional champions and other rookie all-stars. In the pit area, we were surrounded by many non- English speaking teams. It was an amazing opportunity for our students to interact with people of similar interests and skills from all over the world. Team 3389 competed in the Archimedes Division and finished 34th in a field of 86 international teams. </p>
 					
-					<a style="float:left" href="#">&lt;-Previous Year</a><a style="float:right" href="history10.php">Next Year-&gt;</a>
+					<p></p><a style="float:left" href="#">&lt;-Previous Year</a><a style="float:right" href="history10.php">Next Year-&gt;</a></p>
 				</div>
 			</div>
 		</div>
