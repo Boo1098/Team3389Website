@@ -88,8 +88,8 @@ if (isset($_GET["light"])) {
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
 								<ul id="history-dropdown">
 									<li>
-										<a class="hvr-grow" href="history.php">FRC</a>
-										<ul>
+										<a class="hvr-grow" href="#FRC">FRC</a>
+										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="#FRC">
 											<li><a href="#">2014-15</a></li>
 											<li><a href="#">2013-14</a></li>
 											<li><a href="#">2012-13</a></li>
