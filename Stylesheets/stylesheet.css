@@ -343,15 +343,16 @@ input.button:hover {
         display: none;
         position: absolute;
         top: 30px;
-		list-style-type:none;
-		background-color:#3A3A3A;
-		padding-top:10px;
-		padding-right:30px;
-		padding-bottom:10px;
-		padding-left:20px;
-		border:ridge;
-		border-color:orange;
-		z-index:899999999;
+	list-style-type:none;
+	background-color:#3A3A3A;
+	padding-top:10px;
+	padding-right:30px;
+	padding-bottom:10px;
+	padding-left:20px;
+	border:ridge;
+	border-color:orange;
+	z-index:899999999;
+	width:150px;
     }
         #nav>ul>li:hover>ul
         {
