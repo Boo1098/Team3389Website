@@ -107,9 +107,7 @@ a.header-links {
 }
 
 #full_width_mobile, .sponsor-images, .full_mobile {
-	width: -webkit-calc(100% - 40px) !important;
-	width: -moz-calc(100% - 40px) !important;
-	width: calc(100% - 40px) !important;
+	width: 100% !important;
 	height:auto !important;
 }
 
@@ -147,7 +145,7 @@ a.header-links {
 	height: 800px;
 }
 
-div#about-us-content p, div#about-us-content ol, #more-info p {
+*, div#about-us-content p, div#about-us-content ol, #more-info p {
 	font-size:30px !important;
 }
 
