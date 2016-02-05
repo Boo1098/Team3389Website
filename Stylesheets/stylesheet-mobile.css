@@ -145,7 +145,7 @@ a.header-links {
 	height: 800px;
 }
 
-div#about-us-content p, div#about-us-content ol, #more-info p {
+div#about-us-content p, div#about-us-content ol, #more-info p, .text a {
 	font-size:30px !important;
 }
 
