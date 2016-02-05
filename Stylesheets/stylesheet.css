@@ -405,10 +405,10 @@ input.button:hover {
 #program_select {
 	width:100%;
 	display:inline-block;
+	min-width:800px;
 }
 	#vex_select, #ftc_select, #frc_select {
 		width:33.3333%;
-		min-width:800px;
 		height:500px;
 		display:inline-block;
 	}
@@ -431,8 +431,8 @@ input.button:hover {
 			margin:auto;
 		}
 			.more_info_button a:hover {
-				color:#AAAAAA
-				background-color:rgba(0,0,0,.25)
+				color:#AAAAAA;
+				background-color:rgba(0,0,0,.25);
 			}
 			
 			.more_info_button a{
