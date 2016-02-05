@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="robots" content="noindex">
+		<meta name="googlebot" content="noindex">
 		<title><?php echo $title;?> | Tec Tigers: Team 3389</title>
 <?php
 session_start();
