@@ -408,6 +408,7 @@ input.button:hover {
 }
 	#vex_select, #ftc_select, #frc_select {
 		width:33.3333%;
+		min-width:800px;
 		height:500px;
 		display:inline-block;
 	}
@@ -473,6 +474,10 @@ input.button:hover {
 	.program-text {
 		height:200px;
 		padding-top:5%;
+		padding-left:10px;
+		padding-right:10px;
+		margin:auto;
+		max-width:300px;
 	}
 	
 /* Footer Styles */
