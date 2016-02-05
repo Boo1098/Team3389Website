@@ -425,7 +425,6 @@ input.button:hover {
 				height:108px;
 			}
 		.more_info_button {
-			padding:20px;
 			border: 5px white solid;
 			color:white;
 			width:50%;
@@ -433,10 +432,13 @@ input.button:hover {
 		}
 			.more_info_button a:hover {
 				color:#AAAAAA
+				background-color:rgba(0,0,0,.25)
 			}
 			
 			.more_info_button a{
 				color:white;
+				display:block;
+				padding:20px;
 			}
 	
 	#vex_select {
