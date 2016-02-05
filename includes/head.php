@@ -77,20 +77,20 @@ if (isset($_GET["light"])) {
 						<ul id="main-header-links">
 							<li style="width:142px"><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us &#9660;</a>
 								<ul id="about-dropdown">
-									<li><a class="hvr-grow" href="about-frc.php">FRC</a></li>
-									<li><a class="hvr-grow" href="about-ftc.php">FTC</a></li>
+									<li><a class="" href="about-frc.php">FRC</a></li>
+									<li><a class="" href="about-ftc.php">FTC</a></li>
 									<!-- I don't actually know anything about this... :(
 									
 									<li><a class="hvr-grow" href="#">Vex</a></li>
 									
 									-->
 									
-									<li><a class="hvr-grow" href="contact.php">Contact Us</a><li> 
+									<li><a class="" href="contact.php">Contact Us</a><li> 
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
 								<ul id="history-dropdown">
 									<li style="text-align:left;width:125px;">
-										<a class="hvr-grow" href="#FRC" style="text-align:left">FRC</a>
+										<a class="" href="#FRC" style="text-align:left">FRC</a>
 										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="FRC">
 											<li><a href="history14.php">2014-15</a></li>
 											<li><a href="history13.php">2013-14</a></li>

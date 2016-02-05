@@ -154,3 +154,7 @@ div#about-us-content p, div#about-us-content ol, #more-info p {
 footer {
 	margin-top:50px;
 }
+
+.more-info-button {
+	width: 80%;
+}
