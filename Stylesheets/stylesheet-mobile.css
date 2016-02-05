@@ -55,8 +55,8 @@
 		position:static !important;
 		display: block !important;
 		border: none !important;
-		text-indent:25%;
 		text-align: left;
+		padding-left:200px
 	}
 	
 	/*test
@@ -157,4 +157,9 @@ footer {
 
 .more-info-button {
 	width: 80%;
+}
+
+#nav li ul {
+	margin:auto;
+	width:300px;
 }
