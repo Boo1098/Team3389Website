@@ -7,11 +7,11 @@ include("includes/head.php");
 	<div class="main-body-text " id="top">
 		<h2 class="body-header   font-effect-3d-float">2009-2010</h2>
 
-		<div id="about-us-content" style="width:100%" align="center">
-			<div align="center" style="width:100%" class="content">
+		<div id="about-us-content" style="width:100%">
+			<div style="width:100%" class="content">
 				
-				<img style="width:506px;float:left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2010.jpg" alt="team"></img>
-
+				<img style="width:506px;float:left;padding-right:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2010.jpg" alt="team">
+				
 				<h2 class="body-header">2010 Game Animation - <a href="http://www.youtube.com/watch?v=IEHAj3EmpMw" target="_blank">BreakAway</a></h2>
 				
 				<div class="text">
@@ -20,7 +20,7 @@ include("includes/head.php");
 
 					<p class="center">Placed 28th out of 60 teams present</p>
 
-					<p align="left">The year 2009 marked the birth of team 3389. The team started with a late December phone call between Chris Thompson of Eastern Shore Robotics (Now called Tec Hub) and David Miles, the Parkside Electronics Teacher. He immediately recruited Mr. Steve Jenkins (Manufacturing Teacher), and Mrs. Jennifer Miles (Teaching Assistant). Mr. Rick Jones (Computer Repair Teacher), was recruited after the build season. The students were assembled very rapidly -just one week prior to kickoff. The team consisted of twelve Electronics students, two manufacturing students, and one student who moved here from Texas with his mother (Michelle Kosin) who also became a mentor towards the end of build season.</p>
+					<p>The year 2009 marked the birth of team 3389. The team started with a late December phone call between Chris Thompson of Eastern Shore Robotics (Now called Tec Hub) and David Miles, the Parkside Electronics Teacher. He immediately recruited Mr. Steve Jenkins (Manufacturing Teacher), and Mrs. Jennifer Miles (Teaching Assistant). Mr. Rick Jones (Computer Repair Teacher), was recruited after the build season. The students were assembled very rapidly -just one week prior to kickoff. The team consisted of twelve Electronics students, two manufacturing students, and one student who moved here from Texas with his mother (Michelle Kosin) who also became a mentor towards the end of build season.</p>
 					
 					<p>It was a rough year for the team as everyone was new to building robots. The team also lost two weeks of the six week build season due to the January snow storms which hit the Eastern United States. Even with a late start and only four weeks to build and ship the robot, our robot (named Ratchet) was completed on time and performed very well against the others at the Chesapeake Regional held in Baltimore. The robot was built to play Soccer. Ratchet made many goals during the competitions. The sleek robot design with its two large scooter wheels performed like a seasoned veteran. Ratchet`s performance, coupled with teamwork, safety, and professionalism demonstrated by our students in the pit area caught the eyes of the judges and other officials as we were awarded the coveted prize of Rookie All-Star which granted us a spot at the 2010 Championships in the Georgia Dome in Atlanta. We also won the Highest Ranking Rookie Seed Award.</p>
 					
