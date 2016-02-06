@@ -300,7 +300,7 @@ input.button:hover {
 	padding:10px;
 }
 
-.text p:nth-of-type(1), .text p:nth-of-type(2), .text p:nth-of-type(3) {
+.center {
 	text-indent:0px !important;
 	text-align:center !important;
 }
@@ -308,12 +308,6 @@ input.button:hover {
 .dummy {
 	display:none;
 }
-
-.center {
-	text-align:center !important;
-}
-
-
 
 /*Style for header*/
 

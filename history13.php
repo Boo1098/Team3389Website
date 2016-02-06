@@ -14,10 +14,10 @@ include("includes/head.php");
 				<h2 class="body-header">2014 Game Animation - <a href="http://www.youtube.com/watch?v=f5zWzICG5to" target="_blank">Ariel Assist</a></h2>
 
 				<div class="text">
-					<p># Students: 30</p>
-					<p>Regional Attending: Chesapeake Regional</p>
+					<p class="center"># Students: 30</p>
+					<p class="center">Regional Attending: Chesapeake Regional</p>
 
-					<p>April 3rd - 5th</p>
+					<p class="center">April 3rd - 5th</p>
 
 					<p>We placed 19th out of all the teams attending</p>
 

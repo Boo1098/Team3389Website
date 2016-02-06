@@ -14,10 +14,10 @@ include("includes/head.php");
 				<h2 class="body-header">2015 Game Animation - <a href="https://www.youtube.com/watch?v=W6UYFKNGHJ8" target="_blank">Recycle Rush</a></h2>
 
 				<div class="text">
-					<p># Students: 25</p>
-					<p>Regional Attending: Chesapeake Regional</p>
+					<p class="center"># Students: 25</p>
+					<p class="center">Regional Attending: Chesapeake Regional</p>
 
-					<p>We place 39th out of all the teams attending</p>
+					<p class="center">We place 39th out of all the teams attending</p>
 
 					<p align="left">Our team did good overall with many new students and some old.
 						Overall we did very well at the competition even though we placed lower than usual.</p>

@@ -15,10 +15,10 @@ include("includes/head.php");
 				<h2 class="body-header">2011 Game Animation - <a href="http://www.youtube.com/watch?v=bk0QuuYLxqo" target="_blank">LogoMotion</a></h2>
 				
 				<div class="text">
-					<p># Students: 20</p>
-					<p>Regional Attending: Chesapeake Regional</p>
+					<p class="center"># Students: 20</p>
+					<p class="center">Regional Attending: Chesapeake Regional</p>
 
-					<p>Placed 36th out of 60 teams present</p>
+					<p class="center">Placed 36th out of 60 teams present</p>
 					
 					<!-- Thanks for writing this Alex! -->
 					<p>During the second year the students tried their best to persevere even with only one year experience from the "elites" of the group. With a tough set of rules and constraints the team built a functional robot with little to no initial problems, however after arriving at the competition problems began to arise in the form of that magic smoke you see only three times in life:</p>

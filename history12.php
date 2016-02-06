@@ -15,10 +15,10 @@ include("includes/head.php");
 				<h2 class="body-header">2013 Game Animation - <a href="http://www.youtube.com/watch?v=wa5MGEZNrf0" target="_blank">Ultimate Ascent</a></h2>
 
 				<div class="text">
-					<p># Students: 24</p>
-					<p>Regional Attended: Chesapeake Regional</p>
+					<p class="center"># Students: 24</p>
+					<p class="center">Regional Attended: Chesapeake Regional</p>
 
-					<p>We placed 27 of 64 Teams registered</p>
+					<p class="center">We placed 27 of 64 Teams registered</p>
 
 					<p align="left">We had a great start with half the team being new members, many of whom were in the 9th and 10th grade. It`s great to have these new students with new energy and new ideas, it should be a great year!</p>
 

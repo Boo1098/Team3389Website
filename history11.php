@@ -15,10 +15,10 @@ include("includes/head.php");
 				<h2 class="body-header">2012 Game Animation - <a href="http://www.youtube.com/watch?v=nOXsdhZZSdM" target="_blank">Rebound Rumble</a></h2>
 				
 				<div class="text">
-					<p># Students: 20</p>
-					<p>Regional Attended: Chesapeake Regional</p>
+					<p class="center"># Students: 20</p>
+					<p class="center">Regional Attended: Chesapeake Regional</p>
 
-					<p>Placed 17th out of 63 teams present</p>
+					<p class="center">Placed 17th out of 63 teams present</p>
 
 					<p align="left">The team name was changed from Strikeforce to RoboSpectrum and the visual arts department was kind enough to design a great logo for us. After a great, albeit busy build season the team ended up with a robot that was able to shoot baskets autonomously or with a driver.<br><br>
 
