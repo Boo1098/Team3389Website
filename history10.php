@@ -21,7 +21,7 @@ include("includes/head.php");
 					<p>Placed 36th out of 60 teams present</p>
 					
 					<!-- Thanks for writing this Alex! -->
-					<p align="left">During the second year the students tried their best to persevere even with only one year experience from the "elites" of the group. With a tough set of rules and constraints the team built a functional robot with little to no initial problems, however after arriving at the competition problems began to arise in the form of that magic smoke you see only three times in life:</p>
+					<p>During the second year the students tried their best to persevere even with only one year experience from the "elites" of the group. With a tough set of rules and constraints the team built a functional robot with little to no initial problems, however after arriving at the competition problems began to arise in the form of that magic smoke you see only three times in life:</p>
 						<ol>
 							<li>When you get Mr. Miles angry</li>
 							<li>When you burn out a motor</li>
