@@ -63,8 +63,8 @@ if (isset($_GET["light"])) {
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-	<script src="/includes/jquery-2.1.4.min.js"></script>
-	<script src="/includes/doubletaptogo.min.js"></script>
+	<!--<script src="/includes/jquery-2.1.4.min.js"></script>
+	<script src="/includes/doubletaptogo.min.js"></script>-->
 <div id=wrapper style="margin-bottom:5px;min-height:82%;">
 	<header>
 		<table style="width:100%" id="header-table">
