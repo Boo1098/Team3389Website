@@ -19,7 +19,7 @@ include("includes/head.php");
 					<p>FRC has a unique culture, built around two values. Gracious Professionalism embraces the competition inherent in the program, but rejects trash talk and chest-thumping, instead embracing empathy and respect for other teams. Cooperation between teams emphasizes that teams can cooperate and compete at the same time. The goal of the program is to inspire students to be science and technology leaders and foster a friendly .In addition to on-field competition, teams and team members compete for awards recognizing entrepreneurship, creativity, engineering, industrial design, safety, controls, media, quality, and exemplifying the core values of the program. Most teams reside in the United States, with Canada, Israel, and Mexico contributing significant numbers of teams.</p>
 				</div>
 			</div>
-			<?php include("includes/programselect.php"); ?>
+			<?php //include("includes/programselect.php"); ?>
 		</div>
 	</body>
 </div>
