@@ -167,6 +167,10 @@ div#about-us-content p, #more-info p {
 	text-indent:50px;
 }
 
+div#about-us-content ol {
+	padding-left:50px;
+}
+
 .text a {
 	font-size:18px;
 	line-height:1.5;
