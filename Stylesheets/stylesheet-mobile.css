@@ -142,7 +142,7 @@ a.header-links {
 }
 
 #vex_select, #ftc_select, #frc_select {
-	height: 800px;
+	height: 900px;
 }
 
 div#about-us-content p, div#about-us-content ol, #more-info p, .text a {
@@ -158,7 +158,7 @@ footer {
 }
 
 .more-info-button {
-	width: 80%;
+	width: 80% !important;
 }
 
 #nav li ul {
