@@ -9,9 +9,9 @@ include("includes/head.php");
 			
 			<br />
 			<div id="about-us-content">
-				<img style="float:left;padding:20px;" src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTTech_IconVert_RGB_reverse.png" class="full_mobile" alt="frc" height="200px" width="relative">
+				<img style="float:left;padding:20px;" src="http://team3389.info/resources/FIRST/Programs/IconVertical/RGB/Reverse/FIRSTTech_IconVert_RGB_reverse.png" class="full_mobile" alt="frc" height="200" />
 				
-				<!--- Thank you alex for your "great" writing ;) --->
+				<!-- Thank you alex for your "great" writing ;) -->
 				
 				<div class="text">
 					<p>The <a href="http://www.firstinspires.org/robotics/ftc"><strong>FIRST Tech Challenge</strong></a> (FTC) is designed for students in grades 7–12 to compete head to head, using a sports model. Teams are responsible for designing, building, and programming their robots to compete in an alliance format against other teams. The robot kit is reusable from year-to-year and is programmed using a variety of languages. Teams, including coaches, mentors and volunteers, are required to develop strategy and build robots based on engineering principles. Awards are given for the competition as well as for community outreach, design, and other real-world accomplishments. The ultimate goal of FTC is to reach more young people with a lower-cost, more accessible opportunity to discover the excitement and rewards of science technology engineering and mathematics. This years challenge is called</p>
@@ -20,7 +20,5 @@ include("includes/head.php");
 				</div>
 			</div>
 		</div>
-	</body>
-</div>
 <?php include("includes/footer.php"); ?>
 </html>
