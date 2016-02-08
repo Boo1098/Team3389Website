@@ -21,7 +21,7 @@ include("includes/head.php");
 
 					<p align="left">Our team did good overall with many new students and some old.
 						Overall we did very well at the competition even though we placed lower than usual.</p>
-					
+					<div style="clear:both;"></div>
 					<a style="float:left" href="history13.php">&lt;-Previous Year</a><a style="float:right" href="#">Next Year-&gt;</a><p>&nbsp;</p>
 				</div>
 			</div>
