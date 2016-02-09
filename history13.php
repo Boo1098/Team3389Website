@@ -23,7 +23,9 @@ include("includes/head.php");
 
 					<p align="left">We have a great team with many veterans and new students all excited to build the robot for this year`s game Aerial Assist. The finished result was "Sketchy", The lovable frisbee shooting robot.</p>
 					
-					<a style="float:left" href="history12.php">&lt;-Previous Year</a><a style="float:right" href="history14.php">Next Year-&gt;</a><p>&nbsp;</p>
+					<div style="clear:both"></div>
+					<a style="float:left" href="history12.php">&lt;-Previous Year</a><a style="float:right" href="history14.php">Next Year-&gt;</a>
+					<div style="clear:both"></div>
 				</div>
 			</div>
 		</div>
