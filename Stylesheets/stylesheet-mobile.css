@@ -2,6 +2,7 @@
     {
         position: relative;
 		z-index:999999999999;
+		width:auto;
     }
         #nav > a
         {
@@ -14,7 +15,6 @@
 			text-align:right;
 			top:-3px;
 			position: static;
-			padding-right:10%;
         }
  
     /* first level */
@@ -23,7 +23,7 @@
     {
         height: auto;
         display: none;
-        position: absolute;
+        position: fixed;
         right: 0;
 		margin-top:28px;
     }
@@ -31,20 +31,22 @@
         {
             display: block;
 			background-color:#3A3A3A;
-			border:ridge;
+			border-top:ridge;
+			border-bottom:ridge;
 			border-color:orange;
-			width: 200px;
+			width: 100%;
 			padding-left:5px;
 			top:65px;
-			right:10%
+			font-size:45px;
         }
         #nav > ul > li
         {
-            width: 200px !important;
+            width: 100% !important;
 			padding-left:0px;
             float: none;
 			border-left:none;
 			border-right:none;
+			display:list-item;
         }
  
     /* second level */
@@ -52,6 +54,9 @@
 	#nav li ul {
 		position:static !important;
 		display: block !important;
+		border: none !important;
+		text-align: left;
+		padding-left:200px
 	}
 	
 	/*test
@@ -89,6 +94,75 @@ table#header-table {
 	border-width: 10px 0px 10px 0px !important;
 }
 
+a.header-links {
+	font-size:50px !important;
+}
+
 #logo a img {
 	height: 100px !important;
+}
+
+#logo {
+	padding:0px !important;
+}
+
+#full_width_mobile, .sponsor-images, .full_mobile {
+	width: 100% !important;
+	height:auto !important;
+	padding: 0px !important;
+}
+
+#image_center {
+	width:100% !important;
+}
+
+#social-media {
+	height:100px;
+}
+
+#more-info {
+	display: inline-block;
+}
+
+#more-info p {
+	font-size:40px !important;
+}
+
+#social-media>div:first-of-type p, #more-info h4 {
+	font-size:50px !important;
+}
+
+#more-info>div {
+	width: 99% !important;
+	padding-bottom:30px;
+}
+
+.program-text {
+	height: 500px !important;
+	padding-right:5px;
+}
+
+#vex_select, #ftc_select, #frc_select {
+	height: 900px;
+}
+
+div#about-us-content p, div#about-us-content ol, #more-info p, .text a {
+	font-size:30px !important;
+}
+
+body {
+	font-size: 30px;
+}
+
+footer {
+	margin-top:50px;
+}
+
+.more_info_button {
+	width: 80% !important;
+}
+
+#nav li ul {
+	margin:auto;
+	width:300px;
 }

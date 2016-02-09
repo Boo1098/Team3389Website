@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="robots" content="noindex">
+		<meta name="googlebot" content="noindex">
 		<title><?php echo $title;?> | Tec Tigers: Team 3389</title>
 <?php
 session_start();
@@ -21,20 +22,11 @@ if (isset($_GET["light"])) {
 }
 
 ?>
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto&effect=3d-float' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/stylesheet.css" />
 	<link rel="stylesheet" type="text/css" href="Stylesheets/hover.css" />
-	<link rel="javascript" type="javascript" href="https://apis.google.com/js/platform.js" />
+	<script src="https://apis.google.com/js/platform.js"></script>
 	<link rel="stylesheet" type="text/css" href="Stylesheets/light.css" />
 	<?php
 	session_start();
@@ -54,34 +46,56 @@ if (isset($_GET["light"])) {
 	?>
 	</head>
 	<body>
-	<script src="/includes/jquery-2.1.4.min.js"></script>
-	<script src="/includes/doubletaptogo.min.js"></script>
-<div id=wrapper style="margin-bottom:5px;min-height:82%;">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-72759707-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!--<script src="/includes/jquery-2.1.4.min.js"></script>
+	<script src="/includes/doubletaptogo.min.js"></script>-->
+<div id=wrapper style="margin-bottom:5px;">
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>
-				<td width="77px" id="logo"><a href="http://www.team3389.info" class="font-effect-3d-float"><img src="resources/tec_logo_straight.svg" alt="logo" height="50px"></a></td>
-				<td id="header-spacer"></td>
-				<td class="header-links" align="right" style="padding-right:10px">
-					<nav id="nav" role="navigation">
+				<td id="logo"><a href="http://www.team3389.info" class="font-effect-3d-float"><img src="resources/tec_logo_straight.svg" alt="logo" height="50"></a></td>
+				<td class="header-links" style="text-align:right">
+					<nav id="nav">
 					    <a href="#nav" title="Show navigation"><i class="material-icons md-big md-light">reorder</i></a>
 						<a href="#" title="Hide navigation"><i class="material-icons md-big md-light md-inactive">reorder</i></a>
 						<ul id="main-header-links">
 							<li style="width:142px"><a  class="header-links hvr-grow" aria-haspopup="true" href="index.php">About Us &#9660;</a>
 								<ul id="about-dropdown">
-									<li><a class="hvr-grow" href="about-frc.php">FRC</a></li>
-									<li><a class="hvr-grow" href="about-ftc.php">FTC</a></li>
-									<!-- I don't actually know anything about this... :(
+									<li><a class="" href="about-frc.php">FRC</a></li>
+									<li><a class="" href="about-ftc.php">FTC</a></li>
+									<li><a class="" href="about-vex.php">VEX</a></li>
 									
-									<li><a class="hvr-grow" href="#">Vex</a></li>
-									
-									-->
-									
-									<li><a class="hvr-grow" href="contact.php">Contact Us</a><li> 
+									<li><a class="" href="contact.php">Contact Us</a><li> 
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
 								<ul id="history-dropdown">
-									<li><a class="hvr-grow" href="history.php">FRC</a></li>
+									<li style="text-align:left;width:125px;">
+										<a class="" href="#FRC" style="text-align:left">FRC</a>
+										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="FRC">
+											<li><a href="history14.php">2014-15</a></li>
+											<li><a href="history13.php">2013-14</a></li>
+											<li><a href="history12.php">2012-13</a></li>
+											<li><a href="history11.php">2011-12</a></li>
+											<li><a href="history10.php">2010-11</a></li>
+											<li><a href="history9.php">2009-10</a></li>
+										</ul>
+									</li>
 									<!-- No History yet :P 
 									
 									<li><a class="hvr-grow" href="#">FTC</a></li>
