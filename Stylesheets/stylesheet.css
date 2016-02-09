@@ -194,6 +194,10 @@ div.dont-indent p {
 	font-size: 2em;
 }
 
+.content>h2 {
+	text-align:center;
+}
+
 h2.body-header>a:link, h2.body-header>a:visited{
 	color:white;
 	transition: all .75s ease-in-out;
