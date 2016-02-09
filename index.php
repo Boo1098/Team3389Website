@@ -3,7 +3,7 @@
 $title = "Home";
 include("includes/head.php");
 ?>
-	/*
+	<!--
 	
 	
 	$files = glob("images/*.*");
@@ -14,7 +14,7 @@ include("includes/head.php");
 	}
 	
 	
-	*/
+	*/-->
 		<div class="main-body-text" id="top">
 			<div id="about-us-content">
 				<div id="image_center" style="margin:auto;max-width:750px">
