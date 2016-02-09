@@ -3,7 +3,18 @@
 $title = "Home";
 include("includes/head.php");
 ?>
+	/*
 	
+	
+	$files = glob("images/*.*");
+	for ($i=0; $i<count($files); $i++)
+	{
+	    $num = $files[$i];
+	    echo '<img src="'.$num.'" alt="random image" />'."<br><br>";
+	}
+	
+	
+	*/
 		<div class="main-body-text" id="top">
 			<div id="about-us-content">
 				<div id="image_center" style="margin:auto;max-width:750px">
