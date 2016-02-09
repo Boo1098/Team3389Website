@@ -68,7 +68,7 @@ include("includes/head.php");
 						by visiting our <a href="Sponsors.php">sponsors page</a> and checking out their services.
 						After our 6 week build period we compete against over 60 other teams at the Chesapeake Regional in Baltimore, MD.
 						We have finished our third year and are beginning our fourth season.
-						For more about our team take a look at our <a href="history.php">history page</a>.</p>
+						For more about our team take a look at our <a href="history14.php">history page</a>.</p>
 
 					<p>We welcome any and all support we are offered. We are always in need of money, tools, raw materials, and even extra hands and expertise!
 						We are always looking to recruit more members, mentors, &amp; sponsors.
