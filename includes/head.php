@@ -79,11 +79,7 @@ if (isset($_GET["light"])) {
 								<ul id="about-dropdown">
 									<li><a class="" href="about-frc.php">FRC</a></li>
 									<li><a class="" href="about-ftc.php">FTC</a></li>
-									<!-- I don't actually know anything about this... :(
-									
-									<li><a class="hvr-grow" href="#">Vex</a></li>
-									
-									-->
+									<li><a class="" href="about-vex.php">VEX</a></li>
 									
 									<li><a class="" href="contact.php">Contact Us</a><li> 
 								</ul>
