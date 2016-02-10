@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <?php
 $title = "About VEX";
 include("includes/head.php");
@@ -9,8 +9,8 @@ include("includes/head.php");
 			
 			<br />
 			<div id="about-us-content">
-				<img style="float:left;" src="http://team3389.info/resources/VEX-icon-white.png" class="full_mobile" alt="frc" height="200px" width="relative">
-				
+				<img style="float:left;" src="http://team3389.info/resources/VEX-icon-white.png" class="full_mobile" alt="vex" height="200px" width="relative">
+				<img style="float:right;clear:left" src="resources/pictures/vex/vexbot.jpg" class="full_mobile" alt="vex bot" height="200" />
 				<div class="text">
 					<p>The <a href="http://www.vexrobotics.com/vexedr/competition/"><strong>Vex Robotics Competition</strong></a> (VEX) is designed for students in grades 7–12 to compete head to head in a tournament. Teams are responsible for designing, building, and programming their robots to compete in an alliance against other teams. The robot kit is reusable from year-to-year and is programmed using a variety of programming languages. Teams, including coaches, mentors and volunteers, are required to develop strategy and build robots based on engineering principles. Awards are given for the competition as well as for community outreach, design, and other real-world accomplishments. The ultimate goal of FTC is to reach more young people with an accessible opportunity to discover the excitement and rewards of science technology engineering and mathematics.</p>
 					
