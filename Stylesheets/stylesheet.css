@@ -438,6 +438,7 @@ input.button:hover {
 			.more_info_button a:hover {
 				color:#AAAAAA;
 				background-color:rgba(0,0,0,.25);
+				border: 5px white outset;
 			}
 			
 			.more_info_button a{
