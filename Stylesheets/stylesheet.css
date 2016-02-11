@@ -444,7 +444,7 @@ input.button:hover {
 				color:white;
 				display:block;
 				padding:20px;
-				border: 5px white outset;
+				border: 5px white solid;
 			}
 	
 	#vex_select {
