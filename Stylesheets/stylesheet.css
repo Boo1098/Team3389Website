@@ -430,7 +430,6 @@ input.button:hover {
 				height:108px;
 			}
 		.more_info_button {
-			border: 5px white solid;
 			color:white;
 			width:50%;
 			margin:auto;
@@ -445,6 +444,7 @@ input.button:hover {
 				color:white;
 				display:block;
 				padding:20px;
+				border: 5px white outset;
 			}
 	
 	#vex_select {
