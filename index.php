@@ -21,31 +21,7 @@ include("includes/head.php");
 					<img src="resources/tec_logo.svg" id="full_width_mobile" alt="us" style="width:100%" />
 				</div>
 				
-				<div id="program_select">
-					<div id="vex_select">
-						<h2><a href="about-vex.php"><img src="http://www.team3389.info/resources/VEX-icon-white.png" alt="VEX" /></a></h2>
-						<div class="program-text">
-							<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
-						</div>
-						<p class="more_info_button"><a href="about-vex.php">Learn More</a></p>
-					</div><!--
-					
-				--><div id="ftc_select">
-						<h2><a href="about-ftc.php"><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTTech_Type_White.png" alt="FIRST Tech challenge" /></a></h2>
-						<div class="program-text">
-							<p>The newest addition to team3389, FIRST<sup>&reg;</sup> Tech challenge focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
-						</div>
-						<p class="more_info_button"><a href="about-ftc.php">Learn More</a></p>
-					</div><!--
-					
-				--><div id="frc_select">
-						<h2><a href="about-frc.php"><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTRobotics_Type_White.png" alt="FIRST Robotics Competition" /></a></h2>
-						<div class="program-text">
-							<p>Big robot that needs lots of teamwork and dedication with only a 6 week period to work on it.</p>
-						</div>
-						<p class="more_info_button"><a href="about-frc.php">Learn More</a></p>
-					</div>
-				</div>
+				
 				<div class="text">
 					<img src="resources/TeamPic2016.jpg" alt="2016 Team Picture" style="float:right; max-height:400px;" class="full_mobile" />
 					<p>We are <a href="http://www.firstinspire.org/"><em>FIRST</em><sup>&reg;</sup></a> (For Inspiration and Recognition of Science and Technology) robotics team number 3389 and our team name is TEC Tigers.
@@ -74,6 +50,32 @@ include("includes/head.php");
 						We are always looking to recruit more members, mentors, &amp; sponsors.
 						If you are interested in joining or sponsoring the team or just want more information please contact us at 
 						<a href="#">jmil<span class="dummy">elfa</span>es@wcbo<span class="dummy">cake</span>e.com</a> or call us at 410-742-9485.</p>
+				</div>
+
+				<div id="program_select">
+					<div id="vex_select">
+						<h2><a href="about-vex.php"><img src="http://www.team3389.info/resources/VEX-icon-white.png" alt="VEX" /></a></h2>
+						<div class="program-text">
+							<p>Easy to manage small robot with a select group of parts making everything easy to put together.</p>
+						</div>
+						<p class="more_info_button"><a href="about-vex.php">Learn More</a></p>
+					</div><!--
+					
+				--><div id="ftc_select">
+						<h2><a href="about-ftc.php"><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTTech_Type_White.png" alt="FIRST Tech challenge" /></a></h2>
+						<div class="program-text">
+							<p>The newest addition to team3389, FIRST<sup>&reg;</sup> Tech challenge focuses on the tech side requiring a smaller robot to do a lot more tasks.</p>
+						</div>
+						<p class="more_info_button"><a href="about-ftc.php">Learn More</a></p>
+					</div><!--
+					
+				--><div id="frc_select">
+						<h2><a href="about-frc.php"><img src="http://team3389.info/resources/FIRST/Programs/Typography/White/FIRSTRobotics_Type_White.png" alt="FIRST Robotics Competition" /></a></h2>
+						<div class="program-text">
+							<p>Big robot that needs lots of teamwork and dedication with only a 6 week period to work on it.</p>
+						</div>
+						<p class="more_info_button"><a href="about-frc.php">Learn More</a></p>
+					</div>
 				</div>
 			</div>
 		</div>
