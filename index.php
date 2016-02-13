@@ -58,7 +58,7 @@ include("includes/head.php");
 
 					<p>We are the Wicomico County TEC Hub, part of TEC Foundation, which is a non-profit organization dedicated to growing hands-on Science,
 						Technology, Engineering, and Mathematics (STEM) educational programs on the Eastern Shore of Maryland and Virginia.
-						You can check out their website <a href="http://www.tecfound.org/">here</a>.</p>
+						You can check out their website <a href="http://www.tec-hub.org/">here</a>.</p>
 
 					<p>Every year we build a robot according to the year`s game.
 						Check out the video from the 2015 competition game called <a href="https://www.youtube.com/watch?v=W6UYFKNGHJ8">Recycle Rush</a>.
