@@ -19,7 +19,7 @@
 		$message = wordwrap($message, 70, "\r\n");
 
 		// Send
-		if ()mail('nathansd1098@gmail.com', '404', $message)){
+		if (mail('nathansd1098@gmail.com', '404', $message)){
 			echo 'hi';
 		}
 	?>
