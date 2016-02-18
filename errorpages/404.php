@@ -19,8 +19,9 @@
 		$message = wordwrap($message, 70, "\r\n");
 
 		// Send
-		mail('nathansd1098@gmail.com', '404', $message);
-		echo 'hi';
+		if ()mail('nathansd1098@gmail.com', '404', $message)){
+			echo 'hi';
+		}
 	?>
 	</body>
 </html>
