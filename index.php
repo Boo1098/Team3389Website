@@ -49,7 +49,7 @@ include("includes/head.php");
 					<p>We welcome any and all support we are offered. We are always in need of money, tools, raw materials, and even extra hands and expertise!
 						We are always looking to recruit more members, mentors, &amp; sponsors.
 						If you are interested in joining or sponsoring the team or just want more information please contact us at 
-						<a href="#">jmil<span class="dummy">elfa</span>es@wcbo<span class="dummy">cake</span>e.com</a> or call us at 410-742-9485.</p>
+						<a href="#">jmil<span class="dummy">elfa</span>es@wcbo<span class="dummy">cake</span>e.com</a> or call us at 410-677-5143.</p>
 				</div>
 
 				<div id="program_select">

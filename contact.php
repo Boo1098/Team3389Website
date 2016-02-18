@@ -7,7 +7,7 @@ include("includes/head.php");
 		<h2 class="body-header font-effect-3d-float">Contact Us!</h2>
 		<div id="about-us-content" class="dont-indent" align="center">
 			<div class="text">
-				<p>Phone: 410-251-7262
+				<p>Phone: 410-677-5143
 				<br>
 				Email: <a href="#">jmil<span class="dummy">elfa</span>es@wcbo<span class="dummy">cake</span>e.com</a></p>
 
