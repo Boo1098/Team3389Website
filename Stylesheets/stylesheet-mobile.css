@@ -109,6 +109,7 @@ a.header-links {
 #full_width_mobile, .sponsor-images, .full_mobile {
 	width: 100% !important;
 	height:auto !important;
+	max-height:1000000px !important;
 	padding: 0px !important;
 }
 
