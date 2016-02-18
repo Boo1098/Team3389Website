@@ -19,9 +19,8 @@ include("includes/head.php");
 			<img src="http://team3389.info/resources/sponsors/new/WicomicoCountyBoardofEducationLogo.jpg" class="sponsor-images" alt="Wicomico Board of Education" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/WicomicoPartneershipLogo.png" class="sponsor-images" alt="Wicomico Partnership" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/autodesk.jpg" class="sponsor-images" alt="AutoDesk" height="200" />
-			<img src="http://team3389.info/resources/sponsors/new/d3corp.jpg" class="sponsor-images" alt="D3 Corp" height="200" />
+			<img src="http://team3389.info/resources/sponsors/new/D3.svg" class="sponsor-images" alt="D3 Corp" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/futuristic-logo-onDark-100high.png" class="sponsor-images" alt="Futuristic" height="200" />
-			<img src="http://team3389.info/resources/sponsors/new/joyLogoLiquid.jpg" class="sponsor-images" alt="Joy" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/mader.gif" class="sponsor-images" alt="Mader Systems Consulting" height="100" style="background:white" />
 			<img src="resources/sponsors/PeninsulaAllergyandAsthma.png" class="sponsor-images" alt="Peninsula Allergy and Asthma" height="200" />
 		</div>
