@@ -20,7 +20,7 @@
 
 		// Send
 		if (mail("nathansd1098@gmail.com", '404', $message)){
-			echo 'hi';
+			
 		}
 	?>
 	</body>
