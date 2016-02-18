@@ -13,7 +13,7 @@
 		<h3 style="font-size:2em;"><a href="http://www.team3389.info/">Head back to our home page</a></h3>
 	<?php
 		// The message
-		$message = "Someone got a 404: \r\n".'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];;
+		$message = "Someone got a 404: \r\n";
 
 		// In case any of our lines are larger than 70 characters, we should use wordwrap()
 		$message = wordwrap($message, 70, "\r\n");
