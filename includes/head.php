@@ -48,7 +48,7 @@ if (isset($_GET["light"])) {
 	<body>
 	<?php include('/includes/analytics.php'); ?>
 	<div id="fb-root"></div>
-	<script src="/includes/anayltics.js"></script>
+	<script src="/includes/analytics.js"></script>
 	<!--<script src="/includes/jquery-2.1.4.min.js"></script>
 	<script src="/includes/doubletaptogo.min.js"></script>-->
 <div id=wrapper style="margin-bottom:5px;">
