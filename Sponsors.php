@@ -12,8 +12,6 @@ include("includes/head.php");
 			<img src="http://team3389.info/resources/sponsors/new/TecFoundation.png" class="sponsor-images" alt="TEC hub" height="200">
 			<img src="http://team3389.info/resources/sponsors/new/ChesapeakePediatricsLogo-web-complete.png" class="sponsor-images" alt="Chesapeake Pediatrics" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/FARMER%20S%20LOGO%20BLUE%20(3)-page-001.jpg" class="sponsor-images" alt="Farmer's bank" height="200" />
-			<img src="http://team3389.info/resources/sponsors/new/FSF%20logo_color%20crop.jpg" class="sponsor-images" alt="First Shore Federal" height="200" />
-			<img src="http://team3389.info/resources/sponsors/new/JBugLogo.png" class="sponsor-images" alt="J bug" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/SolidWorks.jpg" class="sponsor-images" alt="SolidWorks" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/WFF%20Logo%202007.JPG" class="sponsor-images" alt="WFF" height="200" />
 			<img src="http://team3389.info/resources/sponsors/new/WicomicoCountyBoardofEducationLogo.jpg" class="sponsor-images" alt="Wicomico Board of Education" height="200" />
