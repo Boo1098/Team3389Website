@@ -11,7 +11,7 @@ include("includes/head.php");
 				for ($i=0; $i<count($files); $i++)
 				{
 					$num = $files[$i];
-					echo '<a href="'.'http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/'.substr($num,75).'"><img src="'.$num.'" alt="'.substr($num,75,-4).'" /></a>'."<br><br>";
+					echo '<a href="'.'http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/'.substr($num,75).'"><img src="'.'http://'.substr($num,7).'" alt="'.substr($num,75,-4).'" /></a>'."<br><br>";
 				}
 			?>
 		</div>
