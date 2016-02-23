@@ -14,7 +14,7 @@ include("includes/head.php");
 			<?php
 			
 				if(isset($_GET['file'])){
-				$files = glob("../../team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/tn/*.*");
+				$files = glob($_GET['file']);
 					for ($i=0; $i<count($files); $i++)
 					{
 						$num = $files[$i];
@@ -25,7 +25,7 @@ include("includes/head.php");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
 						if(substr($num,44) !== 'FIRST_gfx' && substr($num, 44) !== "shared"){
-							echo '<p style="float:left;clear:left;display:block;"><a href="?file='.$num.'tn/*.*'.'">'.substr($num,44).'</a></p>';
+							echo '<p style="float:left;clear:left;display:block;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,44).'</a></p>';
 						}
 					}
 				}
