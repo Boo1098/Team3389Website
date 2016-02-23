@@ -3,6 +3,11 @@
 $title = "Sponsors";
 include("includes/head.php");
 ?>
+	<style>
+		#about-us-content img {
+			margin:10px;
+		}
+	</style>
 	<div class="main-body-text" height="400" id="top">
 		<h2 class="body-header font-effect-3d-float">Gallery</h2>
 		<div id="about-us-content" height="200 "align="center">
