@@ -12,6 +12,8 @@ include("includes/head.php");
 				{
 					$num = $files[$i];
 					echo '<a href="'.'http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/'.substr($num,77).'"><img src="'.$num.'" alt="'.substr($num,77,-4).'" /></a>'."<br><br>";
+					echo $num;
+					echo substr($num,77);
 				}
 			?>
 		</div>
