@@ -7,7 +7,7 @@ include("includes/head.php");
 		<h2 class="body-header font-effect-3d-float">Gallery</h2>
 		<div id="about-us-content" height="200 "align="center">
 			<?php
-				$files = glob("http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/tn/*.*");
+				$files = glob("../../team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/tn/*.*");
 				for ($i=0; $i<count($files); $i++)
 				{
 					$num = $files[$i];
