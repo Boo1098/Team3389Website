@@ -13,7 +13,7 @@ include("includes/head.php");
 		<div id="about-us-content" height="200 "align="center">
 			<?php
 			
-				if($_GET['file'] !== ""){
+				if(isset($_GET['file'])){
 				$files = glob("../../team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/tn/*.*");
 					for ($i=0; $i<count($files); $i++)
 					{
