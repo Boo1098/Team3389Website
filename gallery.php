@@ -24,7 +24,7 @@ include("includes/head.php");
 					$files = glob("../../team3389.info/old_site/img2/galleries/*");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
-						echo substr($num,75);
+						echo substr($num,44);
 					}
 				}
 			?>
