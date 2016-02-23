@@ -13,6 +13,8 @@ include("includes/head.php");
 					$num = $files[$i];
 					echo '<a href="'.'http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/'.substr($num,75).'"><img src="'.'http://'.substr($num,6).'" alt="'.substr($num,75,-4).'" style="float:left;" /></a>';				}
 			?>
+			
+			<div style="clear:both;"></div>
 		</div>
 	</div>
 <?php include("includes/footer.php"); ?>
