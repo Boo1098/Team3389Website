@@ -51,7 +51,7 @@ if (isset($_GET["light"])) {
 	<script src="/includes/analytics.js"></script>
 	<!--<script src="/includes/jquery-2.1.4.min.js"></script>
 	<script src="/includes/doubletaptogo.min.js"></script>-->
-<div id=wrapper style="margin-bottom:5px;">
+<div id=wrapper style="margin-bottom:5px;min-height:50%;">
 	<header>
 		<table style="width:100%" id="header-table">
 			<tr>
