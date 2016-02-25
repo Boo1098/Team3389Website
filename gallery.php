@@ -15,7 +15,7 @@ include("includes/head.php");
 			
 				if(isset($_GET['file'])){
 				$files = glob($_GET['file']);
-					if(strpos($_GET['file'], '*/*')){}
+					if(strpos($_GET['file'], '*/*')){
 						for ($i=0; $i<count($files); $i++)
 						{
 							$num = $files[$i];
@@ -23,11 +23,11 @@ include("includes/head.php");
 						}
 					} else {
 						for($i =0; $i<count($files);$i++){
-						$num = $files[$i];
-						if(substr($num,40) !== 'FIRST_gfx' && substr($num, 40) !== "shared"){
-							echo '<p style="float:left;width:30%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,40).'</a></p>';
+							$num = $files[$i];
+							if(substr($num,40) !== 'FIRST_gfx' && substr($num, 40) !== "shared"){
+								echo '<p style="float:left;width:30%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,40).'</a></p>';
+							}
 						}
-					}
 					}
 				} else {
 					$files = glob("../../team3389.info/resources/galleries/*");
