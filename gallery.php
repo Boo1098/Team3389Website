@@ -24,8 +24,8 @@ include("includes/head.php");
 					$files = glob("../../team3389.info/resources/galleries/*");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
-						if(substr($num,44) !== 'FIRST_gfx' && substr($num, 44) !== "shared"){
-							echo '<p style="float:left;width:32%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,15).'</a></p>';
+						if(substr($num,40) !== 'FIRST_gfx' && substr($num, 40) !== "shared"){
+							echo '<p style="float:left;width:32%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,40).'</a></p>';
 						}
 					}
 				}
