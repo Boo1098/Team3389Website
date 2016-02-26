@@ -41,7 +41,7 @@ include("includes/head.php");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
 						if(basename($num) !== "videos"){
-							echo '<p style="float:left;width:33.33333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.substr($num,20).'</a></p>';
+							echo '<p style="float:left;width:33.33333%;font-size:2em;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.substr($num,20).'</a></p>';
 						}
 					}
 				}
