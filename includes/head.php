@@ -67,7 +67,7 @@ if (isset($_GET["light"])) {
 									<li><a class="" href="about-frc.php">FRC</a></li>
 									<li><a class="" href="about-ftc.php">FTC</a></li>
 									<li><a class="" href="about-vex.php">VEX</a></li>
-									
+									<li><a class="" href="gallery.php">Gallery</a></li>
 									<li><a class="" href="contact.php">Contact Us</a><li> 
 								</ul>
 							</li><li style="width:120px;"><a  class="header-links hvr-grow" aria-haspopup="true" href="#">History &#9660;</a>
