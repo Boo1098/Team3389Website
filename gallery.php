@@ -21,7 +21,9 @@ include("includes/head.php");
 						for($i=0; $i<count($files);$i++) {
 							$num = $files[$i];
 							$filename=basename($num);
-							echo '<p style="float:left;width:33.3333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.$filename.'</a></p>';
+							$filename_wo_ = str_replace("_", " ", $filename);
+							$filename_wo_ = str_replace("-", " ", $filename_wo_);
+							echo '<p style="float:left;width:33.3333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.$filename_wo_.'</a></p>';
 						}
 					} else {
 						
@@ -38,7 +40,7 @@ include("includes/head.php");
 					$files = glob("resources/galleries/*");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
-						if(substr($num,20) !== 'FIRST_gfx' && substr($num, 20) !== "shared"){
+						if(basename($num) !== "videos"){
 							echo '<p style="float:left;width:33.33333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.substr($num,20).'</a></p>';
 						}
 					}
