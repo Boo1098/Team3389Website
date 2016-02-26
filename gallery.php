@@ -13,28 +13,33 @@ include("includes/head.php");
 		<div id="about-us-content" height="200 "align="center">
 			<?php
 			
-				if(isset($_GET['file'])){
-				$files = glob($_GET['file']);
-					if(strpos($_GET['file'], '*/*')){
-						for ($i=0; $i<count($files); $i++)
-						{
+				if(isset($_GET['file']) && $_GET['file'] !== ""){
+					echo '<p style="display:block;width:100%;clear:both;font-size:2em;text-align:center;"><a href="?file=">Return</a></p>';
+					echo '<div style="clear:both"></div>';
+					$files = glob($_GET['file']);
+					if(filetype($files[2])=="dir") {
+						for($i=0; $i<count($files);$i++) {
 							$num = $files[$i];
-							echo '<a href="'.'http://www.team3389.info/old_site/img2/galleries/2010-Chesapeake_Regional/'.substr($num,75).'"><img src="'.'http://'.substr($num,6).'" alt="'.substr($num,75,-4).'" style="float:left;" /></a>';				
+							$filename=basename($num);
+							echo '<p style="float:left;width:33.3333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.$filename.'</a></p>';
 						}
 					} else {
+						
 						for($i =0; $i<count($files);$i++){
 							$num = $files[$i];
-							if(substr($num,40) !== 'FIRST_gfx' && substr($num, 40) !== "shared"){
-								echo '<p style="float:left;width:30%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,40).'</a></p>';
+							$filename=basename($num);
+							$tn = str_replace($filename, "tn/tn_".$filename, $num);
+							if($filename !== 'tn') {
+								echo '<a style="padding:10px;" href="'.$num.'"><img style="height:112px;"src="'.$tn.'" alt="'.$filename.'" /></a>';
 							}
 						}
 					}
 				} else {
-					$files = glob("../../team3389.info/resources/galleries/*");
+					$files = glob("resources/galleries/*");
 					for($i =0; $i<count($files);$i++){
 						$num = $files[$i];
-						if(substr($num,40) !== 'FIRST_gfx' && substr($num, 40) !== "shared"){
-							echo '<p style="float:left;width:30%;padding:10px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/tn/*.*'.'">'.substr($num,40).'</a></p>';
+						if(substr($num,20) !== 'FIRST_gfx' && substr($num, 20) !== "shared"){
+							echo '<p style="float:left;width:33.33333%;padding:10px 0px 10px 0px;display:block;text-indent:0px;text-align:center;"><a href="?file='.$num.'/*">'.substr($num,20).'</a></p>';
 						}
 					}
 				}
