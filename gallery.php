@@ -26,7 +26,7 @@ include("includes/head.php");
 							echo '<p style="padding:5px;float:left;text-indent:0px"><a href="?file=resources/galleries'.$newpath.'/*">'.$track[$i].'</a> -> </p>';
 						}
 					}
-					echo '<p style="display:block;width:100%;clear:both;font-size:2em;text-align:center;"><a href="?file=">Return</a></p>';
+					//echo '<p style="display:block;width:100%;clear:both;font-size:2em;text-align:center;"><a href="?file=">Return</a></p>';
 					echo '<div style="clear:both"></div>';
 					$files = glob($_GET['file']);
 					if(filetype($files[2])=="dir") {
