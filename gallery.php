@@ -31,8 +31,11 @@ include("includes/head.php");
 							$num = $files[$i];
 							$filename=basename($num);
 							$tn = str_replace($filename, "tn/tn_".$filename, $num);
-							if($filename !== 'tn') {
+							if($filename !== 'tn' && substr($filename, -3) !== "MP4") {
 								echo '<a style="padding:10px;" href="'.$num.'"><img style="height:112px;"src="'.$tn.'" alt="'.$filename.'" /></a>';
+							}
+							if(substr($filename,-3) == "MP4"){
+								echo '<a style="padding:10px;position:relative;bottom:55px;" href="'.$num.'">'.$filename.'</a>';
 							}
 						}
 					}
