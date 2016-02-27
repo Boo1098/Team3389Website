@@ -14,6 +14,18 @@ include("includes/head.php");
 			<?php
 			
 				if(isset($_GET['file']) && $_GET['file'] !== ""){
+					$path = $_GET['file'];
+					$newpath = '';
+					$track = explode('/', $path);
+					echo '<p style="text-indent:50px;padding:5px;float:left;"><a href="?file=">Gallery</a> -> </p>';
+					for($i=2;$i<count($track)-1;$i++){
+						$newpath = $newpath.'/'.$track[$i];
+						if($i-1 == count($track)-3) {
+							echo '<p style="padding:5px;float:left;text-indent:0px;"><a href="#">'.$track[$i].'</a></p>';
+						} else {
+							echo '<p style="padding:5px;float:left;text-indent:0px"><a href="?file=resources/galleries'.$newpath.'/*">'.$track[$i].'</a> -> </p>';
+						}
+					}
 					echo '<p style="display:block;width:100%;clear:both;font-size:2em;text-align:center;"><a href="?file=">Return</a></p>';
 					echo '<div style="clear:both"></div>';
 					$files = glob($_GET['file']);
