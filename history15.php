@@ -19,7 +19,7 @@ include("includes/head.php");
 					
 					<p>Information will be added as we compete in future competitions.</p>
 					<div style="clear:both;"></div>
-					<a style="float:left" href="history13.php">&lt;-Previous Year</a><a style="float:right" href="#">Next Year-&gt;</a>
+					<a style="float:left" href="history14.php">&lt;-Previous Year</a><a style="float:right" href="#">Next Year-&gt;</a>
 					<div style="clear:both"></div>
 				</div>
 			</div>

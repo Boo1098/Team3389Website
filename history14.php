@@ -21,7 +21,7 @@ include("includes/head.php");
 
 					<p align="left">Our team placed 39th overall against all of the teams we were against with a skyscraping robot name &#8220;This End Up&#8221;. A great deal of new students decided to join the club during this season.  Even though we placed lower than we had in the past, new students were trained to work together with the veterans, who would eventually become our FRC team leaders the next year.  Many of the incoming rookies in this season went on to be team and subteam captains and role models for the new <a href="about-ftc.php">FTC</a> team that they later learned would be established that next year.</p>
 					<div style="clear:both;"></div>
-					<a style="float:left" href="history13.php">&lt;-Previous Year</a><a style="float:right" href="#">Next Year-&gt;</a>
+					<a style="float:left" href="history13.php">&lt;-Previous Year</a><a style="float:right" href="history15.php">Next Year-&gt;</a>
 					<div style="clear:both"></div>
 				</div>
 			</div>
