@@ -11,7 +11,7 @@ include("includes/head.php");
 			
 				<img style="width:506px; float: right;padding-left:20px" class="full_mobile" src="http://www.team3389.info/resources/TeamPic2016.jpg" alt="team"></img>
 
-				<h2 class="body-header">2016 Game Animation - <a href="https://www.youtube.com/watch?v=VqOKzoHJDjA" target="_blank">Recycle Rush</a></h2>
+				<h2 class="body-header">2016 Game Animation - <a href="https://www.youtube.com/watch?v=VqOKzoHJDjA" target="_blank"><em>FIRST<sup>&reg;</sup></em> Stronghold</a></h2>
 
 				<div class="text">
 					<p class="center"># Students: 27</p>

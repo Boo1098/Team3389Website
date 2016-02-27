@@ -385,6 +385,10 @@ input.button:hover {
 		display:block;
 	}
 	
+	#FTC:target {
+		display:block;
+	}
+	
 /*slideshow*/
 
 .slidejs-previous {

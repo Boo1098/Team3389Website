@@ -83,6 +83,8 @@ if (isset($_GET["light"])) {
 											<li><a href="history10.php">2010-11</a></li>
 											<li><a href="history9.php">2009-10</a></li>
 										</ul>
+									</li>
+									<li style="text-align:left;width:125px;">
 										<a class="" href="#FTC" style="text-align:left">FTC</a>
 										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px;" id="FTC">
 											<li><a href="ftc-history15.php">2015-16</a></li>
