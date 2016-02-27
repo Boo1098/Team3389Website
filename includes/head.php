@@ -75,7 +75,7 @@ if (isset($_GET["light"])) {
 									<li style="text-align:left;width:125px;">
 										<a class="" href="#FRC" style="text-align:left">FRC</a>
 										<ul style="position:relative;border:none;padding:0px;top:0px;text-indent:30px" id="FRC">
-											<li><a href="history15.php">2015-2016</a></li>
+											<li><a href="history15.php">2015-16</a></li>
 											<li><a href="history14.php">2014-15</a></li>
 											<li><a href="history13.php">2013-14</a></li>
 											<li><a href="history12.php">2012-13</a></li>
