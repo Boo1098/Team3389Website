@@ -22,7 +22,7 @@
 				</div>
 				
 				<div style="height:12px">
-					<div class="fb-like" data-href="https://www.facebook.com/Team3389" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="padding-top:5px;"></div>
+					<div class="fb-like" data-href="https://www.facebook.com/Team3389/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 				</div>
 			</div>
 		</div>
