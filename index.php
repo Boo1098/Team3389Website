@@ -18,7 +18,7 @@ include("includes/head.php");
 		<div class="main-body-text" id="top">
 			<div id="about-us-content">
 				<div id="image_center" style="margin:auto;max-width:750px">
-					<!--<img src="resources/TeamPic2016.jpg" id="full_width_mobile" alt="us" style="width:100%" />--><iframe style="width:100%" src="https://www.youtube.com/embed/Fptwhkm1zzA" frameborder="0" allowfullscreen></iframe>
+					<!--<img src="resources/TeamPic2016.jpg" id="full_width_mobile" alt="us" style="width:100%" />--><iframe style="width:100%;height:500px" src="https://www.youtube.com/embed/Fptwhkm1zzA" frameborder="0" allowfullscreen></iframe>
 				</div>
 				
 				
