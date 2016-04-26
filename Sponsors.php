@@ -26,13 +26,13 @@ include("includes/head.php");
 				for($i =0; $i<count($files);$i++){
 					$num = $files[$i];
 					$filename=basename($num);
-					$tn = str_replace($filename, "tn/tn_".$filename, $num);
+					//$tn = str_replace($filename, "tn/tn_".$filename, $num);
 					if($filename !== 'tn' && substr($filename, -3) !== "MP4") {
-						echo '<a style="padding:10px;" href="'.$num.'" target="_blank" ><img style="height:112px;"src="'.$tn.'" alt="'.$filename.'" /></a>';
+						echo '<a style="padding:10px;" href="'.$num.'" target="_blank" ><img style="height:200px;" class="sponsor-images" src="'.$num.'" alt="'.$filename.'" /></a>';
 					}
-					if(substr($filename,-3) == "MP4"){
+					/*if(substr($filename,-3) == "MP4"){
 						echo '<a style="padding:10px;position:relative;bottom:55px;" href="'.$num.'">'.$filename.'</a>';
-					}
+					}*/
 				}
 			?>
 		</div>
