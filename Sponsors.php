@@ -22,7 +22,7 @@ include("includes/head.php");
 			<img src="resources/sponsors/PeninsulaAllergyandAsthma.png" class="sponsor-images" alt="Peninsula Allergy and Asthma" height="200" />-->
 			<?php
 				$path = "resources/sponsors/new/*";
-				$files = glob($path));
+				$files = glob($path);
 				for($i =0; $i<count($files);$i++){
 					$num = $files[$i];
 					$filename=basename($num);
