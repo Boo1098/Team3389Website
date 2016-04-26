@@ -302,6 +302,7 @@ input.button:hover {
 .sponsor-images  {
 	padding-left:20px;
 	padding-right:20px;
+	max-width:90%;
 }
 
 .text {

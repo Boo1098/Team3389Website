@@ -111,6 +111,7 @@ a.header-links {
 	height:auto !important;
 	max-height:1000000px !important;
 	padding: 0px !important;
+	margin:5px 0px;
 }
 
 #image_center {
